@@ -304,22 +304,22 @@
 <wire x1="-33.782" y1="35.052" x2="-33.782" y2="-36.068" width="0.508" layer="94"/>
 <wire x1="-33.782" y1="-36.068" x2="32.258" y2="-36.068" width="0.508" layer="94"/>
 <wire x1="32.258" y1="35.052" x2="32.258" y2="-36.068" width="0.508" layer="94"/>
-<pin name="IN1P" x="-38.862" y="27.432" length="middle" direction="in"/>
-<pin name="IN1N" x="-38.862" y="24.892" length="middle" direction="in"/>
-<pin name="IN2P" x="-38.862" y="22.352" length="middle" direction="in"/>
-<pin name="IN2N" x="-38.862" y="19.812" length="middle" direction="in"/>
-<pin name="IN3P" x="-38.862" y="17.272" length="middle" direction="in"/>
-<pin name="IN3N" x="-38.862" y="14.732" length="middle" direction="in"/>
-<pin name="IN4P" x="-38.862" y="12.192" length="middle" direction="in"/>
-<pin name="IN4N" x="-38.862" y="9.652" length="middle" direction="in"/>
-<pin name="IN5P" x="-38.862" y="7.112" length="middle" direction="in"/>
-<pin name="IN5N" x="-38.862" y="4.572" length="middle" direction="in"/>
-<pin name="IN6P" x="-38.862" y="2.032" length="middle" direction="in"/>
-<pin name="IN6N" x="-38.862" y="-0.508" length="middle" direction="in"/>
-<pin name="IN7P" x="-38.862" y="-3.048" length="middle" direction="in"/>
-<pin name="IN7N" x="-38.862" y="-5.588" length="middle" direction="in"/>
-<pin name="IN8P" x="-38.862" y="-8.128" length="middle" direction="in"/>
-<pin name="IN8N" x="-38.862" y="-10.668" length="middle" direction="in"/>
+<pin name="IN1P" x="-38.862" y="22.86" length="middle" direction="in"/>
+<pin name="IN1N" x="-38.862" y="20.32" length="middle" direction="in"/>
+<pin name="IN2P" x="-38.862" y="17.78" length="middle" direction="in"/>
+<pin name="IN2N" x="-38.862" y="15.24" length="middle" direction="in"/>
+<pin name="IN3P" x="-38.862" y="12.7" length="middle" direction="in"/>
+<pin name="IN3N" x="-38.862" y="10.16" length="middle" direction="in"/>
+<pin name="IN4P" x="-38.862" y="7.62" length="middle" direction="in"/>
+<pin name="IN4N" x="-38.862" y="5.08" length="middle" direction="in"/>
+<pin name="IN5P" x="-38.862" y="2.54" length="middle" direction="in"/>
+<pin name="IN5N" x="-38.862" y="0" length="middle" direction="in"/>
+<pin name="IN6P" x="-38.862" y="-2.54" length="middle" direction="in"/>
+<pin name="IN6N" x="-38.862" y="-5.08" length="middle" direction="in"/>
+<pin name="IN7P" x="-38.862" y="-7.62" length="middle" direction="in"/>
+<pin name="IN7N" x="-38.862" y="-10.16" length="middle" direction="in"/>
+<pin name="IN8P" x="-38.862" y="-12.7" length="middle" direction="in"/>
+<pin name="IN8N" x="-38.862" y="-15.24" length="middle" direction="in"/>
 <pin name="NC@1" x="-38.862" y="32.512" length="middle" direction="nc"/>
 <pin name="NC@2" x="-38.862" y="29.972" length="middle" direction="nc"/>
 <pin name="BIASINV" x="-10.922" y="-41.148" length="middle" rot="R90"/>
@@ -330,7 +330,7 @@
 <pin name="SRB1" x="17.018" y="-41.148" length="middle" direction="out" rot="R90"/>
 <pin name="VREFP" x="6.858" y="40.132" length="middle" rot="R270"/>
 <pin name="VREFN" x="11.938" y="40.132" length="middle" rot="R270"/>
-<pin name="NC@3" x="-38.862" y="-15.748" length="middle" direction="nc"/>
+<pin name="NC@3" x="-38.862" y="27.432" length="middle" direction="nc"/>
 <pin name="AVSS@3" x="-38.862" y="-25.908" length="middle" direction="pwr"/>
 <pin name="AVSS1" x="-38.862" y="-33.528" length="middle" direction="pwr"/>
 <pin name="DGND@2" x="37.338" y="-28.448" length="middle" direction="pwr" rot="R180"/>
@@ -350,8 +350,8 @@
 <pin name="!DRDY" x="37.338" y="24.892" length="middle" direction="out" rot="R180"/>
 <pin name="DVDD@1" x="37.338" y="32.512" length="middle" direction="pwr" rot="R180"/>
 <pin name="AVDD@1" x="-13.462" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD1" x="-0.762" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="RESV1" x="37.338" y="-23.368" length="middle" direction="in" rot="R180"/>
+<pin name="AVDD@6" x="-0.762" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="RESV1" x="37.338" y="-23.368" length="middle" direction="nc" rot="R180"/>
 <pin name="AVSS@4" x="-38.862" y="-28.448" length="middle" direction="pwr"/>
 <pin name="VCAP1" x="-0.762" y="-41.148" length="middle" rot="R90"/>
 <pin name="VCAP2" x="1.778" y="-41.148" length="middle" rot="R90"/>
@@ -387,12 +387,12 @@ Based on ADS1298: Drawn 23.07.2011 by Tomasz Boleslaw CEDRO (http://www.tomek.ce
 <connect gate="G$1" pin="!DRDY" pad="47"/>
 <connect gate="G$1" pin="!PWDN" pad="35"/>
 <connect gate="G$1" pin="!RESET" pad="36"/>
-<connect gate="G$1" pin="AVDD1" pad="54"/>
 <connect gate="G$1" pin="AVDD@1" pad="19"/>
 <connect gate="G$1" pin="AVDD@2" pad="21"/>
 <connect gate="G$1" pin="AVDD@3" pad="22"/>
 <connect gate="G$1" pin="AVDD@4" pad="56"/>
 <connect gate="G$1" pin="AVDD@5" pad="59"/>
+<connect gate="G$1" pin="AVDD@6" pad="54"/>
 <connect gate="G$1" pin="AVSS1" pad="53"/>
 <connect gate="G$1" pin="AVSS@1" pad="20"/>
 <connect gate="G$1" pin="AVSS@2" pad="23"/>
