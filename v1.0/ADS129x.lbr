@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -300,81 +300,82 @@
 <pin name="DGND_3" x="37.338" y="-30.988" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="ADS1299">
-<wire x1="-49.022" y1="45.212" x2="17.018" y2="45.212" width="0.508" layer="94"/>
-<wire x1="-49.022" y1="45.212" x2="-49.022" y2="-25.908" width="0.508" layer="94"/>
-<wire x1="-49.022" y1="-25.908" x2="17.018" y2="-25.908" width="0.508" layer="94"/>
-<wire x1="17.018" y1="45.212" x2="17.018" y2="-25.908" width="0.508" layer="94"/>
-<pin name="IN1P" x="-54.102" y="37.592" length="middle" direction="in"/>
-<pin name="IN1N" x="-54.102" y="35.052" length="middle" direction="in"/>
-<pin name="IN2P" x="-54.102" y="32.512" length="middle" direction="in"/>
-<pin name="IN2N" x="-54.102" y="29.972" length="middle" direction="in"/>
-<pin name="IN3P" x="-54.102" y="27.432" length="middle" direction="in"/>
-<pin name="IN3N" x="-54.102" y="24.892" length="middle" direction="in"/>
-<pin name="IN4P" x="-54.102" y="22.352" length="middle" direction="in"/>
-<pin name="IN4N" x="-54.102" y="19.812" length="middle" direction="in"/>
-<pin name="IN5P" x="-54.102" y="17.272" length="middle" direction="in"/>
-<pin name="IN5N" x="-54.102" y="14.732" length="middle" direction="in"/>
-<pin name="IN6P" x="-54.102" y="12.192" length="middle" direction="in"/>
-<pin name="IN6N" x="-54.102" y="9.652" length="middle" direction="in"/>
-<pin name="IN7P" x="-54.102" y="7.112" length="middle" direction="in"/>
-<pin name="IN7N" x="-54.102" y="4.572" length="middle" direction="in"/>
-<pin name="IN8P" x="-54.102" y="2.032" length="middle" direction="in"/>
-<pin name="IN8N" x="-54.102" y="-0.508" length="middle" direction="in"/>
-<pin name="NC@1" x="-54.102" y="42.672" length="middle" direction="nc"/>
-<pin name="NC@2" x="-54.102" y="40.132" length="middle" direction="nc"/>
-<pin name="BIASINV" x="-26.162" y="-30.988" length="middle" rot="R90"/>
-<pin name="BIASOUT" x="-28.702" y="-30.988" length="middle" direction="out" rot="R90"/>
-<pin name="BIASREF" x="-31.242" y="-30.988" length="middle" direction="in" rot="R90"/>
-<pin name="BIASIN" x="-33.782" y="-30.988" length="middle" direction="in" rot="R90"/>
-<pin name="SRB2" x="-0.762" y="-30.988" length="middle" direction="out" rot="R90"/>
-<pin name="SRB1" x="1.778" y="-30.988" length="middle" direction="out" rot="R90"/>
-<pin name="VREFP" x="-8.382" y="50.292" length="middle" rot="R270"/>
-<pin name="VREFN" x="-3.302" y="50.292" length="middle" rot="R270"/>
-<pin name="NC@3" x="-54.102" y="-5.588" length="middle" direction="nc"/>
-<pin name="AVSS_3" x="-54.102" y="-15.748" length="middle" direction="pwr"/>
-<pin name="AVSS1" x="-54.102" y="-23.368" length="middle" direction="pwr"/>
-<pin name="DGND_2" x="22.098" y="-18.288" length="middle" direction="pwr" rot="R180"/>
-<pin name="START" x="22.098" y="-8.128" length="middle" direction="in" rot="R180"/>
-<pin name="!RESET" x="22.098" y="-5.588" length="middle" direction="in" rot="R180"/>
-<pin name="!PWDN" x="22.098" y="-3.048" length="middle" direction="in" rot="R180"/>
-<pin name="GPIO2" x="22.098" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO3" x="22.098" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO4" x="22.098" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO1" x="22.098" y="10.16" length="middle" rot="R180"/>
-<pin name="CLK" x="22.098" y="15.24" length="middle" direction="in" rot="R180"/>
-<pin name="CLKSEL" x="22.098" y="17.78" length="middle" direction="in" rot="R180"/>
-<pin name="DOUT" x="22.098" y="22.352" length="middle" direction="out" rot="R180"/>
-<pin name="DIN" x="22.098" y="24.892" length="middle" direction="in" rot="R180"/>
-<pin name="SCLK" x="22.098" y="27.432" length="middle" direction="in" rot="R180"/>
-<pin name="!CS" x="22.098" y="29.972" length="middle" direction="in" rot="R180"/>
-<pin name="!DRDY" x="22.098" y="35.052" length="middle" direction="out" rot="R180"/>
-<pin name="DVDD_1" x="22.098" y="42.672" length="middle" direction="pwr" rot="R180"/>
-<pin name="AVDD_1" x="-28.702" y="50.292" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD1" x="-16.002" y="50.292" length="middle" direction="pwr" rot="R270"/>
-<pin name="RESV1" x="22.098" y="-13.208" length="middle" direction="in" rot="R180"/>
-<pin name="AVSS_4" x="-54.102" y="-18.288" length="middle" direction="pwr"/>
-<pin name="VCAP1" x="-16.002" y="-30.988" length="middle" rot="R90"/>
-<pin name="VCAP2" x="-13.462" y="-30.988" length="middle" rot="R90"/>
-<pin name="VCAP3" x="-10.922" y="-30.988" length="middle" rot="R90"/>
-<pin name="VCAP4" x="-8.382" y="-30.988" length="middle" rot="R90"/>
-<pin name="DAISY_IN" x="22.098" y="-10.668" length="middle" direction="in" rot="R180"/>
-<pin name="AVDD_2" x="-26.162" y="50.292" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD_3" x="-23.622" y="50.292" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD_4" x="-21.082" y="50.292" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD_5" x="-18.542" y="50.292" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVSS_5" x="-54.102" y="-20.828" length="middle" direction="pwr"/>
-<pin name="AVSS_2" x="-54.102" y="-13.208" length="middle" direction="pwr"/>
-<pin name="AVSS_1" x="-54.102" y="-10.668" length="middle" direction="pwr"/>
-<pin name="DGND_1" x="22.098" y="-15.748" length="middle" direction="pwr" rot="R180"/>
-<pin name="DVDD_2" x="22.098" y="40.132" length="middle" direction="pwr" rot="R180"/>
-<pin name="DGND_3" x="22.098" y="-20.828" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-33.782" y1="35.052" x2="32.258" y2="35.052" width="0.508" layer="94"/>
+<wire x1="-33.782" y1="35.052" x2="-33.782" y2="-36.068" width="0.508" layer="94"/>
+<wire x1="-33.782" y1="-36.068" x2="32.258" y2="-36.068" width="0.508" layer="94"/>
+<wire x1="32.258" y1="35.052" x2="32.258" y2="-36.068" width="0.508" layer="94"/>
+<pin name="IN1P" x="-38.862" y="27.432" length="middle" direction="in"/>
+<pin name="IN1N" x="-38.862" y="24.892" length="middle" direction="in"/>
+<pin name="IN2P" x="-38.862" y="22.352" length="middle" direction="in"/>
+<pin name="IN2N" x="-38.862" y="19.812" length="middle" direction="in"/>
+<pin name="IN3P" x="-38.862" y="17.272" length="middle" direction="in"/>
+<pin name="IN3N" x="-38.862" y="14.732" length="middle" direction="in"/>
+<pin name="IN4P" x="-38.862" y="12.192" length="middle" direction="in"/>
+<pin name="IN4N" x="-38.862" y="9.652" length="middle" direction="in"/>
+<pin name="IN5P" x="-38.862" y="7.112" length="middle" direction="in"/>
+<pin name="IN5N" x="-38.862" y="4.572" length="middle" direction="in"/>
+<pin name="IN6P" x="-38.862" y="2.032" length="middle" direction="in"/>
+<pin name="IN6N" x="-38.862" y="-0.508" length="middle" direction="in"/>
+<pin name="IN7P" x="-38.862" y="-3.048" length="middle" direction="in"/>
+<pin name="IN7N" x="-38.862" y="-5.588" length="middle" direction="in"/>
+<pin name="IN8P" x="-38.862" y="-8.128" length="middle" direction="in"/>
+<pin name="IN8N" x="-38.862" y="-10.668" length="middle" direction="in"/>
+<pin name="NC@1" x="-38.862" y="32.512" length="middle" direction="nc"/>
+<pin name="NC@2" x="-38.862" y="29.972" length="middle" direction="nc"/>
+<pin name="BIASINV" x="-10.922" y="-41.148" length="middle" rot="R90"/>
+<pin name="BIASOUT" x="-13.462" y="-41.148" length="middle" direction="out" rot="R90"/>
+<pin name="BIASREF" x="-16.002" y="-41.148" length="middle" direction="in" rot="R90"/>
+<pin name="BIASIN" x="-18.542" y="-41.148" length="middle" direction="in" rot="R90"/>
+<pin name="SRB2" x="14.478" y="-41.148" length="middle" direction="out" rot="R90"/>
+<pin name="SRB1" x="17.018" y="-41.148" length="middle" direction="out" rot="R90"/>
+<pin name="VREFP" x="6.858" y="40.132" length="middle" rot="R270"/>
+<pin name="VREFN" x="11.938" y="40.132" length="middle" rot="R270"/>
+<pin name="NC@3" x="-38.862" y="-15.748" length="middle" direction="nc"/>
+<pin name="AVSS@3" x="-38.862" y="-25.908" length="middle" direction="pwr"/>
+<pin name="AVSS1" x="-38.862" y="-33.528" length="middle" direction="pwr"/>
+<pin name="DGND@2" x="37.338" y="-28.448" length="middle" direction="pwr" rot="R180"/>
+<pin name="START" x="37.338" y="-18.288" length="middle" direction="in" rot="R180"/>
+<pin name="!RESET" x="37.338" y="-15.748" length="middle" direction="in" rot="R180"/>
+<pin name="!PWDN" x="37.338" y="-13.208" length="middle" direction="in" rot="R180"/>
+<pin name="GPIO2" x="37.338" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO3" x="37.338" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO4" x="37.338" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO1" x="37.338" y="0" length="middle" rot="R180"/>
+<pin name="CLK" x="37.338" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="CLKSEL" x="37.338" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="DOUT" x="37.338" y="12.192" length="middle" direction="out" rot="R180"/>
+<pin name="DIN" x="37.338" y="14.732" length="middle" direction="in" rot="R180"/>
+<pin name="SCLK" x="37.338" y="17.272" length="middle" direction="in" rot="R180"/>
+<pin name="!CS" x="37.338" y="19.812" length="middle" direction="in" rot="R180"/>
+<pin name="!DRDY" x="37.338" y="24.892" length="middle" direction="out" rot="R180"/>
+<pin name="DVDD@1" x="37.338" y="32.512" length="middle" direction="pwr" rot="R180"/>
+<pin name="AVDD@1" x="-13.462" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD1" x="-0.762" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="RESV1" x="37.338" y="-23.368" length="middle" direction="in" rot="R180"/>
+<pin name="AVSS@4" x="-38.862" y="-28.448" length="middle" direction="pwr"/>
+<pin name="VCAP1" x="-0.762" y="-41.148" length="middle" rot="R90"/>
+<pin name="VCAP2" x="1.778" y="-41.148" length="middle" rot="R90"/>
+<pin name="VCAP3" x="4.318" y="-41.148" length="middle" rot="R90"/>
+<pin name="VCAP4" x="6.858" y="-41.148" length="middle" rot="R90"/>
+<pin name="DAISY_IN" x="37.338" y="-20.828" length="middle" direction="in" rot="R180"/>
+<pin name="AVDD@2" x="-10.922" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD@3" x="-8.382" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD@4" x="-5.842" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD@5" x="-3.302" y="40.132" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVSS@5" x="-38.862" y="-30.988" length="middle" direction="pwr"/>
+<pin name="AVSS@2" x="-38.862" y="-23.368" length="middle" direction="pwr"/>
+<pin name="AVSS@1" x="-38.862" y="-20.828" length="middle" direction="pwr"/>
+<pin name="DGND@1" x="37.338" y="-25.908" length="middle" direction="pwr" rot="R180"/>
+<pin name="DVDD@2" x="37.338" y="29.972" length="middle" direction="pwr" rot="R180"/>
+<pin name="DGND@3" x="37.338" y="-30.988" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="ADS1299">
 <description>&lt;b&gt;8-Channel, 24-Bit Analog-To-Digital Converter With Integrated EEG Front End.&lt;/b&gt;&lt;p&gt;
 
-ADS1299 modifications by Adam Feuer (adam@adamfeuer.com)
+ADS1299 modifications by Adam Feuer (adam@adamfeuer.com)&lt;br/&gt;
+&lt;br/&gt;
 Based on ADS1298: Drawn 23.07.2011 by Tomasz Boleslaw CEDRO (http://www.tomek.cedro.info).</description>
 <gates>
 <gate name="G$1" symbol="ADS1299" x="-43.18" y="35.56"/>
@@ -387,27 +388,31 @@ Based on ADS1298: Drawn 23.07.2011 by Tomasz Boleslaw CEDRO (http://www.tomek.ce
 <connect gate="G$1" pin="!PWDN" pad="35"/>
 <connect gate="G$1" pin="!RESET" pad="36"/>
 <connect gate="G$1" pin="AVDD1" pad="54"/>
-<connect gate="G$1" pin="AVDD_1" pad="19"/>
-<connect gate="G$1" pin="AVDD_2" pad="21"/>
-<connect gate="G$1" pin="AVDD_3" pad="22"/>
-<connect gate="G$1" pin="AVDD_4" pad="56"/>
-<connect gate="G$1" pin="AVDD_5" pad="59"/>
+<connect gate="G$1" pin="AVDD@1" pad="19"/>
+<connect gate="G$1" pin="AVDD@2" pad="21"/>
+<connect gate="G$1" pin="AVDD@3" pad="22"/>
+<connect gate="G$1" pin="AVDD@4" pad="56"/>
+<connect gate="G$1" pin="AVDD@5" pad="59"/>
 <connect gate="G$1" pin="AVSS1" pad="53"/>
-<connect gate="G$1" pin="AVSS_1" pad="20"/>
-<connect gate="G$1" pin="AVSS_2" pad="23"/>
-<connect gate="G$1" pin="AVSS_3" pad="32"/>
-<connect gate="G$1" pin="AVSS_4" pad="57"/>
-<connect gate="G$1" pin="AVSS_5" pad="58"/>
+<connect gate="G$1" pin="AVSS@1" pad="20"/>
+<connect gate="G$1" pin="AVSS@2" pad="23"/>
+<connect gate="G$1" pin="AVSS@3" pad="32"/>
+<connect gate="G$1" pin="AVSS@4" pad="57"/>
+<connect gate="G$1" pin="AVSS@5" pad="58"/>
+<connect gate="G$1" pin="BIASIN" pad="62"/>
+<connect gate="G$1" pin="BIASINV" pad="61"/>
+<connect gate="G$1" pin="BIASOUT" pad="63"/>
+<connect gate="G$1" pin="BIASREF" pad="60"/>
 <connect gate="G$1" pin="CLK" pad="37"/>
 <connect gate="G$1" pin="CLKSEL" pad="52"/>
 <connect gate="G$1" pin="DAISY_IN" pad="41"/>
-<connect gate="G$1" pin="DGND_1" pad="33"/>
-<connect gate="G$1" pin="DGND_2" pad="49"/>
-<connect gate="G$1" pin="DGND_3" pad="51"/>
+<connect gate="G$1" pin="DGND@1" pad="33"/>
+<connect gate="G$1" pin="DGND@2" pad="49"/>
+<connect gate="G$1" pin="DGND@3" pad="51"/>
 <connect gate="G$1" pin="DIN" pad="34"/>
 <connect gate="G$1" pin="DOUT" pad="43"/>
-<connect gate="G$1" pin="DVDD_1" pad="48"/>
-<connect gate="G$1" pin="DVDD_2" pad="50"/>
+<connect gate="G$1" pin="DVDD@1" pad="48"/>
+<connect gate="G$1" pin="DVDD@2" pad="50"/>
 <connect gate="G$1" pin="GPIO1" pad="42"/>
 <connect gate="G$1" pin="GPIO2" pad="44"/>
 <connect gate="G$1" pin="GPIO3" pad="45"/>
@@ -428,16 +433,13 @@ Based on ADS1298: Drawn 23.07.2011 by Tomasz Boleslaw CEDRO (http://www.tomek.ce
 <connect gate="G$1" pin="IN7P" pad="4"/>
 <connect gate="G$1" pin="IN8N" pad="1"/>
 <connect gate="G$1" pin="IN8P" pad="2"/>
-<connect gate="G$1" pin="SRB1" pad="17"/>
-<connect gate="G$1" pin="SRB2" pad="18"/>
 <connect gate="G$1" pin="NC@1" pad="29"/>
 <connect gate="G$1" pin="NC@2" pad="27"/>
+<connect gate="G$1" pin="NC@3" pad="64"/>
 <connect gate="G$1" pin="RESV1" pad="31"/>
-<connect gate="G$1" pin="BIASIN" pad="62"/>
-<connect gate="G$1" pin="BIASINV" pad="61"/>
-<connect gate="G$1" pin="BIASOUT" pad="63"/>
-<connect gate="G$1" pin="BIASREF" pad="60"/>
 <connect gate="G$1" pin="SCLK" pad="40"/>
+<connect gate="G$1" pin="SRB1" pad="17"/>
+<connect gate="G$1" pin="SRB2" pad="18"/>
 <connect gate="G$1" pin="START" pad="38"/>
 <connect gate="G$1" pin="VCAP1" pad="28"/>
 <connect gate="G$1" pin="VCAP2" pad="30"/>
@@ -445,7 +447,6 @@ Based on ADS1298: Drawn 23.07.2011 by Tomasz Boleslaw CEDRO (http://www.tomek.ce
 <connect gate="G$1" pin="VCAP4" pad="26"/>
 <connect gate="G$1" pin="VREFN" pad="25"/>
 <connect gate="G$1" pin="VREFP" pad="24"/>
-<connect gate="G$1" pin="NC@3" pad="64"/>
 </connects>
 <technologies>
 <technology name=""/>
