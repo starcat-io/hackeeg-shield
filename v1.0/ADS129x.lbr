@@ -368,6 +368,8 @@
 <pin name="DGND@1" x="37.338" y="-25.908" length="middle" direction="pwr" rot="R180"/>
 <pin name="DVDD@2" x="37.338" y="29.972" length="middle" direction="pwr" rot="R180"/>
 <pin name="DGND@3" x="37.338" y="-30.988" length="middle" direction="pwr" rot="R180"/>
+<text x="-17.272" y="15.24" size="2.54" layer="94">&gt;NAME</text>
+<text x="-16.764" y="-17.018" size="2.54" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
