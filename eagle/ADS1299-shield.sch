@@ -7462,7 +7462,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="JP11" gate="A" x="334.518" y="117.602"/>
 <instance part="JP12" gate="A" x="307.848" y="172.974"/>
 <instance part="JP13" gate="A" x="308.102" y="207.518"/>
-<instance part="JP8" gate="A" x="368.3" y="243.84"/>
+<instance part="JP8" gate="A" x="363.982" y="244.348" rot="MR0"/>
 <instance part="JP14" gate="A" x="308.102" y="243.078"/>
 <instance part="JP15" gate="A" x="335.28" y="208.28" rot="R180"/>
 </instances>
