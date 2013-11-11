@@ -7365,6 +7365,79 @@ jumper storage)</text>
 By-Attribution Share-Alike 3.0 license</text>
 <text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2013 Adam Feuer</text>
 <text x="316.23" y="92.71" size="2.54" layer="91">Shield Connectors</text>
+<text x="356.616" y="254" size="1.524" layer="91">SCL1</text>
+<text x="356.616" y="251.46" size="1.524" layer="91">SDA1</text>
+<text x="356.616" y="248.666" size="1.524" layer="91">AREF</text>
+<text x="356.616" y="246.126" size="1.524" layer="91">GND</text>
+<text x="359.41" y="243.586" size="1.524" layer="91">13</text>
+<text x="359.41" y="241.046" size="1.524" layer="91">12</text>
+<text x="359.41" y="238.506" size="1.524" layer="91">11</text>
+<text x="359.156" y="235.966" size="1.524" layer="91">10</text>
+<text x="360.426" y="233.172" size="1.524" layer="91">9</text>
+<text x="360.426" y="230.632" size="1.524" layer="91">8</text>
+<text x="358.648" y="179.324" size="1.524" layer="91">14</text>
+<text x="358.648" y="176.784" size="1.524" layer="91">15</text>
+<text x="358.648" y="174.244" size="1.524" layer="91">16</text>
+<text x="358.648" y="171.704" size="1.524" layer="91">17</text>
+<text x="358.648" y="169.164" size="1.524" layer="91">18</text>
+<text x="358.648" y="166.624" size="1.524" layer="91">19</text>
+<text x="358.648" y="164.084" size="1.524" layer="91">20</text>
+<text x="358.648" y="161.544" size="1.524" layer="91">21</text>
+<text x="360.172" y="215.138" size="1.524" layer="91">7</text>
+<text x="360.172" y="212.598" size="1.524" layer="91">6</text>
+<text x="360.172" y="210.058" size="1.524" layer="91">5</text>
+<text x="360.172" y="207.518" size="1.524" layer="91">4</text>
+<text x="360.172" y="204.978" size="1.524" layer="91">3</text>
+<text x="360.172" y="202.438" size="1.524" layer="91">2</text>
+<text x="360.172" y="199.898" size="1.524" layer="91">1</text>
+<text x="360.172" y="197.358" size="1.524" layer="91">0</text>
+<text x="307.086" y="179.578" size="1.524" layer="91">A8</text>
+<text x="307.086" y="177.038" size="1.524" layer="91">A9</text>
+<text x="307.086" y="174.498" size="1.524" layer="91">A10</text>
+<text x="307.086" y="171.958" size="1.524" layer="91">A11</text>
+<text x="307.086" y="169.418" size="1.524" layer="91">DAC0</text>
+<text x="307.086" y="166.878" size="1.524" layer="91">DAC1</text>
+<text x="307.086" y="164.338" size="1.524" layer="91">CANRX</text>
+<text x="307.086" y="161.798" size="1.524" layer="91">CANTX</text>
+<text x="307.086" y="213.868" size="1.524" layer="91">A0</text>
+<text x="307.086" y="211.328" size="1.524" layer="91">A1</text>
+<text x="307.086" y="208.788" size="1.524" layer="91">A2</text>
+<text x="307.086" y="206.248" size="1.524" layer="91">A3</text>
+<text x="307.086" y="203.708" size="1.524" layer="91">A4</text>
+<text x="307.086" y="201.168" size="1.524" layer="91">A5</text>
+<text x="307.086" y="198.628" size="1.524" layer="91">A6</text>
+<text x="307.086" y="196.088" size="1.524" layer="91">A7</text>
+<text x="307.086" y="249.174" size="1.524" layer="91">NOT USED</text>
+<text x="307.086" y="246.634" size="1.524" layer="91">IOREF</text>
+<text x="307.086" y="244.094" size="1.524" layer="91">RESET</text>
+<text x="307.086" y="241.554" size="1.524" layer="91">3V3</text>
+<text x="307.086" y="239.014" size="1.524" layer="91">5V</text>
+<text x="307.086" y="236.474" size="1.524" layer="91">GND</text>
+<text x="307.086" y="233.934" size="1.524" layer="91">GND</text>
+<text x="307.086" y="231.394" size="1.524" layer="91">VIN</text>
+<text x="340.106" y="189.992" size="1.524" layer="91" rot="R90">5V</text>
+<text x="332.232" y="189.738" size="1.524" layer="91" rot="R90">GND</text>
+<text x="331.978" y="217.678" size="1.524" layer="91" rot="R90">RESET</text>
+<text x="357.378" y="132.08" size="1.524" layer="91" rot="R90">5V</text>
+<text x="357.378" y="107.95" size="1.524" layer="91" rot="R90">5V</text>
+<text x="311.658" y="107.442" size="1.524" layer="91" rot="R90">GND</text>
+<text x="311.658" y="131.572" size="1.524" layer="91" rot="R90">GND</text>
+<text x="351.79" y="137.668" size="1.524" layer="91">22</text>
+<text x="351.79" y="102.87" size="1.524" layer="91">23</text>
+<text x="346.71" y="137.668" size="1.524" layer="91">26</text>
+<text x="341.63" y="137.668" size="1.524" layer="91">30</text>
+<text x="336.55" y="137.668" size="1.524" layer="91">34</text>
+<text x="331.47" y="137.668" size="1.524" layer="91">38</text>
+<text x="326.39" y="137.668" size="1.524" layer="91">42</text>
+<text x="321.31" y="137.668" size="1.524" layer="91">46</text>
+<text x="316.23" y="137.668" size="1.524" layer="91">50</text>
+<text x="346.71" y="102.87" size="1.524" layer="91">27</text>
+<text x="341.63" y="102.87" size="1.524" layer="91">31</text>
+<text x="336.55" y="102.87" size="1.524" layer="91">35</text>
+<text x="331.47" y="102.87" size="1.524" layer="91">39</text>
+<text x="326.39" y="102.87" size="1.524" layer="91">43</text>
+<text x="321.31" y="102.87" size="1.524" layer="91">47</text>
+<text x="316.23" y="102.87" size="1.524" layer="91">51</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -7963,6 +8036,11 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="201.93" y1="57.404" x2="216.408" y2="57.404" width="0.1524" layer="91"/>
 <label x="207.772" y="57.912" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP15" gate="A" pin="4"/>
+<wire x1="335.28" y1="203.2" x2="335.28" y2="189.738" width="0.1524" layer="91"/>
+<label x="336.042" y="175.006" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="USART2_MOSI" class="0">
 <segment>
@@ -7976,6 +8054,11 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="JP2" gate="A" pin="6"/>
 <wire x1="201.93" y1="52.324" x2="216.408" y2="52.324" width="0.1524" layer="91"/>
 <label x="207.772" y="52.578" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP15" gate="A" pin="1"/>
+<wire x1="337.82" y1="210.82" x2="337.82" y2="224.282" width="0.1524" layer="91"/>
+<label x="340.36" y="216.154" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ADC_CS_3" class="0">
@@ -8006,18 +8089,11 @@ By-Attribution Share-Alike 3.0 license</text>
 <label x="207.772" y="42.418" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="USART2_SCL" class="0">
+<net name="USART2_SCK" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="12"/>
 <wire x1="201.93" y1="44.704" x2="216.408" y2="44.704" width="0.1524" layer="91"/>
 <label x="207.772" y="44.958" size="1.27" layer="95"/>
-</segment>
-</net>
-<net name="SPI0_SCL" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="10"/>
-<wire x1="201.93" y1="47.244" x2="216.408" y2="47.244" width="0.1524" layer="91"/>
-<label x="207.772" y="47.498" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="USART2_MISO" class="0">
@@ -8483,40 +8559,34 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="302.26" y1="247.65" x2="279.146" y2="247.65" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="JP15" gate="A" pin="1"/>
-<wire x1="337.82" y1="210.82" x2="337.82" y2="224.282" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$70" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="JP15" gate="A" pin="2"/>
 <wire x1="337.82" y1="203.2" x2="337.82" y2="189.738" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$71" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="JP15" gate="A" pin="5"/>
 <wire x1="332.74" y1="210.82" x2="332.74" y2="224.282" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$72" class="0">
+<net name="SPI0_SCK" class="0">
 <segment>
 <pinref part="JP15" gate="A" pin="3"/>
 <wire x1="335.28" y1="210.82" x2="335.28" y2="224.282" width="0.1524" layer="91"/>
+<label x="336.042" y="224.79" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="201.93" y1="47.244" x2="216.408" y2="47.244" width="0.1524" layer="91"/>
+<label x="207.772" y="47.498" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="N$73" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="JP15" gate="A" pin="6"/>
 <wire x1="332.74" y1="203.2" x2="332.74" y2="189.738" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$74" class="0">
-<segment>
-<pinref part="JP15" gate="A" pin="4"/>
-<wire x1="335.28" y1="203.2" x2="335.28" y2="189.738" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">

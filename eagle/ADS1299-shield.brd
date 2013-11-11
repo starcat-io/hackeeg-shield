@@ -2278,6 +2278,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="GND">
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
+<contactref element="JP15" pad="6"/>
+<wire x1="37.8324" y1="14.1224" x2="66.167" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="39.9914" y1="7.6962" x2="37.8324" y2="14.1224" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVSS">
@@ -2765,12 +2767,16 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="SPI0_MOSI">
 <contactref element="JP2" pad="2"/>
+<contactref element="JP15" pad="4"/>
+<wire x1="77.1398" y1="17.6784" x2="66.167" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USART2_MOSI">
 <contactref element="JP2" pad="4"/>
 </signal>
 <signal name="SPI0_MISO">
 <contactref element="JP2" pad="6"/>
+<contactref element="JP15" pad="1"/>
+<wire x1="63.627" y1="30.48" x2="77.1398" y2="22.7584" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC_CS_3">
 <contactref element="JP2" pad="20"/>
@@ -2784,11 +2790,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="ADC_CS_0">
 <contactref element="JP2" pad="14"/>
 </signal>
-<signal name="USART2_SCL">
+<signal name="USART2_SCK">
 <contactref element="JP2" pad="12"/>
-</signal>
-<signal name="SPI0_SCL">
-<contactref element="JP2" pad="10"/>
 </signal>
 <signal name="USART2_MISO">
 <contactref element="JP2" pad="8"/>
@@ -3067,23 +3070,16 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$68">
 <contactref element="JP14" pad="2"/>
 </signal>
-<signal name="N$69">
-<contactref element="JP15" pad="1"/>
-</signal>
-<signal name="N$70">
+<signal name="5V">
 <contactref element="JP15" pad="2"/>
 </signal>
-<signal name="N$71">
+<signal name="RESET">
 <contactref element="JP15" pad="5"/>
 </signal>
-<signal name="N$72">
+<signal name="SPI0_SCK">
 <contactref element="JP15" pad="3"/>
-</signal>
-<signal name="N$73">
-<contactref element="JP15" pad="6"/>
-</signal>
-<signal name="N$74">
-<contactref element="JP15" pad="4"/>
+<contactref element="JP2" pad="10"/>
+<wire x1="63.627" y1="27.94" x2="77.1398" y2="27.8384" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$75">
 <contactref element="JP11" pad="35"/>
