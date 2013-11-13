@@ -5515,7 +5515,7 @@ I2C</description>
 <part name="SUPPLY1" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="AGND" device=""/>
-<part name="U$2" library="TPS604xx" deviceset="TPS604XX" device="DBV"/>
+<part name="IC6" library="TPS604xx" deviceset="TPS604XX" device="DBV"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="L4" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="3.3 uH"/>
 <part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uf"/>
@@ -5524,7 +5524,7 @@ I2C</description>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY14" library="supply2" deviceset="AGND" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_B_L" device="" value="1.0"/>
-<part name="U1" library="ADS129x" deviceset="ADS1299" device="*PAG*" value="ADS1299IPAG"/>
+<part name="IC1" library="ADS129x" deviceset="ADS1299" device="*PAG*" value="ADS1299IPAG"/>
 <part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY13" library="supply2" deviceset="AGND" device=""/>
@@ -5598,7 +5598,7 @@ I2C</description>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="270"/>
 <part name="SUPPLY40" library="supply2" deviceset="AGND" device=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
-<part name="IC1" library="microchip" deviceset="24*" device="SN" technology="LC256" value="24AA256UID"/>
+<part name="IC5" library="microchip" deviceset="24*" device="SN" technology="LC256" value="24AA256UID"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
@@ -5630,8 +5630,8 @@ I2C</description>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="270"/>
 <part name="SUPPLY48" library="supply2" deviceset="AGND" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
-<part name="U$3" library="OPA376" deviceset="OPA376" device="DBV"/>
-<part name="U$4" library="OPA376" deviceset="OPA376" device="DBV"/>
+<part name="IC8" library="OPA376" deviceset="OPA376" device="DBV"/>
+<part name="IC7" library="OPA376" deviceset="OPA376" device="DBV"/>
 <part name="SUPPLY49" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY50" library="supply2" deviceset="AGND" device=""/>
 <part name="JP9" library="SmartPrj" deviceset="PINHD-1X8" device="" value="PWML"/>
@@ -5670,7 +5670,10 @@ By-Attribution Share-Alike 3.0 license</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
-<instance part="IC2" gate="G$1" x="89.408" y="39.624"/>
+<instance part="IC2" gate="G$1" x="89.408" y="39.624" smashed="yes">
+<attribute name="NAME" x="82.042" y="48.006" size="2.032" layer="95"/>
+<attribute name="VALUE" x="82.042" y="29.972" size="1.27" layer="96"/>
+</instance>
 <instance part="L1" gate="G$1" x="128.27" y="44.704" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.048" y="48.514" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="132.334" y="42.926" size="1.778" layer="96" rot="R180"/>
@@ -5684,7 +5687,10 @@ By-Attribution Share-Alike 3.0 license</text>
 <attribute name="VALUE" x="121.158" y="32.639" size="1.27" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="139.7" y="34.544"/>
-<instance part="IC3" gate="G$1" x="89.916" y="85.344"/>
+<instance part="IC3" gate="G$1" x="89.916" y="85.344" smashed="yes">
+<attribute name="NAME" x="82.55" y="93.726" size="2.032" layer="95"/>
+<attribute name="VALUE" x="82.55" y="75.692" size="1.27" layer="96"/>
+</instance>
 <instance part="L2" gate="G$1" x="128.778" y="90.424" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.302" y="94.488" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="132.842" y="89.408" size="1.778" layer="96" rot="R180"/>
@@ -5753,7 +5759,10 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="SUPPLY1" gate="G$1" x="137.668" y="120.142"/>
 <instance part="SUPPLY9" gate="G$1" x="161.544" y="125.222"/>
 <instance part="SUPPLY11" gate="G$1" x="101.854" y="120.65"/>
-<instance part="U$2" gate="G$1" x="105.156" y="139.446"/>
+<instance part="IC6" gate="G$1" x="105.156" y="139.446" smashed="yes">
+<attribute name="NAME" x="89.662" y="150.622" size="2.032" layer="95"/>
+<attribute name="VALUE" x="108.458" y="129.794" size="1.27" layer="96"/>
+</instance>
 <instance part="C26" gate="G$1" x="102.616" y="160.528" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.759" y="165.608" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="104.013" y="157.48" size="1.778" layer="96" rot="R180"/>
@@ -5769,7 +5778,7 @@ By-Attribution Share-Alike 3.0 license</text>
 </instance>
 <instance part="C28" gate="G$1" x="63.754" y="31.242"/>
 <instance part="SUPPLY14" gate="G$1" x="63.754" y="24.13"/>
-<instance part="U1" gate="G$1" x="289.56" y="185.42"/>
+<instance part="IC1" gate="G$1" x="289.56" y="185.42"/>
 <instance part="C29" gate="G$1" x="228.854" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="230.251" y="139.192" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="230.251" y="132.08" size="1.778" layer="96" rot="R180"/>
@@ -5886,12 +5895,12 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="276.098" y1="225.552" x2="276.098" y2="230.378" width="0.1524" layer="91"/>
 <wire x1="283.718" y1="225.552" x2="283.718" y2="230.378" width="0.1524" layer="91"/>
 <junction x="283.718" y="230.378"/>
-<pinref part="U1" gate="G$1" pin="AVDD@1"/>
-<pinref part="U1" gate="G$1" pin="AVDD@6"/>
-<pinref part="U1" gate="G$1" pin="AVDD@2"/>
-<pinref part="U1" gate="G$1" pin="AVDD@3"/>
-<pinref part="U1" gate="G$1" pin="AVDD@4"/>
-<pinref part="U1" gate="G$1" pin="AVDD@5"/>
+<pinref part="IC1" gate="G$1" pin="AVDD@1"/>
+<pinref part="IC1" gate="G$1" pin="AVDD@6"/>
+<pinref part="IC1" gate="G$1" pin="AVDD@2"/>
+<pinref part="IC1" gate="G$1" pin="AVDD@3"/>
+<pinref part="IC1" gate="G$1" pin="AVDD@4"/>
+<pinref part="IC1" gate="G$1" pin="AVDD@5"/>
 <wire x1="276.098" y1="230.378" x2="276.098" y2="236.982" width="0.1524" layer="91"/>
 <junction x="276.098" y="230.378"/>
 <pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
@@ -5946,8 +5955,8 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="328.168" y1="217.932" x2="328.168" y2="215.392" width="0.1524" layer="91"/>
 <wire x1="326.898" y1="215.392" x2="328.168" y2="215.392" width="0.1524" layer="91"/>
 <junction x="328.168" y="215.392"/>
-<pinref part="U1" gate="G$1" pin="DVDD@1"/>
-<pinref part="U1" gate="G$1" pin="DVDD@2"/>
+<pinref part="IC1" gate="G$1" pin="DVDD@1"/>
+<pinref part="IC1" gate="G$1" pin="DVDD@2"/>
 <pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -5962,7 +5971,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="260.35" y1="114.3" x2="260.35" y2="120.142" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="288.798" y1="144.272" x2="288.798" y2="120.142" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCAP1"/>
+<pinref part="IC1" gate="G$1" pin="VCAP1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5971,7 +5980,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="291.338" y1="118.364" x2="276.86" y2="118.364" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="118.364" x2="276.86" y2="114.554" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCAP2"/>
+<pinref part="IC1" gate="G$1" pin="VCAP2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5984,7 +5993,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <junction x="293.878" y="101.854"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="288.29" y1="99.822" x2="288.29" y2="101.854" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCAP3"/>
+<pinref part="IC1" gate="G$1" pin="VCAP3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -5993,7 +6002,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="296.418" y1="144.272" x2="296.418" y2="120.904" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="120.904" x2="309.88" y2="115.316" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCAP4"/>
+<pinref part="IC1" gate="G$1" pin="VCAP4"/>
 </segment>
 </net>
 <net name="VREFP" class="0">
@@ -6010,28 +6019,28 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="C23" gate="G$1" pin="1"/>
 <junction x="294.64" y="239.522"/>
 <junction x="294.64" y="250.698"/>
-<pinref part="U1" gate="G$1" pin="VREFP"/>
+<pinref part="IC1" gate="G$1" pin="VREFP"/>
 </segment>
 </net>
 <net name="BOARD_ADDR_1" class="0">
 <segment>
 <wire x1="326.898" y1="182.88" x2="343.662" y2="182.88" width="0.1524" layer="91"/>
 <label x="329.692" y="183.134" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="GPIO2"/>
+<pinref part="IC1" gate="G$1" pin="GPIO2"/>
 </segment>
 </net>
 <net name="BOARD_ADDR_2" class="0">
 <segment>
 <wire x1="326.898" y1="180.34" x2="343.662" y2="180.34" width="0.1524" layer="91"/>
 <label x="329.692" y="180.594" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="GPIO3"/>
+<pinref part="IC1" gate="G$1" pin="GPIO3"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
 <segment>
 <wire x1="326.898" y1="177.8" x2="352.552" y2="177.8" width="0.1524" layer="91"/>
 <label x="329.692" y="178.054" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="GPIO4"/>
+<pinref part="IC1" gate="G$1" pin="GPIO4"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -6039,63 +6048,63 @@ By-Attribution Share-Alike 3.0 license</text>
 <segment>
 <wire x1="326.898" y1="185.42" x2="343.662" y2="185.42" width="0.1524" layer="91"/>
 <label x="329.946" y="185.674" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="GPIO1"/>
+<pinref part="IC1" gate="G$1" pin="GPIO1"/>
 </segment>
 </net>
 <net name="CLKSEL" class="0">
 <segment>
 <wire x1="326.898" y1="193.04" x2="343.408" y2="193.04" width="0.1524" layer="91"/>
 <label x="329.946" y="193.294" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="CLKSEL"/>
+<pinref part="IC1" gate="G$1" pin="CLKSEL"/>
 </segment>
 </net>
 <net name="BIAS_ELEC" class="0">
 <segment>
 <wire x1="271.018" y1="144.272" x2="271.018" y2="136.398" width="0.1524" layer="91"/>
 <label x="270.51" y="129.032" size="1.778" layer="95" rot="R90"/>
-<pinref part="U1" gate="G$1" pin="BIASIN"/>
+<pinref part="IC1" gate="G$1" pin="BIASIN"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <wire x1="326.898" y1="190.5" x2="343.408" y2="190.5" width="0.1524" layer="91"/>
 <label x="329.946" y="190.754" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="CLK"/>
+<pinref part="IC1" gate="G$1" pin="CLK"/>
 </segment>
 </net>
 <net name="SRB1" class="0">
 <segment>
 <label x="303.53" y="135.89" size="1.778" layer="95" rot="R90"/>
 <wire x1="304.038" y1="144.272" x2="304.038" y2="136.144" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SRB2"/>
+<pinref part="IC1" gate="G$1" pin="SRB2"/>
 </segment>
 </net>
 <net name="SRB2" class="0">
 <segment>
 <wire x1="306.578" y1="144.272" x2="306.578" y2="136.144" width="0.1524" layer="91"/>
 <label x="304.546" y="142.494" size="1.778" layer="95" rot="R270"/>
-<pinref part="U1" gate="G$1" pin="SRB1"/>
+<pinref part="IC1" gate="G$1" pin="SRB1"/>
 </segment>
 </net>
 <net name="SPI_CLK" class="0">
 <segment>
 <wire x1="326.898" y1="202.692" x2="343.408" y2="202.692" width="0.1524" layer="91"/>
 <label x="330.2" y="202.946" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="SCLK"/>
+<pinref part="IC1" gate="G$1" pin="SCLK"/>
 </segment>
 </net>
 <net name="SPI_IN" class="0">
 <segment>
 <wire x1="326.898" y1="200.152" x2="343.408" y2="200.152" width="0.1524" layer="91"/>
 <label x="330.2" y="200.406" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="DIN"/>
+<pinref part="IC1" gate="G$1" pin="DIN"/>
 </segment>
 </net>
 <net name="SPI_OUT" class="0">
 <segment>
 <label x="330.2" y="197.866" size="1.778" layer="95"/>
 <wire x1="326.898" y1="197.612" x2="343.408" y2="197.612" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DOUT"/>
+<pinref part="IC1" gate="G$1" pin="DOUT"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -6120,10 +6129,10 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="326.898" y1="156.972" x2="334.518" y2="156.972" width="0.1524" layer="91"/>
 <junction x="334.518" y="156.972"/>
 <wire x1="326.898" y1="159.512" x2="334.518" y2="159.512" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DGND@2"/>
-<pinref part="U1" gate="G$1" pin="DGND@1"/>
-<pinref part="U1" gate="G$1" pin="DGND@3"/>
-<pinref part="U1" gate="G$1" pin="DAISY_IN"/>
+<pinref part="IC1" gate="G$1" pin="DGND@2"/>
+<pinref part="IC1" gate="G$1" pin="DGND@1"/>
+<pinref part="IC1" gate="G$1" pin="DGND@3"/>
+<pinref part="IC1" gate="G$1" pin="DAISY_IN"/>
 <wire x1="326.898" y1="164.592" x2="334.518" y2="164.592" width="0.1524" layer="91"/>
 <wire x1="334.518" y1="164.592" x2="334.518" y2="159.512" width="0.1524" layer="91"/>
 <junction x="334.518" y="159.512"/>
@@ -6219,7 +6228,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="303.276" y1="250.698" x2="302.768" y2="250.698" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="G$1" pin="AGND"/>
-<pinref part="U1" gate="G$1" pin="VREFN"/>
+<pinref part="IC1" gate="G$1" pin="VREFN"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
@@ -6245,7 +6254,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <segment>
 <wire x1="101.854" y1="129.286" x2="101.854" y2="123.19" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="AGND"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="IC6" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
@@ -6300,14 +6309,14 @@ By-Attribution Share-Alike 3.0 license</text>
 <segment>
 <wire x1="326.898" y1="172.212" x2="342.9" y2="172.212" width="0.1524" layer="91"/>
 <label x="328.93" y="172.466" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="!PWDN"/>
+<pinref part="IC1" gate="G$1" pin="!PWDN"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
 <wire x1="326.898" y1="169.672" x2="342.9" y2="169.672" width="0.1524" layer="91"/>
 <label x="328.93" y="169.926" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="!RESET"/>
+<pinref part="IC1" gate="G$1" pin="!RESET"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6355,12 +6364,12 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="236.22" y1="151.892" x2="236.22" y2="154.432" width="0.1524" layer="91"/>
 <wire x1="250.698" y1="151.892" x2="236.22" y2="151.892" width="0.1524" layer="91"/>
 <junction x="236.22" y="151.892"/>
-<pinref part="U1" gate="G$1" pin="AVSS@3"/>
-<pinref part="U1" gate="G$1" pin="AVSS1"/>
-<pinref part="U1" gate="G$1" pin="AVSS@4"/>
-<pinref part="U1" gate="G$1" pin="AVSS@5"/>
-<pinref part="U1" gate="G$1" pin="AVSS@2"/>
-<pinref part="U1" gate="G$1" pin="AVSS@1"/>
+<pinref part="IC1" gate="G$1" pin="AVSS@3"/>
+<pinref part="IC1" gate="G$1" pin="AVSS1"/>
+<pinref part="IC1" gate="G$1" pin="AVSS@4"/>
+<pinref part="IC1" gate="G$1" pin="AVSS@5"/>
+<pinref part="IC1" gate="G$1" pin="AVSS@2"/>
+<pinref part="IC1" gate="G$1" pin="AVSS@1"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="231.394" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
 <junction x="236.22" y="134.62"/>
@@ -6392,14 +6401,14 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="141.478" y1="136.398" x2="141.478" y2="141.986" width="0.1524" layer="91"/>
 <junction x="141.478" y="141.986"/>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
+<pinref part="IC6" gate="G$1" pin="OUT"/>
 <wire x1="117.856" y1="141.986" x2="133.604" y2="141.986" width="0.1524" layer="91"/>
 <junction x="133.604" y="141.986"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="IN"/>
+<pinref part="IC6" gate="G$1" pin="IN"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -6430,126 +6439,126 @@ By-Attribution Share-Alike 3.0 license</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CFLY_N"/>
+<pinref part="IC6" gate="G$1" pin="CFLY_N"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="97.536" y1="152.146" x2="97.536" y2="160.528" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CFLY_P"/>
+<pinref part="IC6" gate="G$1" pin="CFLY_P"/>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="105.156" y1="152.146" x2="105.156" y2="160.528" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN1P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN1P"/>
+<pinref part="IC1" gate="G$1" pin="IN1P"/>
 <wire x1="250.698" y1="208.28" x2="239.776" y2="208.28" width="0.1524" layer="91"/>
 <label x="239.776" y="208.534" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN1N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN1N"/>
+<pinref part="IC1" gate="G$1" pin="IN1N"/>
 <wire x1="250.698" y1="205.74" x2="239.776" y2="205.74" width="0.1524" layer="91"/>
 <label x="239.776" y="205.994" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN2P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN2P"/>
+<pinref part="IC1" gate="G$1" pin="IN2P"/>
 <wire x1="250.698" y1="203.2" x2="239.776" y2="203.2" width="0.1524" layer="91"/>
 <label x="239.776" y="203.454" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN2N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN2N"/>
+<pinref part="IC1" gate="G$1" pin="IN2N"/>
 <wire x1="250.698" y1="200.66" x2="239.776" y2="200.66" width="0.1524" layer="91"/>
 <label x="239.776" y="200.914" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN3P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN3P"/>
+<pinref part="IC1" gate="G$1" pin="IN3P"/>
 <wire x1="250.698" y1="198.12" x2="239.776" y2="198.12" width="0.1524" layer="91"/>
 <label x="239.776" y="198.374" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN3N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN3N"/>
+<pinref part="IC1" gate="G$1" pin="IN3N"/>
 <wire x1="250.698" y1="195.58" x2="239.776" y2="195.58" width="0.1524" layer="91"/>
 <label x="239.776" y="195.834" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN5P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN5P"/>
+<pinref part="IC1" gate="G$1" pin="IN5P"/>
 <wire x1="250.698" y1="187.96" x2="239.776" y2="187.96" width="0.1524" layer="91"/>
 <label x="239.776" y="188.214" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN5N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN5N"/>
+<pinref part="IC1" gate="G$1" pin="IN5N"/>
 <wire x1="250.698" y1="185.42" x2="239.776" y2="185.42" width="0.1524" layer="91"/>
 <label x="239.776" y="185.674" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN7N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN7N"/>
+<pinref part="IC1" gate="G$1" pin="IN7N"/>
 <wire x1="250.698" y1="175.26" x2="239.776" y2="175.26" width="0.1524" layer="91"/>
 <label x="239.776" y="175.514" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN8P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN8P"/>
+<pinref part="IC1" gate="G$1" pin="IN8P"/>
 <wire x1="250.698" y1="172.72" x2="239.776" y2="172.72" width="0.1524" layer="91"/>
 <label x="239.776" y="172.974" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN6P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN6P"/>
+<pinref part="IC1" gate="G$1" pin="IN6P"/>
 <wire x1="250.698" y1="182.88" x2="239.776" y2="182.88" width="0.1524" layer="91"/>
 <label x="239.776" y="183.134" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN6N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN6N"/>
+<pinref part="IC1" gate="G$1" pin="IN6N"/>
 <wire x1="250.698" y1="180.34" x2="239.776" y2="180.34" width="0.1524" layer="91"/>
 <label x="239.776" y="180.594" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN7P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN7P"/>
+<pinref part="IC1" gate="G$1" pin="IN7P"/>
 <wire x1="250.698" y1="177.8" x2="239.776" y2="177.8" width="0.1524" layer="91"/>
 <label x="239.776" y="178.054" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN8N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN8N"/>
+<pinref part="IC1" gate="G$1" pin="IN8N"/>
 <wire x1="250.698" y1="170.18" x2="239.776" y2="170.18" width="0.1524" layer="91"/>
 <label x="239.776" y="170.434" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN4N" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN4N"/>
+<pinref part="IC1" gate="G$1" pin="IN4N"/>
 <wire x1="250.698" y1="190.5" x2="239.776" y2="190.5" width="0.1524" layer="91"/>
 <label x="239.776" y="190.754" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN4P" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN4P"/>
+<pinref part="IC1" gate="G$1" pin="IN4P"/>
 <wire x1="250.698" y1="193.04" x2="239.776" y2="193.04" width="0.1524" layer="91"/>
 <label x="239.776" y="193.294" size="1.778" layer="95"/>
 </segment>
@@ -6626,21 +6635,21 @@ By-Attribution Share-Alike 3.0 license</text>
 <segment>
 <wire x1="326.898" y1="167.132" x2="342.9" y2="167.132" width="0.1524" layer="91"/>
 <label x="328.93" y="167.386" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="START"/>
+<pinref part="IC1" gate="G$1" pin="START"/>
 </segment>
 </net>
 <net name="!SPI_CS" class="0">
 <segment>
 <wire x1="326.898" y1="205.232" x2="343.408" y2="205.232" width="0.1524" layer="91"/>
 <label x="330.454" y="205.74" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="!CS"/>
+<pinref part="IC1" gate="G$1" pin="!CS"/>
 </segment>
 </net>
 <net name="DRDY" class="0">
 <segment>
 <label x="330.2" y="210.82" size="1.778" layer="95"/>
 <wire x1="326.898" y1="210.312" x2="343.408" y2="210.312" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="!DRDY"/>
+<pinref part="IC1" gate="G$1" pin="!DRDY"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -6879,8 +6888,14 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="SUPPLY47" gate="G$1" x="47.498" y="39.37" smashed="yes">
 <attribute name="VALUE" x="48.133" y="30.099" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="312.42" y="102.616"/>
-<instance part="U$4" gate="G$1" x="297.434" y="220.218" rot="MR0"/>
+<instance part="IC8" gate="G$1" x="312.42" y="102.616" smashed="yes">
+<attribute name="NAME" x="300.228" y="116.332" size="2.032" layer="95"/>
+<attribute name="VALUE" x="300.228" y="87.376" size="1.27" layer="96"/>
+</instance>
+<instance part="IC7" gate="G$1" x="297.434" y="220.218" smashed="yes" rot="MR0">
+<attribute name="NAME" x="309.626" y="233.934" size="2.032" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="309.626" y="204.978" size="1.27" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7398,7 +7413,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="312.928" y1="129.794" x2="314.96" y2="129.794" width="0.1524" layer="91"/>
 <junction x="314.96" y="129.794"/>
 <label x="318.262" y="139.192" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$3" gate="G$1" pin="V_N"/>
+<pinref part="IC8" gate="G$1" pin="V_N"/>
 </segment>
 <segment>
 <wire x1="294.894" y1="235.458" x2="294.894" y2="243.84" width="0.1524" layer="91"/>
@@ -7414,7 +7429,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <label x="336.042" y="249.682" size="1.778" layer="95"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <junction x="338.836" y="224.79"/>
-<pinref part="U$4" gate="G$1" pin="V_N"/>
+<pinref part="IC7" gate="G$1" pin="V_N"/>
 </segment>
 </net>
 <net name="DVDD" class="0">
@@ -7479,7 +7494,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <segment>
 <pinref part="JP6" gate="A" pin="2"/>
 <wire x1="273.812" y1="94.996" x2="297.18" y2="94.996" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_IN"/>
+<pinref part="IC8" gate="G$1" pin="P_IN"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -7492,8 +7507,8 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="338.836" y1="105.156" x2="348.742" y2="105.156" width="0.1524" layer="91"/>
 <junction x="338.836" y="105.156"/>
 <pinref part="JP7" gate="A" pin="3"/>
-<pinref part="U$3" gate="G$1" pin="OUT"/>
-<pinref part="U$3" gate="G$1" pin="N_IN"/>
+<pinref part="IC8" gate="G$1" pin="OUT"/>
+<pinref part="IC8" gate="G$1" pin="N_IN"/>
 </segment>
 </net>
 <net name="AVSS" class="0">
@@ -7502,7 +7517,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="314.96" y1="79.502" x2="314.96" y2="72.898" width="0.1524" layer="91"/>
 <wire x1="313.182" y1="79.502" x2="314.96" y2="79.502" width="0.1524" layer="91"/>
 <label x="318.008" y="71.882" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$3" gate="G$1" pin="V_P"/>
+<pinref part="IC8" gate="G$1" pin="V_P"/>
 <wire x1="314.96" y1="87.376" x2="314.96" y2="79.502" width="0.1524" layer="91"/>
 <junction x="314.96" y="79.502"/>
 </segment>
@@ -7516,7 +7531,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="338.836" y1="199.898" x2="338.836" y2="194.818" width="0.1524" layer="91"/>
 <junction x="338.836" y="199.898"/>
 <label x="336.042" y="192.532" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="V_P"/>
+<pinref part="IC7" gate="G$1" pin="V_P"/>
 <wire x1="294.894" y1="204.978" x2="294.894" y2="199.898" width="0.1524" layer="91"/>
 <junction x="294.894" y="199.898"/>
 </segment>
@@ -7541,7 +7556,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="338.836" y1="212.598" x2="338.836" y2="214.63" width="0.1524" layer="91"/>
 <junction x="338.836" y="212.598"/>
-<pinref part="U$4" gate="G$1" pin="P_IN"/>
+<pinref part="IC7" gate="G$1" pin="P_IN"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -7554,8 +7569,8 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="271.018" y1="222.758" x2="261.112" y2="222.758" width="0.1524" layer="91"/>
 <junction x="271.018" y="222.758"/>
 <pinref part="JP5" gate="A" pin="3"/>
-<pinref part="U$4" gate="G$1" pin="OUT"/>
-<pinref part="U$4" gate="G$1" pin="N_IN"/>
+<pinref part="IC7" gate="G$1" pin="OUT"/>
+<pinref part="IC7" gate="G$1" pin="N_IN"/>
 </segment>
 </net>
 <net name="N$105" class="0">
@@ -7751,7 +7766,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="SUPPLY39" gate="G$1" x="181.61" y="244.094" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="183.261" y="240.157" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="IC1" gate="G$1" x="139.446" y="135.382" smashed="yes">
+<instance part="IC5" gate="G$1" x="139.446" y="135.382" smashed="yes">
 <attribute name="NAME" x="129.286" y="146.812" size="1.778" layer="95"/>
 <attribute name="VALUE" x="126.746" y="124.206" size="1.778" layer="96"/>
 </instance>
@@ -7814,7 +7829,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <label x="66.548" y="258.826" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
 <wire x1="147.066" y1="148.082" x2="147.066" y2="152.908" width="0.1524" layer="91"/>
 <label x="144.272" y="153.416" size="1.778" layer="95"/>
 </segment>
@@ -7846,7 +7861,7 @@ By-Attribution Share-Alike 3.0 license</text>
 </net>
 <net name="BOARD_ADDR_1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="A1"/>
+<pinref part="IC5" gate="G$1" pin="A1"/>
 <wire x1="91.694" y1="132.842" x2="112.522" y2="132.842" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="112.522" y1="132.842" x2="126.746" y2="132.842" width="0.1524" layer="91"/>
@@ -7866,7 +7881,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="88.138" y1="116.332" x2="96.012" y2="116.332" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="A0"/>
+<pinref part="IC5" gate="G$1" pin="A0"/>
 <wire x1="96.012" y1="116.332" x2="96.012" y2="130.302" width="0.1524" layer="91"/>
 <wire x1="96.012" y1="130.302" x2="105.156" y2="130.302" width="0.1524" layer="91"/>
 <wire x1="105.156" y1="130.302" x2="126.746" y2="130.302" width="0.1524" layer="91"/>
@@ -7948,13 +7963,13 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="77.978" y1="116.332" x2="70.104" y2="116.332" width="0.1524" layer="91"/>
 <junction x="70.104" y="116.332"/>
-<pinref part="IC1" gate="G$1" pin="WP"/>
+<pinref part="IC5" gate="G$1" pin="WP"/>
 <wire x1="126.746" y1="140.462" x2="70.104" y2="140.462" width="0.1524" layer="91"/>
 <wire x1="70.104" y1="140.462" x2="70.104" y2="135.382" width="0.1524" layer="91"/>
 <junction x="70.104" y="135.382"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY42" gate="G$1" pin="AGND"/>
 <wire x1="147.066" y1="125.222" x2="147.066" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -8282,7 +8297,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <net name="BOARD_ADDR_2" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="A2"/>
+<pinref part="IC5" gate="G$1" pin="A2"/>
 <wire x1="88.9" y1="135.382" x2="119.126" y2="135.382" width="0.1524" layer="91"/>
 <wire x1="119.126" y1="135.382" x2="126.746" y2="135.382" width="0.1524" layer="91"/>
 <wire x1="119.126" y1="135.382" x2="119.126" y2="97.536" width="0.1524" layer="91"/>
@@ -8554,7 +8569,7 @@ By-Attribution Share-Alike 3.0 license</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SCL"/>
+<pinref part="IC5" gate="G$1" pin="SCL"/>
 <wire x1="126.746" y1="143.002" x2="113.792" y2="143.002" width="0.1524" layer="91"/>
 <label x="114.3" y="143.51" size="1.778" layer="95"/>
 </segment>
@@ -8566,7 +8581,7 @@ By-Attribution Share-Alike 3.0 license</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="SDA"/>
+<pinref part="IC5" gate="G$1" pin="SDA"/>
 <wire x1="154.686" y1="135.382" x2="162.306" y2="135.382" width="0.1524" layer="91"/>
 <label x="155.194" y="135.636" size="1.778" layer="95"/>
 </segment>
