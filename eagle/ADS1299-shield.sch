@@ -6804,9 +6804,9 @@ By-Attribution Share-Alike 3.0 license</text>
 <attribute name="NAME" x="336.5754" y="206.502" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="344.424" y="206.248" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R24" gate="G$1" x="108.966" y="57.15" smashed="yes">
-<attribute name="NAME" x="107.442" y="58.9026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="107.442" y="53.848" size="1.778" layer="96"/>
+<instance part="R24" gate="G$1" x="111.506" y="57.15" smashed="yes">
+<attribute name="NAME" x="109.982" y="58.9026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="109.982" y="53.848" size="1.778" layer="96"/>
 </instance>
 <instance part="R25" gate="G$1" x="56.896" y="57.15" smashed="yes">
 <attribute name="NAME" x="55.372" y="58.9026" size="1.778" layer="95"/>
@@ -7478,19 +7478,18 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="IC7" gate="G$1" pin="N_IN"/>
 </segment>
 </net>
-<net name="N$105" class="0">
+<net name="REF_ELEC_CON" class="0">
 <segment>
 <pinref part="J8" gate="A" pin="23"/>
-<wire x1="80.01" y1="57.15" x2="65.024" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="57.15" x2="61.976" y2="57.15" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="65.024" y1="57.15" x2="64.77" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="61.976" y1="57.15" x2="64.77" y2="57.15" width="0.1524" layer="91"/>
+<label x="61.468" y="57.404" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="BIAS_ELEC" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="114.046" y1="57.15" x2="130.048" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="116.586" y1="57.15" x2="130.048" y2="57.15" width="0.1524" layer="91"/>
 <label x="116.332" y="57.404" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -7500,11 +7499,12 @@ By-Attribution Share-Alike 3.0 license</text>
 <label x="263.652" y="252.476" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$106" class="0">
+<net name="BIAS_ELEC_CON" class="0">
 <segment>
 <pinref part="J8" gate="A" pin="24"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="87.63" y1="57.15" x2="103.886" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="57.15" x2="106.426" y2="57.15" width="0.1524" layer="91"/>
+<label x="92.456" y="57.404" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="IN2P" class="0">
