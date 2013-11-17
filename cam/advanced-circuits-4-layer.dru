@@ -1,5 +1,5 @@
 description[en] = <b>EAGLE Design Rules</b>\n<p>\nThe default Design Rules have been set to cover\na wide range of applications. Your particular design\nmay have different requirements, so please make the\nnecessary adjustments and save your customized\ndesign rules under a new name.
-layerSetup = (1+2*15*16)
+layerSetup = (1*2+15*16)
 mtCopper = 0.034290625mm 0.034290625mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.03301875mm 0.034290625mm
 mtIsolate = 12mil 59mil 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 12mil
 mdWireWire = 6mil
