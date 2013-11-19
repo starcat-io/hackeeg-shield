@@ -7648,6 +7648,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <text x="353.314" y="174.244" size="1.524" layer="91">TX2</text>
 <text x="353.314" y="171.704" size="1.524" layer="91">RX2</text>
 <text x="192.024" y="172.72" size="2.54" layer="91">I2C Level Shifting</text>
+<text x="304.8" y="264.16" size="1.778" layer="91">Pins not labeled are not connected (NC)</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -8856,24 +8857,9 @@ By-Attribution Share-Alike 3.0 license</text>
 </net>
 <net name="VCC_5V" class="0">
 <segment>
-<pinref part="JP14" gate="A" pin="5"/>
-<wire x1="302.26" y1="240.03" x2="279.146" y2="240.03" width="0.1524" layer="91"/>
-<label x="287.782" y="241.808" size="1.27" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="JP15" gate="A" pin="2"/>
 <wire x1="337.82" y1="203.2" x2="337.82" y2="189.738" width="0.1524" layer="91"/>
 <label x="337.312" y="191.516" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="JP11" gate="A" pin="2"/>
-<wire x1="355.346" y1="117.348" x2="355.346" y2="105.156" width="0.1524" layer="91"/>
-<label x="355.092" y="104.902" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="JP11" gate="A" pin="1"/>
-<wire x1="355.346" y1="124.968" x2="355.346" y2="137.16" width="0.1524" layer="91"/>
-<label x="354.838" y="129.286" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -9136,6 +9122,24 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="IC9" gate="G$1" pin="OE"/>
 <wire x1="196.85" y1="223.52" x2="200.66" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$570" class="0">
+<segment>
+<pinref part="JP14" gate="A" pin="5"/>
+<wire x1="302.26" y1="240.03" x2="279.146" y2="240.03" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$571" class="0">
+<segment>
+<pinref part="JP11" gate="A" pin="1"/>
+<wire x1="355.346" y1="124.968" x2="355.346" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$572" class="0">
+<segment>
+<pinref part="JP11" gate="A" pin="2"/>
+<wire x1="355.346" y1="117.348" x2="355.346" y2="105.156" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
