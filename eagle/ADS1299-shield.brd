@@ -13,15 +13,15 @@
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="DVDD" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="14" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -130,34 +130,9 @@
 <description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
 <plain>
 <text x="99.314" y="24.0538" size="1.27" layer="21" font="vector" rot="R270">HackEEG Shield</text>
-<text x="42.4434" y="-17.78" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="44.9326" y="-17.8054" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="47.5488" y="-17.7546" size="0.6096" layer="21" rot="R180">GND</text>
-<text x="49.8856" y="-17.7038" size="0.6096" layer="21" rot="R180">8N</text>
-<text x="54.8386" y="-17.7038" size="0.6096" layer="21" rot="R180">7N</text>
-<text x="52.3748" y="-17.6784" size="0.6096" layer="21" rot="R180">8P</text>
-<text x="57.4802" y="-17.7292" size="0.6096" layer="21" rot="R180">7P</text>
-<text x="62.611" y="-17.7038" size="0.6096" layer="21" rot="R180">6P</text>
-<text x="65.1002" y="-17.7038" size="0.6096" layer="21" rot="R180">5N</text>
-<text x="67.6148" y="-17.7038" size="0.6096" layer="21" rot="R180">5P</text>
-<text x="70.1294" y="-17.7292" size="0.6096" layer="21" rot="R180">4N</text>
-<text x="72.7202" y="-17.7292" size="0.6096" layer="21" rot="R180">4P</text>
-<text x="75.311" y="-17.7292" size="0.6096" layer="21" rot="R180">3N</text>
-<text x="77.8002" y="-17.7038" size="0.6096" layer="21" rot="R180">3P</text>
-<text x="80.2894" y="-17.7292" size="0.6096" layer="21" rot="R180">2N</text>
-<text x="82.8548" y="-17.7292" size="0.6096" layer="21" rot="R180">2P</text>
-<text x="85.344" y="-17.7038" size="0.6096" layer="21" rot="R180">1N</text>
-<text x="88.0618" y="-17.7038" size="0.6096" layer="21" rot="R180">1P</text>
-<text x="90.9828" y="-17.7038" size="0.6096" layer="21" rot="R180">RRF</text>
-<text x="93.4974" y="-17.6784" size="0.6096" layer="21" rot="R180">RIN</text>
-<text x="96.0374" y="-17.653" size="0.6096" layer="21" rot="R180">GND</text>
 <text x="19.3548" y="16.5862" size="1.778" layer="16" font="vector" ratio="12" rot="MR90">C 2013
 Adam Feuer</text>
 <circle x="22.8346" y="17.3228" radius="1.3208" width="0.2032" layer="16"/>
-<text x="42.3418" y="-26.3906" size="0.6096" layer="21" font="vector">Released under
-a Creative Commons
-CC-BY-SA 3.0
-license</text>
 <text x="100.3554" y="25.2222" size="0.8128" layer="21" font="vector" rot="R90">v1.0</text>
 <wire x1="97.663" y1="53.467" x2="99.187" y2="51.943" width="0.254" layer="20"/>
 <wire x1="99.187" y1="40.513" x2="101.727" y2="37.973" width="0.254" layer="20"/>
@@ -177,7 +152,6 @@ license</text>
 <hole x="14.097" y="2.667" drill="3.2"/>
 <hole x="66.167" y="35.687" drill="3.2"/>
 <hole x="66.167" y="7.747" drill="3.2"/>
-<text x="60.2742" y="-17.8054" size="0.6096" layer="21" rot="R180">6N</text>
 <text x="70.0278" y="10.2108" size="0.8128" layer="21" rot="R90">Board Addr</text>
 <text x="68.961" y="14.5542" size="0.8128" layer="21" rot="R90">0</text>
 <text x="68.961" y="12.1158" size="0.8128" layer="21" rot="R90">1</text>
@@ -289,6 +263,8 @@ Attribution-ShareAlike 3.0 Unported
 <wire x1="50.9016" y1="11.8872" x2="54.5592" y2="11.8872" width="0.2032" layer="21"/>
 <circle x="52.1208" y="10.668" radius="0.43105" width="0.2032" layer="21"/>
 <wire x1="50.9016" y1="6.2992" x2="54.5592" y2="6.2992" width="0.2032" layer="21"/>
+<dimension x1="0.127" y1="1.0922" x2="101.6" y2="8.8392" x3="50.8635" y3="-13.5128" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="97.6122" y1="53.4162" x2="96.012" y2="0.1016" x3="117.348" y3="26.7589" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="TPS32xx">
@@ -4043,7 +4019,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="advanced-circuits-4-layer">
+<designrules name="advanced-circuits-4-layer *">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -4104,7 +4080,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="16mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
