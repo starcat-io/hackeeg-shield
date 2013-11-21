@@ -7359,7 +7359,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <plain>
 <text x="103.886" y="14.986" size="2.54" layer="91">Configuration jumpers</text>
 <text x="73.406" y="171.958" size="2.54" layer="91">ADS1299 Level Shifting</text>
-<text x="98.806" y="85.344" size="2.54" layer="91">Settings EEPROM with UID</text>
+<text x="88.9" y="86.106" size="2.54" layer="91">Settings I2C EEPROM with UID</text>
 <text x="38.354" y="44.958" size="1.27" layer="91">(2 no-connect
 positions for
 jumper storage)</text>
@@ -7453,8 +7453,10 @@ By-Attribution Share-Alike 3.0 license</text>
 <text x="192.278" y="122.174" size="2.54" layer="91">Fiducials (for pick and place machines)</text>
 <text x="353.314" y="174.244" size="1.524" layer="91">TX2</text>
 <text x="353.314" y="171.704" size="1.524" layer="91">RX2</text>
-<text x="192.024" y="172.72" size="2.54" layer="91">I2C Level Shifting</text>
+<text x="192.024" y="172.72" size="2.54" layer="91">I2C EEPROM Level Shifting</text>
 <text x="304.8" y="264.16" size="1.778" layer="91">Pins not labeled are not connected (NC)</text>
+<text x="268.224" y="35.306" size="2.54" layer="91">External sync
+connector</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -7561,7 +7563,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="SUPPLY51" gate="G$1" x="13.462" y="183.388" smashed="yes">
 <attribute name="VALUE" x="16.383" y="180.721" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J16" gate="G$1" x="275.336" y="33.02"/>
+<instance part="J16" gate="G$1" x="282.956" y="58.928"/>
 <instance part="JP2" gate="A" x="198.12" y="40.894"/>
 <instance part="R2" gate="G$1" x="25.908" y="226.822" smashed="yes">
 <attribute name="NAME" x="24.384" y="228.5746" size="1.778" layer="95"/>
@@ -7906,8 +7908,8 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="215.9" y1="205.74" x2="215.9" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="272.796" y1="35.56" x2="254.254" y2="35.56" width="0.1524" layer="91"/>
-<label x="264.16" y="35.814" size="1.27" layer="95"/>
+<wire x1="280.416" y1="61.468" x2="261.874" y2="61.468" width="0.1524" layer="91"/>
+<label x="271.78" y="61.722" size="1.27" layer="95"/>
 <pinref part="J16" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8056,8 +8058,8 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="JP2" gate="A" pin="7"/>
 </segment>
 <segment>
-<wire x1="272.796" y1="33.02" x2="254.254" y2="33.02" width="0.1524" layer="91"/>
-<label x="255.524" y="33.528" size="1.27" layer="95"/>
+<wire x1="280.416" y1="58.928" x2="261.874" y2="58.928" width="0.1524" layer="91"/>
+<label x="263.144" y="59.436" size="1.27" layer="95"/>
 <pinref part="J16" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -8153,8 +8155,8 @@ By-Attribution Share-Alike 3.0 license</text>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="3"/>
-<wire x1="272.796" y1="30.48" x2="254" y2="30.48" width="0.1524" layer="91"/>
-<label x="257.556" y="30.734" size="1.27" layer="95"/>
+<wire x1="280.416" y1="56.388" x2="261.62" y2="56.388" width="0.1524" layer="91"/>
+<label x="265.176" y="56.642" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
