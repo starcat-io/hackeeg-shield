@@ -5393,6 +5393,8 @@ I2C</description>
 <part name="SUPPLY53" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY54" library="supply2" deviceset="AGND" device=""/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="TP3" library="adafruit" deviceset="PINHD-1X1" device="" value="AGND_TEST_POINT"/>
+<part name="SUPPLY55" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5565,6 +5567,8 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="D1" gate="G$1" x="272.034" y="43.18" rot="R90"/>
 <instance part="TP1" gate="G$1" x="184.912" y="113.792"/>
 <instance part="TP2" gate="G$1" x="184.15" y="33.782"/>
+<instance part="TP3" gate="G$1" x="212.852" y="73.152"/>
+<instance part="SUPPLY55" gate="G$1" x="194.818" y="62.992"/>
 </instances>
 <busses>
 </busses>
@@ -6048,6 +6052,12 @@ By-Attribution Share-Alike 3.0 license</text>
 <pinref part="SUPPLY48" gate="G$1" pin="AGND"/>
 <wire x1="277.114" y1="43.18" x2="283.972" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="283.972" y1="43.18" x2="283.972" y2="39.37" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="210.312" y1="73.152" x2="194.818" y2="73.152" width="0.1524" layer="91"/>
+<wire x1="194.818" y1="73.152" x2="194.818" y2="65.532" width="0.1524" layer="91"/>
+<pinref part="SUPPLY55" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="!PWDN" class="0">
