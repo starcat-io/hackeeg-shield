@@ -5371,7 +5371,6 @@ I2C</description>
 <part name="JP14" library="SmartPrj" deviceset="PINHD-1X8" device="" value="POWER"/>
 <part name="SPI" library="SmartPrj" deviceset="PINHD-2X3" device="" value="SPI"/>
 <part name="TP1" library="adafruit" deviceset="PINHD-1X1" device="" value="AVDD_TEST_POINT"/>
-<part name="TP2" library="adafruit" deviceset="PINHD-1X1" device="" value="AVSS_TEST_POINT"/>
 <part name="U$5" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
@@ -5395,6 +5394,7 @@ I2C</description>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="TP3" library="adafruit" deviceset="PINHD-1X1" device="" value="AGND_TEST_POINT"/>
 <part name="SUPPLY55" library="supply2" deviceset="AGND" device=""/>
+<part name="TP2" library="adafruit" deviceset="PINHD-1X1" device="" value="AVSS_TEST_POINT"/>
 </parts>
 <sheets>
 <sheet>
@@ -5566,9 +5566,9 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="SUPPLY48" gate="G$1" x="283.972" y="36.83"/>
 <instance part="D1" gate="G$1" x="272.034" y="43.18" rot="R90"/>
 <instance part="TP1" gate="G$1" x="184.912" y="113.792"/>
-<instance part="TP2" gate="G$1" x="184.15" y="33.782"/>
 <instance part="TP3" gate="G$1" x="212.852" y="73.152"/>
 <instance part="SUPPLY55" gate="G$1" x="194.818" y="62.992"/>
+<instance part="TP2" gate="G$1" x="188.214" y="33.782"/>
 </instances>
 <busses>
 </busses>
@@ -6392,9 +6392,9 @@ By-Attribution Share-Alike 3.0 license</text>
 <junction x="176.53" y="42.164"/>
 <pinref part="JP4" gate="A" pin="2"/>
 <wire x1="162.306" y1="42.164" x2="176.53" y2="42.164" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="181.61" y1="33.782" x2="176.53" y2="33.782" width="0.1524" layer="91"/>
+<wire x1="185.674" y1="33.782" x2="176.53" y2="33.782" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="33.782" x2="176.53" y2="42.164" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
