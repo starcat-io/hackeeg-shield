@@ -1,10 +1,12 @@
 #!/bin/bash
 
 DATE=`date +'%Y-%m-%d-%H%M'`
-BOARD="ADS1298-breakout"
+BOARD="ADS1299-shield"
 DIR="$BOARD-cam-files"
 mkdir -p $DIR 
 cp $BOARD.toplayer.ger $DIR
+cp $BOARD.agnd-layer2.ger $DIR
+cp $BOARD.dvdd-layer3.ger $DIR
 cp $BOARD.bottomlayer.ger $DIR
 cp $BOARD.topsoldermask.ger $DIR
 cp $BOARD.bottomsoldermask.ger $DIR
