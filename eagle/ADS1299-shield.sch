@@ -2370,6 +2370,27 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="LED-WHITE" prefix="D" uservalue="yes">
+<description>White SMD LEDs&lt;br&gt;
+LilyPad 1206- DIO-09955</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09955" constant="no"/>
+<attribute name="VALUE" value="WHITE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="LED-RED" prefix="D" uservalue="yes">
 <description>Assorted Red LEDs&lt;br&gt;
 LilyPad 1206- DIO-09912&lt;br&gt;
@@ -5218,7 +5239,7 @@ I2C</description>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="100uF"/>
+<part name="C17" library="SparkFun-Passives" deviceset="CAP" device="1210" value="100uF"/>
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -5248,7 +5269,7 @@ I2C</description>
 <part name="SUPPLY1" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="AGND" device=""/>
-<part name="IC6" library="TPS604xx" deviceset="TPS604XX" device="DBV"/>
+<part name="IC6" library="TPS604xx" deviceset="TPS604XX" device="DBV" value="TPS60403DBVT"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="L4" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="3.3 uH"/>
 <part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uf"/>
@@ -5268,7 +5289,6 @@ I2C</description>
 <part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY19" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="AGND" device=""/>
-<part name="VCC_5V1" library="SparkFun-Aesthetics" deviceset="GND" device="" value="VCC_5V"/>
 <part name="SUPPLY25" library="supply2" deviceset="AGND" device=""/>
 <part name="C33" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C34" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
@@ -5326,7 +5346,7 @@ I2C</description>
 <part name="FRAME4" library="frames" deviceset="FRAME_B_L" device="" value="1.0"/>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="270"/>
 <part name="SUPPLY40" library="supply2" deviceset="AGND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-WHITE" device="" value="WHITE"/>
 <part name="IC5" library="microchip" deviceset="24*" device="SN" technology="LC256" value="24AA256UID"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
@@ -5546,9 +5566,6 @@ By-Attribution Share-Alike 3.0 license</text>
 <instance part="C32" gate="G$1" x="104.394" y="71.882"/>
 <instance part="SUPPLY19" gate="G$1" x="104.394" y="17.272"/>
 <instance part="SUPPLY23" gate="G$1" x="104.394" y="65.532"/>
-<instance part="VCC_5V1" gate="1" x="63.754" y="53.086" smashed="yes" rot="R180">
-<attribute name="VALUE" x="66.294" y="55.626" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="SUPPLY25" gate="G$1" x="156.21" y="28.448"/>
 <instance part="C33" gate="G$1" x="176.53" y="70.358"/>
 <instance part="R18" gate="G$1" x="357.632" y="177.8" smashed="yes">
@@ -6115,9 +6132,9 @@ By-Attribution Share-Alike 3.0 license</text>
 <wire x1="72.898" y1="44.704" x2="63.754" y2="44.704" width="0.1524" layer="91"/>
 <wire x1="63.754" y1="44.704" x2="63.754" y2="36.322" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="1"/>
-<pinref part="VCC_5V1" gate="1" pin="GND"/>
-<wire x1="63.754" y1="50.546" x2="63.754" y2="44.704" width="0.1524" layer="91"/>
+<wire x1="63.754" y1="53.848" x2="63.754" y2="44.704" width="0.1524" layer="91"/>
 <junction x="63.754" y="44.704"/>
+<label x="58.42" y="54.61" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8960,14 +8977,12 @@ connector</text>
 <approved hash="102,1,276.098,236.982,3.3V,AVDD,,,,"/>
 <approved hash="102,1,344.678,215.392,3.3V,DVDD,,,,"/>
 <approved hash="102,1,236.22,109.22,GND,AVSS,,,,"/>
-<approved hash="102,1,63.754,50.546,GND,VCC_-5V,,,,"/>
 <approved hash="201,1,344.678,215.392,3.3V,AVDD\, DVDD,,,,"/>
 <approved hash="201,1,276.098,236.982,3.3V,AVDD\, DVDD,,,,"/>
-<approved hash="201,1,63.754,50.546,GND,AVSS\, VCC_5V\, VCC_-5V,,,,"/>
-<approved hash="201,1,236.22,109.22,GND,AVSS\, VCC_5V\, VCC_-5V,,,,"/>
-<approved hash="201,1,45.212,147.574,GND,AVSS\, VCC_5V\, VCC_-5V,,,,"/>
-<approved hash="201,1,118.618,232.41,GND,AVSS\, VCC_5V\, VCC_-5V,,,,"/>
-<approved hash="201,1,85.09,232.156,GND,AVSS\, VCC_5V\, VCC_-5V,,,,"/>
+<approved hash="201,1,236.22,109.22,GND,AVSS\, VCC_5V,,,,"/>
+<approved hash="201,1,45.212,147.574,GND,AVSS\, VCC_5V,,,,"/>
+<approved hash="201,1,118.618,232.41,GND,AVSS\, VCC_5V,,,,"/>
+<approved hash="201,1,85.09,232.156,GND,AVSS\, VCC_5V,,,,"/>
 <approved hash="202,1,273.558,144.272,IC1,BIASREF,,,,"/>
 <approved hash="104,1,250.698,151.892,IC1,AVSS1,AVSS,,,"/>
 <approved hash="104,1,326.898,156.972,IC1,DGND,AGND,,,"/>
@@ -9033,6 +9048,9 @@ connector</text>
 <approved hash="106,3,317.246,124.968,N$111,,,,,"/>
 <approved hash="106,3,302.26,199.39,N$501,,,,,"/>
 <approved hash="106,3,302.26,201.93,N$510,,,,,"/>
+<approved hash="106,3,302.26,240.03,N$570,,,,,"/>
+<approved hash="106,3,355.346,124.968,N$571,,,,,"/>
+<approved hash="106,3,355.346,117.348,N$572,,,,,"/>
 <approved hash="106,3,332.74,210.82,RESET,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 </errors>
