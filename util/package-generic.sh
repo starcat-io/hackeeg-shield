@@ -3,6 +3,7 @@
 DATE=`date +'%Y-%m-%d-%H%M'`
 BOARD="ADS1299-shield"
 DIR="$BOARD-cam-files"
+rm -rf $DIR
 mkdir -p $DIR 
 cp $BOARD.toplayer.ger $DIR
 cp $BOARD.agnd-layer2.ger $DIR
