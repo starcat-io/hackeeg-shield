@@ -5973,7 +5973,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="246.634" y="218.186" size="1.778" layer="91">NC</text>
 <text x="246.634" y="215.392" size="1.778" layer="91">NC</text>
 <text x="329.184" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
-By-Attribution Share-Alike 3.0 license</text>
+By-Attribution Share-Alike 4.0 license</text>
 <text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2013 Adam Feuer</text>
 <text x="416.306" y="7.112" size="2.1844" layer="95">v1.0</text>
 <text x="246.634" y="212.344" size="1.778" layer="91">NC</text>
@@ -7098,7 +7098,7 @@ By-Attribution Share-Alike 3.0 license</text>
 <text x="284.734" y="62.484" size="2.54" layer="91">Stimulus-Response Buffer (SRB)</text>
 <text x="293.116" y="179.324" size="2.54" layer="91">Bias</text>
 <text x="320.802" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
-By-Attribution Share-Alike 3.0 license</text>
+By-Attribution Share-Alike 4.0 license</text>
 <text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2013 Adam Feuer</text>
 </plain>
 <instances>
@@ -8034,7 +8034,7 @@ By-Attribution Share-Alike 3.0 license</text>
 positions for
 jumper storage)</text>
 <text x="326.136" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
-By-Attribution Share-Alike 3.0 license</text>
+By-Attribution Share-Alike 4.0 license</text>
 <text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2013 Adam Feuer</text>
 <text x="315.468" y="84.582" size="2.54" layer="91">Shield Connectors</text>
 <text x="356.616" y="254" size="1.524" layer="91">SCL1</text>
@@ -8583,9 +8583,9 @@ connector</text>
 <wire x1="215.9" y1="205.74" x2="215.9" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="277.876" y1="56.388" x2="261.874" y2="56.388" width="0.1524" layer="91"/>
-<label x="271.78" y="61.722" size="1.27" layer="95"/>
-<pinref part="J16" gate="G$1" pin="1"/>
+<wire x1="277.876" y1="58.928" x2="261.874" y2="58.928" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="2"/>
+<label x="269.494" y="59.182" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_OUT" class="0">
@@ -8733,14 +8733,14 @@ connector</text>
 <pinref part="JP2" gate="A" pin="7"/>
 </segment>
 <segment>
-<wire x1="277.876" y1="58.928" x2="261.874" y2="58.928" width="0.1524" layer="91"/>
-<label x="263.144" y="59.436" size="1.27" layer="95"/>
-<pinref part="J16" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="B4"/>
 <wire x1="64.77" y1="211.582" x2="78.486" y2="211.582" width="0.1524" layer="91"/>
 <label x="67.564" y="211.836" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="277.876" y1="56.388" x2="261.874" y2="56.388" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="1"/>
+<label x="258.572" y="56.642" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IOREF" class="0">
@@ -8831,7 +8831,7 @@ connector</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="3"/>
 <wire x1="277.876" y1="61.468" x2="261.874" y2="61.468" width="0.1524" layer="91"/>
-<label x="265.176" y="56.642" size="1.27" layer="95"/>
+<label x="261.62" y="61.976" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
