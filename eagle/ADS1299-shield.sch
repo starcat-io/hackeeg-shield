@@ -5975,7 +5975,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="329.184" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
 <text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2013 Adam Feuer</text>
-<text x="416.306" y="7.112" size="2.1844" layer="95">v1.0</text>
+<text x="416.306" y="7.112" size="2.1844" layer="95">v1.1</text>
 <text x="246.634" y="212.344" size="1.778" layer="91">NC</text>
 <text x="327.406" y="161.798" size="1.27" layer="91">NC</text>
 <text x="78.232" y="176.022" size="2.54" layer="91">ADC Decoupling</text>
