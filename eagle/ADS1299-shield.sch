@@ -9080,28 +9080,16 @@ connector</text>
 <label x="339.852" y="98.044" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SCL1" class="0">
-<segment>
-<pinref part="JP8" gate="A" pin="1"/>
-<wire x1="366.522" y1="254.508" x2="385.064" y2="254.508" width="0.1524" layer="91"/>
-<label x="373.126" y="255.016" size="1.27" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC9" gate="G$1" pin="B2"/>
-<wire x1="231.14" y1="215.9" x2="244.348" y2="215.9" width="0.1524" layer="91"/>
-<label x="238.252" y="216.154" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDA1" class="0">
-<segment>
-<pinref part="JP8" gate="A" pin="2"/>
-<wire x1="366.522" y1="251.968" x2="385.064" y2="251.968" width="0.1524" layer="91"/>
-<label x="373.126" y="252.222" size="1.27" layer="95"/>
-</segment>
+<net name="ARD_SDA" class="0">
 <segment>
 <pinref part="IC9" gate="G$1" pin="B1"/>
 <wire x1="231.14" y1="218.44" x2="244.348" y2="218.44" width="0.1524" layer="91"/>
 <label x="237.998" y="218.694" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="A" pin="7"/>
+<wire x1="365.76" y1="165.1" x2="385.064" y2="165.1" width="0.1524" layer="91"/>
+<label x="372.364" y="165.354" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -9144,12 +9132,6 @@ connector</text>
 <segment>
 <pinref part="JP14" gate="A" pin="1"/>
 <wire x1="302.26" y1="250.19" x2="279.146" y2="250.19" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="JP10" gate="A" pin="7"/>
-<wire x1="365.76" y1="165.1" x2="385.064" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -9252,12 +9234,6 @@ connector</text>
 <segment>
 <pinref part="JP10" gate="A" pin="6"/>
 <wire x1="365.76" y1="167.64" x2="385.064" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="JP10" gate="A" pin="8"/>
-<wire x1="365.76" y1="162.56" x2="385.064" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -9619,6 +9595,30 @@ connector</text>
 <wire x1="355.346" y1="117.348" x2="355.346" y2="105.156" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="ARD_SCL" class="0">
+<segment>
+<pinref part="IC9" gate="G$1" pin="B2"/>
+<wire x1="231.14" y1="215.9" x2="244.348" y2="215.9" width="0.1524" layer="91"/>
+<label x="238.252" y="216.154" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="A" pin="8"/>
+<wire x1="365.76" y1="162.56" x2="385.064" y2="162.56" width="0.1524" layer="91"/>
+<label x="372.364" y="163.068" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="N$6001" class="0">
+<segment>
+<pinref part="JP8" gate="A" pin="2"/>
+<wire x1="366.522" y1="251.968" x2="385.064" y2="251.968" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6002" class="0">
+<segment>
+<pinref part="JP8" gate="A" pin="1"/>
+<wire x1="366.522" y1="254.508" x2="385.064" y2="254.508" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -9644,7 +9644,6 @@ connector</text>
 <approved hash="106,3,366.522,234.188,N$6,,,,,"/>
 <approved hash="106,3,302.006,180.086,N$20,,,,,"/>
 <approved hash="106,3,302.26,250.19,N$21,,,,,"/>
-<approved hash="106,3,365.76,165.1,N$23,,,,,"/>
 <approved hash="106,3,365.76,200.66,N$24,,,,,"/>
 <approved hash="106,3,366.522,249.428,N$27,,,,,"/>
 <approved hash="106,3,366.522,246.888,N$28,,,,,"/>
@@ -9662,7 +9661,6 @@ connector</text>
 <approved hash="106,3,365.76,177.8,N$42,,,,,"/>
 <approved hash="106,3,365.76,170.18,N$45,,,,,"/>
 <approved hash="106,3,365.76,167.64,N$46,,,,,"/>
-<approved hash="106,3,365.76,162.56,N$47,,,,,"/>
 <approved hash="106,3,302.006,162.306,N$48,,,,,"/>
 <approved hash="106,3,302.006,164.846,N$49,,,,,"/>
 <approved hash="106,3,302.006,167.386,N$50,,,,,"/>
@@ -9701,6 +9699,8 @@ connector</text>
 <approved hash="106,3,302.26,240.03,N$570,,,,,"/>
 <approved hash="106,3,355.346,124.968,N$571,,,,,"/>
 <approved hash="106,3,355.346,117.348,N$572,,,,,"/>
+<approved hash="106,3,366.522,251.968,N$6001,,,,,"/>
+<approved hash="106,3,366.522,254.508,N$6002,,,,,"/>
 <approved hash="106,3,332.74,210.82,RESET,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 </errors>
