@@ -5752,6 +5752,69 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
+<library name="TPS723xx">
+<packages>
+<package name="SOT23-5">
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS32XX">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="IN" x="-10.16" y="-5.08" length="short"/>
+<pin name="GND" x="-10.16" y="5.08" length="short"/>
+<pin name="EN" x="-10.16" y="0" length="short"/>
+<pin name="OUT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="NR/FB" x="12.7" y="-5.08" length="short" rot="R180"/>
+<text x="-7.366" y="8.382" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.366" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS732XX">
+<description>Cap-Free, NMOS, 250mA Low Dropout Regulator
+with Reverse Current Protection</description>
+<gates>
+<gate name="G$1" symbol="TPS32XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="NR/FB" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5763,7 +5826,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="IC2" library="TPS32xx" deviceset="TPS732XX" device="DBV" value="TPS72325DBVT"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="3.3 uH"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10 uF"/>
@@ -5966,6 +6028,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.98K"/>
 <part name="SUPPLY16" library="supply2" deviceset="AGND" device=""/>
 <part name="C68" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="U$8" library="TPS723xx" deviceset="TPS732XX" device="DBV" value="TPS73225DBVT"/>
 </parts>
 <sheets>
 <sheet>
@@ -5988,10 +6051,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="325.12" y="0"/>
-<instance part="IC2" gate="G$1" x="89.408" y="39.624" smashed="yes">
-<attribute name="NAME" x="82.042" y="48.006" size="2.032" layer="95"/>
-<attribute name="VALUE" x="82.042" y="29.972" size="1.27" layer="96"/>
-</instance>
 <instance part="L1" gate="G$1" x="128.27" y="44.704" smashed="yes" rot="R90">
 <attribute name="NAME" x="130.048" y="48.514" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="132.334" y="42.926" size="1.778" layer="96" rot="R180"/>
@@ -6045,7 +6104,7 @@ By-Attribution Share-Alike 4.0 license</text>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="139.7" y="21.844"/>
 <instance part="SUPPLY3" gate="G$1" x="115.824" y="23.114"/>
-<instance part="SUPPLY4" gate="G$1" x="77.978" y="23.368"/>
+<instance part="SUPPLY4" gate="G$1" x="75.438" y="15.748"/>
 <instance part="SUPPLY5" gate="G$1" x="77.978" y="70.104"/>
 <instance part="SUPPLY6" gate="G$1" x="116.332" y="68.58"/>
 <instance part="SUPPLY7" gate="G$1" x="140.208" y="73.406"/>
@@ -6164,13 +6223,13 @@ By-Attribution Share-Alike 4.0 license</text>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="63.754" y="73.406"/>
 <instance part="C68" gate="G$1" x="63.754" y="80.772"/>
+<instance part="U$8" gate="G$1" x="89.408" y="39.624"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="102.108" y1="44.704" x2="111.76" y2="44.704" width="0.1524" layer="91"/>
@@ -6181,6 +6240,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="119.634" y1="39.116" x2="119.634" y2="44.704" width="0.1524" layer="91"/>
 <junction x="119.634" y="44.704"/>
+<pinref part="U$8" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="AVDD" class="0">
@@ -6495,10 +6555,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="334.518" y="159.512"/>
 </segment>
 <segment>
-<wire x1="79.248" y1="34.544" x2="77.978" y2="34.544" width="0.1524" layer="91"/>
-<wire x1="77.978" y1="34.544" x2="77.978" y2="25.908" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY4" gate="G$1" pin="AGND"/>
+<pinref part="U$8" gate="G$1" pin="GND"/>
+<wire x1="79.248" y1="44.704" x2="75.438" y2="44.704" width="0.1524" layer="91"/>
+<wire x1="75.438" y1="44.704" x2="75.438" y2="18.288" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -6706,18 +6766,18 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="161.544" y="141.986"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="EN"/>
-<wire x1="72.898" y1="39.624" x2="79.248" y2="39.624" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
-<wire x1="79.248" y1="44.704" x2="72.898" y2="44.704" width="0.1524" layer="91"/>
-<wire x1="72.898" y1="44.704" x2="72.898" y2="39.624" width="0.1524" layer="91"/>
-<junction x="72.898" y="44.704"/>
-<wire x1="72.898" y1="44.704" x2="63.754" y2="44.704" width="0.1524" layer="91"/>
-<wire x1="63.754" y1="44.704" x2="63.754" y2="36.322" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="63.754" y1="53.848" x2="63.754" y2="44.704" width="0.1524" layer="91"/>
-<junction x="63.754" y="44.704"/>
+<wire x1="63.754" y1="53.848" x2="63.754" y2="39.624" width="0.1524" layer="91"/>
 <label x="58.42" y="54.61" size="1.778" layer="95"/>
+<wire x1="63.754" y1="39.624" x2="63.754" y2="36.322" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="39.624" x2="71.12" y2="34.544" width="0.1524" layer="91"/>
+<junction x="71.12" y="39.624"/>
+<wire x1="71.12" y1="39.624" x2="63.754" y2="39.624" width="0.1524" layer="91"/>
+<junction x="63.754" y="39.624"/>
+<pinref part="U$8" gate="G$1" pin="EN"/>
+<wire x1="71.12" y1="39.624" x2="79.248" y2="39.624" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="IN"/>
+<wire x1="79.248" y1="34.544" x2="71.12" y2="34.544" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6856,10 +6916,10 @@ By-Attribution Share-Alike 4.0 license</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="NR/FB"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="102.108" y1="34.544" x2="104.394" y2="34.544" width="0.1524" layer="91"/>
 <wire x1="104.394" y1="34.544" x2="104.394" y2="28.702" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="NR/FB"/>
 </segment>
 </net>
 <net name="-2.5V" class="0">
