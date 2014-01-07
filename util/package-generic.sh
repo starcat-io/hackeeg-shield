@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=`date +'%Y-%m-%d-%H%M'`
-BOARD="ADS1299-shield"
+BOARD="hackeeg-shield"
 DIR="$BOARD-cam-files"
 rm -rf $DIR
 mkdir -p $DIR 
