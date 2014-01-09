@@ -134,7 +134,7 @@
 Adam Feuer
 StarCat LLC</text>
 <circle x="20.8788" y="16.5608" radius="1.3208" width="0.2032" layer="16"/>
-<text x="100.8126" y="25.1968" size="0.8128" layer="21" font="vector" rot="R90">v1.2</text>
+<text x="100.8126" y="25.1968" size="0.8128" layer="21" font="vector" rot="R90">v1.1.1</text>
 <wire x1="97.663" y1="53.467" x2="99.187" y2="51.943" width="0.254" layer="20"/>
 <wire x1="99.187" y1="40.513" x2="101.727" y2="37.973" width="0.254" layer="20"/>
 <wire x1="101.727" y1="37.973" x2="101.727" y2="5.207" width="0.254" layer="20"/>
