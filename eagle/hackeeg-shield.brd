@@ -36,19 +36,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="13" fill="1" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="5" fill="1" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -10446,7 +10446,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="10.1346" y="3.4544" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C50" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="30.988" y="40.4622" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.2138" y="41.9354" size="0.762" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="34.671" y="40.894" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="32.004" y="41.6052" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C51" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="29.2354" y="46.1772" smashed="yes">
@@ -10494,11 +10494,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="37.5158" y="45.2882" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R25" library="SparkFun-Passives" package="0603-RES" value="4.99k" x="12.319" y="40.9448" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.081" y="42.164" size="0.762" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="13.3858" y="42.4434" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="13.335" y="42.0878" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C62" library="SparkFun-Passives" package="0603-CAP" value="4.7nF" x="15.8242" y="41.8084" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.0942" y="41.148" size="0.762" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="17.3482" y="40.8686" size="0.762" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="16.9672" y="40.7924" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R1" library="SparkFun-Passives" package="0603-RES" value="270" x="24.5364" y="7.5184" smashed="yes" rot="R180">
@@ -10511,7 +10511,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="22.1488" y="4.5974" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="IC8" library="OPA376" package="SOT23-5" value="OPA376DBV" x="30.9626" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.2514" y="44.831" size="0.762" layer="25" font="vector"/>
+<attribute name="NAME" x="30.226" y="44.7548" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="30.7721" y="44.1325" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="IC7" library="OPA376" package="SOT23-5" value="OPA376DBV" x="42.1386" y="44.7294" smashed="yes" rot="R180">
@@ -10559,7 +10559,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.9672" y="11.3792" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R35" library="SparkFun-Passives" package="0603-RES" value="4.99k" x="15.9258" y="8.2042" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.9672" y="9.5504" size="0.762" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="16.9672" y="9.5758" size="0.762" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="16.9418" y="9.3472" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R34" library="SparkFun-Passives" package="0603-RES" value="4.99k" x="15.9512" y="6.1214" smashed="yes" rot="R180">
@@ -10611,13 +10611,13 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="42.4434" y="35.3822" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="21.2852" y="22.6822"/>
-<element name="U$3" library="creative-commons" package="CC-BY-SA" value="" x="46.0248" y="19.2786" rot="MR0"/>
+<element name="U$3" library="creative-commons" package="CC-BY-SA" value="" x="46.8884" y="18.9484" rot="MR0"/>
 <element name="U$4" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="39.6494" y="30.226" rot="MR0"/>
 <element name="TP2" library="adafruit" package="1X01" value="AVSS_TEST_POINT" x="33.9598" y="45.593" smashed="yes">
 <attribute name="NAME" x="30.8356" y="46.736" size="0.762" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="32.6898" y="42.418" size="1.27" layer="27"/>
 </element>
-<element name="U$7" library="endless-knot" package="ENDLESSKNOT-MEDIUM" value="" x="75.184" y="40.9448" rot="MR0"/>
+<element name="U$7" library="endless-knot" package="ENDLESSKNOT-MEDIUM" value="" x="74.0156" y="40.4622" rot="MR0"/>
 <element name="C25" library="SparkFun-Passives" package="1210" value="100uF" x="58.9026" y="35.5346" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.9792" y="34.9838" size="0.762" layer="25" rot="R180"/>
 <attribute name="VALUE" x="59.8026" y="36.2346" size="0.4064" layer="27" rot="R180"/>
@@ -10635,7 +10635,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="56.515" y="39.8272" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C66" library="SparkFun-Passives" package="0603-CAP" value="0.01uF" x="30.988" y="38.3794" smashed="yes">
-<attribute name="NAME" x="30.3276" y="39.0652" size="0.762" layer="25" font="vector"/>
+<attribute name="NAME" x="27.4574" y="37.9984" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.972" y="37.2364" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R6" library="SparkFun-Passives" package="0603-RES" value="3.98K" x="34.036" y="36.703" smashed="yes">
@@ -13206,36 +13206,6 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="3,1,343cca3cb63eb7c3"/>
-<approved hash="3,16,906fd67fecfbaaeb"/>
-<approved hash="3,1,e7abe7abe5a9e5a8"/>
-<approved hash="3,1,e9f8ebfaebfae9f8"/>
-<approved hash="3,1,60996399619be19b"/>
-<approved hash="3,1,8a7c887e887e8a7c"/>
-<approved hash="3,1,9cec9cec9eee996f"/>
-<approved hash="3,1,bcb8bebabebabcb8"/>
-<approved hash="3,1,fb98fb98f99a799a"/>
-<approved hash="6,1,3272347238723e72"/>
-<approved hash="3,1,5fc865fa65ea5fd8"/>
-<approved hash="3,1,05e229225f301c00"/>
-<approved hash="3,1,38e639ec0d6c71ee"/>
-<approved hash="3,1,006983e31f438eee"/>
-<approved hash="3,1,87c8a222220e32cd"/>
-<approved hash="3,1,04071585d9bf1404"/>
-<approved hash="3,1,6685638558035c83"/>
-<approved hash="3,1,08381a1c34000808"/>
-<approved hash="3,1,fa2fe81e18100e2d"/>
-<approved hash="3,1,983e1a0c1a09983b"/>
-<approved hash="3,1,6c835c1d21832d8c"/>
-<approved hash="3,16,05841d9e8a020980"/>
-<approved hash="3,1,f878020006600067"/>
-<approved hash="3,16,070d9b1a0c060c05"/>
-<approved hash="3,1,e5cbe7c9e7c9e5cb"/>
-<approved hash="3,1,7af686f4f90af809"/>
-<approved hash="3,1,f1fdf1fdf3fff3ff"/>
-<approved hash="6,1,b2ff4cf341f2bffe"/>
-<approved hash="6,1,49554c8f7c8f7955"/>
-<approved hash="6,1,3f2c3d203120332c"/>
 <approved hash="3,1,18423e703f8a19b8"/>
 <approved hash="3,1,c322259e390c0625"/>
 <approved hash="3,1,601fe000020ce609"/>
