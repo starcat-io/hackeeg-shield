@@ -350,10 +350,10 @@ UsedLibrary="/Users/adam/src/eagle-libraries/SparkFun-Eagle-Libraries/SparkFun-C
 
 [Win_1]
 Type="Control Panel"
-Loc="640 458 1239 857"
+Loc="640 -260 1239 139"
 State=2
 Number=0
 
 [Desktop]
-Screen="4000 1600"
+Screen="1440 900"
 Window="Win_1"
