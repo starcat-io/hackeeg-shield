@@ -8303,6 +8303,10 @@ connector</text>
 <text x="357.632" y="235.458" size="1.524" layer="91">D10</text>
 <text x="358.902" y="233.172" size="1.524" layer="91">D9</text>
 <text x="359.156" y="230.886" size="1.524" layer="91">D8</text>
+<text x="253.492" y="258.318" size="1.778" layer="91">Connect SJ1 to use
+"Not Used" pin as BIASINV 
+when connecting multiple 
+boards.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -8453,8 +8457,7 @@ connector</text>
 <attribute name="VALUE" x="190.246" y="220.218" size="1.778" layer="96"/>
 </instance>
 <instance part="SJ1" gate="1" x="272.542" y="250.19" smashed="yes">
-<attribute name="NAME" x="270.764" y="256.794" size="1.778" layer="95"/>
-<attribute name="VALUE" x="262.636" y="254.254" size="1.778" layer="96"/>
+<attribute name="NAME" x="270.764" y="253.492" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
