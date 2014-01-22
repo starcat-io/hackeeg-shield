@@ -7272,7 +7272,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <net name="IN1P" class="0">
 <segment>
 <wire x1="114.808" y1="269.24" x2="107.442" y2="269.24" width="0.1524" layer="91"/>
-<label x="115.062" y="254.508" size="1.778" layer="95"/>
+<label x="108.204" y="269.748" size="1.778" layer="95"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 <segment>
