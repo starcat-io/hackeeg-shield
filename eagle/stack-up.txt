@@ -1,0 +1,8 @@
+Layer stack up for HackEEG board:
+
+1. Top - signal
+2. GND - ground
+3. DVDD - digital power (3.3v)
+4. Bottom - signal
+
+

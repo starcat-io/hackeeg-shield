@@ -5,6 +5,7 @@ BOARD="hackeeg-shield"
 DIR="$BOARD-cam-files"
 rm -rf $DIR
 mkdir -p $DIR 
+cp ../stack-up.txt $DIR
 cp $BOARD.toplayer.ger $DIR/$BOARD.GTL
 cp $BOARD.agnd-layer2.ger $DIR/$BOARD.GND
 cp $BOARD.dvdd-layer3.ger $DIR/$BOARD.PWR
