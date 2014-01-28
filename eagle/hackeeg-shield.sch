@@ -5627,7 +5627,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY13" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="3.3V" device="" value="AVDD"/>
-<part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="3.3V" device="" value="DVDD"/>
 <part name="AVSS3" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
 <part name="C31" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -5904,9 +5903,6 @@ By-Attribution Share-Alike 4.0 license</text>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="218.186" y="107.696"/>
 <instance part="SUPPLY22" gate="G$1" x="276.098" y="236.982"/>
-<instance part="SUPPLY24" gate="G$1" x="344.678" y="215.392" smashed="yes" rot="R270">
-<attribute name="VALUE" x="330.454" y="215.9" size="1.778" layer="96"/>
-</instance>
 <instance part="AVSS3" gate="1" x="236.22" y="106.68" smashed="yes">
 <attribute name="VALUE" x="233.68" y="104.14" size="1.778" layer="96"/>
 </instance>
@@ -6109,7 +6105,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="328.168" y="215.392"/>
 <pinref part="IC1" gate="G$1" pin="DVDD@1"/>
 <pinref part="IC1" gate="G$1" pin="DVDD@2"/>
-<pinref part="SUPPLY24" gate="G$1" pin="3.3V"/>
+<label x="338.074" y="216.154" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="247.904" y1="43.18" x2="258.572" y2="43.18" width="0.1524" layer="91"/>
@@ -9412,14 +9408,11 @@ By-Attribution Share-Alike 4.0 license</text>
 <approved hash="102,1,49.276,236.22,GND,AVSS,,,,"/>
 <approved hash="102,1,82.804,236.474,GND,AVSS,,,,"/>
 <approved hash="102,1,276.098,236.982,3.3V,AVDD,,,,"/>
-<approved hash="102,1,344.678,215.392,3.3V,DVDD,,,,"/>
 <approved hash="102,1,236.22,109.22,GND,AVSS,,,,"/>
 <approved hash="102,1,260.35,86.36,GND,AVSS,,,,"/>
 <approved hash="102,1,276.86,86.36,GND,AVSS,,,,"/>
 <approved hash="102,1,294.132,86.36,GND,AVSS,,,,"/>
 <approved hash="102,1,312.928,86.614,GND,AVSS,,,,"/>
-<approved hash="201,1,344.678,215.392,3.3V,AVDD\, DVDD,,,,"/>
-<approved hash="201,1,276.098,236.982,3.3V,AVDD\, DVDD,,,,"/>
 <approved hash="202,1,273.558,144.272,IC1,BIASREF,,,,"/>
 <approved hash="104,1,250.698,151.892,IC1,AVSS1,AVSS,,,"/>
 <approved hash="104,1,326.898,156.972,IC1,DGND,AGND,,,"/>
