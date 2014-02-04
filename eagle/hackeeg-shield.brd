@@ -9,17 +9,17 @@
 <grid distance="4" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="AGND" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="AGND" color="3" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="DVDD" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="DVDD" color="15" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -134,7 +134,7 @@
 Adam Feuer
 StarCat LLC</text>
 <circle x="23.9522" y="18.669" radius="1.0668" width="0.2032" layer="16"/>
-<text x="100.8126" y="25.1968" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">v1.2.4</text>
+<text x="100.8126" y="25.1968" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">v1.3.1</text>
 <wire x1="97.663" y1="53.467" x2="99.187" y2="51.943" width="0.254" layer="20"/>
 <wire x1="99.187" y1="40.513" x2="101.727" y2="37.973" width="0.254" layer="20"/>
 <wire x1="101.727" y1="37.973" x2="101.727" y2="5.207" width="0.254" layer="20"/>
@@ -365,27 +365,27 @@ TX</text>
 Sync</text>
 <text x="9.0424" y="50.1142" size="0.762" layer="21" font="vector" ratio="12">GND</text>
 <text x="9.0678" y="46.0756" size="0.762" layer="21" font="vector" ratio="12">START</text>
-<text x="0.8382" y="0.7366" size="0.8128" layer="1" ratio="12">Layer 1 - Top
+<text x="0.8382" y="0.7366" size="0.8128" layer="1" ratio="14">Layer 1 - Top
 (signal)</text>
-<text x="0.8382" y="0.7366" size="0.8128" layer="16" ratio="12">Layer 4 - Bottom
-(signal)</text>
-<text x="0.8382" y="0.762" size="0.8128" layer="2" ratio="12">Layer 2 - GND
-(-)</text>
-<text x="0.8382" y="0.762" size="0.8128" layer="15" ratio="15">Layer 3 DVDD
-(+)</text>
+<text x="0.8382" y="0.7366" size="1.016" layer="16" ratio="14">Layer 4
+Bottom (signal)</text>
+<text x="0.8382" y="0.762" size="1.016" layer="2" ratio="14">Layer 2
+GND  (-)</text>
+<text x="0.8382" y="0.762" size="1.016" layer="15" ratio="14">Layer 3
+DVDD (+)</text>
 <text x="26.6446" y="5.8674" size="0.762" layer="21" font="vector" ratio="12" rot="R90">SJ1</text>
 <text x="44.3992" y="4.8514" size="0.762" layer="21" font="vector" ratio="12" rot="R180">GND</text>
 <text x="8.9154" y="44.0182" size="0.762" layer="21" font="vector" ratio="12">BIASINV</text>
-<wire x1="63.1952" y1="42.9768" x2="63.1952" y2="41.9608" width="0.254" layer="22"/>
-<wire x1="63.1952" y1="40.8432" x2="63.1952" y2="39.3192" width="0.254" layer="22"/>
-<wire x1="87.5792" y1="44.3992" x2="87.5792" y2="43.2816" width="0.254" layer="22"/>
-<wire x1="87.6808" y1="41.656" x2="87.6808" y2="40.5384" width="0.254" layer="22"/>
-<wire x1="39.624" y1="40.2336" x2="39.624" y2="38.7858" width="0.254" layer="22"/>
-<wire x1="39.5224" y1="42.7736" x2="39.5224" y2="41.656" width="0.254" layer="22"/>
-<wire x1="21.1328" y1="36.068" x2="22.5552" y2="36.068" width="0.254" layer="22"/>
-<wire x1="23.876" y1="36.068" x2="25.0952" y2="36.068" width="0.254" layer="22"/>
-<wire x1="21.1582" y1="44.2722" x2="22.479" y2="44.2722" width="0.254" layer="22"/>
-<wire x1="23.8252" y1="44.2468" x2="25.0444" y2="44.2468" width="0.254" layer="22"/>
+<wire x1="63.1952" y1="42.9768" x2="63.1952" y2="41.9608" width="0.254" layer="21"/>
+<wire x1="63.1952" y1="40.8432" x2="63.1952" y2="39.3192" width="0.254" layer="21"/>
+<wire x1="87.5792" y1="44.3992" x2="87.5792" y2="43.2816" width="0.254" layer="21"/>
+<wire x1="87.6808" y1="41.656" x2="87.6808" y2="40.5384" width="0.254" layer="21"/>
+<wire x1="39.624" y1="40.2336" x2="39.624" y2="38.7858" width="0.254" layer="21"/>
+<wire x1="39.5224" y1="42.7736" x2="39.5224" y2="41.656" width="0.254" layer="21"/>
+<wire x1="21.1328" y1="36.068" x2="22.5552" y2="36.068" width="0.254" layer="21"/>
+<wire x1="23.876" y1="36.068" x2="25.0952" y2="36.068" width="0.254" layer="21"/>
+<wire x1="21.1582" y1="44.2722" x2="22.479" y2="44.2722" width="0.254" layer="21"/>
+<wire x1="23.8252" y1="44.2468" x2="25.0444" y2="44.2468" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="TPS32xx">
@@ -13178,29 +13178,6 @@ design rules under a new name.</description>
 <polygon width="0.2032" layer="2" pour="cutout">
 <vertex x="98.7552" y="2.6924"/>
 <vertex x="98.7298" y="2.5908" curve="180"/>
-</polygon>
-</signal>
-<signal name="N$43">
-<polygon width="0.0254" layer="15" pour="cutout" isolate="0.3048">
-<vertex x="0.7874" y="3.2004"/>
-<vertex x="10.287" y="3.2004"/>
-<vertex x="10.7442" y="2.6924"/>
-<vertex x="10.7188" y="0.889"/>
-<vertex x="11.176" y="0.1524"/>
-<vertex x="1.27" y="0.1016"/>
-<vertex x="0.5842" y="0.3048"/>
-<vertex x="0.1524" y="0.762"/>
-<vertex x="0.1524" y="3.6576"/>
-</polygon>
-<polygon width="0.0254" layer="2" pour="cutout" isolate="0.3048">
-<vertex x="0.7874" y="3.2004"/>
-<vertex x="10.287" y="3.2004"/>
-<vertex x="10.7442" y="2.6924"/>
-<vertex x="10.7188" y="0.9144"/>
-<vertex x="11.176" y="0.1524"/>
-<vertex x="1.0922" y="0.127"/>
-<vertex x="0.1524" y="0.889"/>
-<vertex x="0.1524" y="3.683"/>
 </polygon>
 </signal>
 </signals>
