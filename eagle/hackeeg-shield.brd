@@ -8,7 +8,7 @@
 </settings>
 <grid distance="4" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="AGND" color="3" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -153,9 +153,9 @@ StarCat LLC</text>
 <hole x="14.097" y="2.667" drill="3.2"/>
 <hole x="66.167" y="35.687" drill="3.2"/>
 <hole x="66.167" y="7.747" drill="3.2"/>
-<text x="70.0278" y="10.2108" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">Board Addr</text>
-<text x="68.961" y="14.5542" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">0</text>
-<text x="68.961" y="12.1158" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">1</text>
+<text x="70.3326" y="10.3124" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">Board Addr</text>
+<text x="68.961" y="14.5542" size="1.016" layer="21" font="vector" ratio="12" rot="R90">0</text>
+<text x="68.961" y="12.1158" size="1.016" layer="21" font="vector" ratio="12" rot="R90">1</text>
 <text x="61.4172" y="17.1958" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">Jumper
 Storage</text>
 <text x="73.3044" y="7.9248" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SPI
@@ -357,7 +357,7 @@ TX</text>
 <text x="68.4784" y="26.543" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">MOSI</text>
 <text x="68.4276" y="30.3276" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">5V</text>
 <text x="62.103" y="29.8196" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">MISO</text>
-<text x="61.9252" y="26.8986" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SCK</text>
+<text x="62.0776" y="26.9494" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SCK</text>
 <text x="62.0522" y="23.9776" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">RST</text>
 <text x="9.144" y="48.1076" size="0.762" layer="21" font="vector" ratio="12">SCLK</text>
 <text x="17.018" y="44.2722" size="1.27" layer="21" font="vector" ratio="12" rot="R90">Ext.
@@ -11981,21 +11981,21 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="1"/>
 <wire x1="40.386" y1="24.384" x2="38.608" y2="24.384" width="0.2032" layer="1"/>
 <wire x1="41.3004" y1="24.7142" x2="40.386" y2="24.384" width="0.2032" layer="1"/>
-<wire x1="42.5196" y1="29.5656" x2="42.0624" y2="27.6352" width="0.254" layer="16"/>
-<wire x1="42.0624" y1="27.6352" x2="41.3258" y2="25.9588" width="0.254" layer="16"/>
-<wire x1="41.3258" y1="25.9588" x2="41.3004" y2="24.7142" width="0.254" layer="16"/>
-<wire x1="43.1292" y1="30.0736" x2="42.5196" y2="29.5656" width="0.254" layer="16"/>
-<wire x1="45.72" y1="29.972" x2="43.1292" y2="30.0736" width="0.254" layer="16"/>
-<wire x1="51.943" y1="24.257" x2="45.72" y2="29.972" width="0.254" layer="16"/>
-<wire x1="52.0446" y1="18.7452" x2="51.943" y2="24.257" width="0.254" layer="16"/>
-<wire x1="53.0352" y1="15.6972" x2="52.0446" y2="18.7452" width="0.254" layer="16"/>
+<wire x1="41.8084" y1="29.972" x2="41.3512" y2="29.1592" width="0.254" layer="16"/>
+<wire x1="41.3512" y1="29.1592" x2="41.3258" y2="27.5844" width="0.254" layer="16"/>
+<wire x1="41.3258" y1="27.5844" x2="41.3004" y2="24.7142" width="0.254" layer="16"/>
+<wire x1="43.5356" y1="30.5816" x2="41.8084" y2="29.972" width="0.254" layer="16"/>
+<wire x1="45.72" y1="29.972" x2="43.5356" y2="30.5816" width="0.254" layer="16"/>
+<wire x1="53.34" y1="22.8854" x2="45.72" y2="29.972" width="0.254" layer="16"/>
+<wire x1="53.6702" y1="19.9644" x2="53.34" y2="22.8854" width="0.254" layer="16"/>
+<wire x1="53.848" y1="16.2052" x2="53.6702" y2="19.9644" width="0.254" layer="16"/>
 <wire x1="38.608" y1="24.384" x2="38.4636" y2="24.3306" width="0.1524" layer="1"/>
 <via x="41.3004" y="24.7142" extent="1-16" drill="0.381"/>
 <wire x1="55.3304" y1="8.509" x2="55.2542" y2="8.4328" width="0.3048" layer="1"/>
 <wire x1="55.2542" y1="8.4328" x2="53.3654" y2="8.5852" width="0.3048" layer="1"/>
 <via x="53.3654" y="8.5852" extent="1-16" drill="0.381"/>
-<wire x1="53.3654" y1="8.5852" x2="53.0352" y2="9.4742" width="0.254" layer="16"/>
-<wire x1="53.0352" y1="9.4742" x2="53.0352" y2="15.6972" width="0.254" layer="16"/>
+<wire x1="53.3654" y1="8.5852" x2="53.9496" y2="11.303" width="0.254" layer="16"/>
+<wire x1="53.9496" y1="11.303" x2="53.848" y2="16.2052" width="0.254" layer="16"/>
 <wire x1="55.3304" y1="8.509" x2="57.951" y2="8.509" width="0.3048" layer="1"/>
 <wire x1="57.951" y1="8.509" x2="58.8654" y2="7.5946" width="0.3048" layer="1"/>
 <wire x1="58.8654" y1="7.5946" x2="58.8654" y2="6.6929" width="0.254" layer="1"/>
@@ -12058,12 +12058,12 @@ design rules under a new name.</description>
 <wire x1="42.3418" y1="26.0858" x2="41.275" y2="25.9842" width="0.2032" layer="1"/>
 <wire x1="42.8752" y1="25.9588" x2="42.3418" y2="26.0858" width="0.254" layer="16"/>
 <wire x1="46.863" y1="25.9842" x2="42.8752" y2="25.9588" width="0.254" layer="16"/>
-<wire x1="50.7746" y1="22.7584" x2="46.863" y2="25.9842" width="0.254" layer="16"/>
-<wire x1="50.8254" y1="13.9954" x2="50.7746" y2="22.7584" width="0.254" layer="16"/>
+<wire x1="50.7746" y1="22.5552" x2="46.863" y2="25.9842" width="0.254" layer="16"/>
+<wire x1="50.8254" y1="14.8082" x2="50.7746" y2="22.5552" width="0.254" layer="16"/>
 <wire x1="38.481" y1="24.8158" x2="38.4636" y2="24.8306" width="0.1524" layer="1"/>
 <via x="42.3418" y="26.0858" extent="1-16" drill="0.381"/>
 <wire x1="55.3304" y1="9.779" x2="58.7892" y2="9.8044" width="0.3048" layer="1"/>
-<wire x1="50.8254" y1="13.9954" x2="51.8414" y2="13.335" width="0.254" layer="16"/>
+<wire x1="50.8254" y1="14.8082" x2="51.8414" y2="13.335" width="0.254" layer="16"/>
 <wire x1="51.8414" y1="13.335" x2="52.07" y2="12.0396" width="0.254" layer="16"/>
 <via x="52.07" y="12.0396" extent="1-16" drill="0.381"/>
 <wire x1="52.07" y1="12.0396" x2="56.7309" y2="12.0396" width="0.2032" layer="1"/>
