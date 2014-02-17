@@ -364,10 +364,10 @@ TX</text>
 Sync</text>
 <text x="9.0424" y="50.1142" size="0.762" layer="21" font="vector" ratio="12">GND</text>
 <text x="9.0678" y="46.0756" size="0.762" layer="21" font="vector" ratio="12">START</text>
-<text x="2.8702" y="0.5842" size="1.016" layer="1" ratio="16">Layer 1
-Top (signal)</text>
+<text x="2.9718" y="0.6858" size="1.016" layer="1" ratio="16">Layer 1
+Top signal</text>
 <text x="0.8382" y="0.7366" size="1.016" layer="16" ratio="16">Layer 4
-Bottom (signal)</text>
+Bottom signal</text>
 <text x="0.889" y="0.889" size="1.016" layer="2" ratio="16">Layer 2
 GND  (-)</text>
 <text x="0.8382" y="0.762" size="1.016" layer="15" ratio="16">Layer 3
