@@ -6,6 +6,8 @@ This is an Arduino Due shield for the
 
 If you're reading this, you probably know what that is.
 
+[Picture of the HackEEG board](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/hackeeg-shield.jpg)
+
 This board has been tested and works, but lacks case design with EEG connector plugs. 
 You'll have to design your own for now. I intend to eventually design a case
 and connectors, and will post that here when I do.
