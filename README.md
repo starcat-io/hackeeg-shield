@@ -1,8 +1,8 @@
 HackEEG - ADS1299 Shield
 ========================
 
-This is a shield for the [TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299).
-
+This is an Arduino Due shield for the 
+[TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299).
 
 If you're reading this, you probably know what that is.
 
@@ -21,7 +21,7 @@ Features
 * DMA drivers can read data at up to 8k SPS (24 bit resolution).
 * SPI EEPROM for storing configuration data.
 * Jumpers for configuring most of the data and control lines to the Arduino.
-* 2 board stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels.
+* 2 board-stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels.
 
 
 Testing
