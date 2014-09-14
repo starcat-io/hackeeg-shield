@@ -35,7 +35,7 @@ https://github.com/adamfeuer/ADS129x-tools
 License
 =======
 
-[Creative Commons By-Attribution ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/us/)
+[Creative Commons By-Attribution ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
 Comments
