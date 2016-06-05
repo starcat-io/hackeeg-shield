@@ -56,6 +56,6 @@ adam <br>
 Adam Feuer <br>
 Seattle, WA, USA <br>
 adam@starcat.io<br>
-http://starcat.io<br>
+https://starcat.io<br>
 
 
