@@ -54,8 +54,8 @@ If you have questions, comments, or improvements, I would love to know them!
 cheers <br>
 adam <br>
 Adam Feuer <br>
-Seattle, WA, USA <br>
 adam@starcat.io<br>
-https://starcat.io<br>
+[StarCat Biosignals](https://starcat.io)<br>
+Seattle, WA, USA <br>
 
 
