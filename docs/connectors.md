@@ -53,7 +53,7 @@ If you want to check the pinout, you can see this on the schematic on sheet 2:
 
 ## External Sync connector
 
-** JP15 ** is the small, white male 4-pin shrouded connector that is used for synchronizing the ADS1299 with another board.
+**JP15** is the small, white male 4-pin shrouded connector that is used for synchronizing the ADS1299 with another board.
 
 This connector is experimental, and not supported at this time. You can enable it using the various ADS1299 register settings.
 
