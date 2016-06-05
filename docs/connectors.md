@@ -2,9 +2,7 @@
 
 ## Electrode Connector
 
-**JP16** is the large, black male 24-pin shrouded electrode connector that is soldered on the board:
-
-[Molex 24-pin Right Angle male shrouded header](http://www.digikey.com/product-search/en?keywords=WM8269-ND)
+**JP16** is the large, black male 24-pin shrouded electrode connector that is soldered on the board: [Molex 24-pin Right Angle male shrouded header](http://www.digikey.com/product-search/en?keywords=WM8269-ND)
 
 This the mating female connector that I have used to construct some cables:
 
@@ -55,9 +53,13 @@ If you want to check the pinout, you can see this on the schematic on sheet 2:
 
 **JP15** is the small, white male 4-pin shrouded connector that is used for synchronizing the ADS1299 with another board.
 
+This is the connector that is soldered on the board: [JST 4-pin Shrouded Male Header ](http://www.digikey.com/product-detail/en/S4B-PH-K-S(LF)(SN)/455-1721-ND/926628)
+
+Here is the [Mating JST connector](http://www.digikey.com/product-detail/en/PHR-4/455-1164-ND/608606) and [Crimp Contact that fits the housing](http://www.digikey.com/product-detail/en/SPH-004T-P0.5S/455-1318-1-ND/608807) - these can be crimped with the same tool listed above.
+
 This connector is experimental, and not supported at this time. You can enable it using the various ADS1299 register settings.
 
-### External Sync conector pinout
+### External Sync connector pinout
 
 1. BIASINV
 2. ADS_START
