@@ -14,7 +14,6 @@ If you change these jumpers, you must also change the pin definitions in your dr
     * 0 - ADS1299 GPIO0
     * 1 - ADS1299 GPIO1
     * 2 - ADS1299 GPIO3
-    * LED - ADS1299 GPIO4
   * JP1 - Config0
     * SPI MOSI
       * Native - 1 - SPI4
@@ -49,4 +48,5 @@ If you change these jumpers, you must also change the pin definitions in your dr
       * 11 - D32
       * 12 - D33
   * Not configurable
-     * CLKSEL - D48
+    * CLKSEL - D48
+    * BOARD LED - ADS1299 GPIO4
