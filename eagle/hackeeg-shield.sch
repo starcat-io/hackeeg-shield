@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5604,7 +5604,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY8" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="AGND" device=""/>
-<part name="SUPPLY20" library="supply2" deviceset="AGND" device=""/>
 <part name="AVSS1" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
 <part name="AVSS2" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="3.3 uH"/>
@@ -5781,8 +5780,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="246.634" y="215.392" size="1.778" layer="91">NC</text>
 <text x="329.184" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
-<text x="416.306" y="7.112" size="2.1844" layer="95">v1.3.1</text>
+<text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
+<text x="414.782" y="6.858" size="2.1844" layer="95">v1.4.0</text>
 <text x="246.634" y="212.344" size="1.778" layer="91">NC</text>
 <text x="327.406" y="161.798" size="1.27" layer="91">NC</text>
 <text x="78.232" y="176.022" size="2.54" layer="91">ADC Decoupling</text>
@@ -5791,6 +5790,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <text x="358.648" y="169.672" size="1.778" layer="91">GPIO4 LED</text>
 <text x="256.286" y="30.988" size="2.54" layer="91">Power LED</text>
 <text x="271.78" y="142.494" size="1.27" layer="91">NC</text>
+<text x="292.354" y="261.112" size="1.778" layer="91">N/C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5855,7 +5855,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="SUPPLY8" gate="G$1" x="334.518" y="147.828"/>
 <instance part="SUPPLY10" gate="G$1" x="81.28" y="187.96"/>
 <instance part="SUPPLY15" gate="G$1" x="48.26" y="189.484"/>
-<instance part="SUPPLY20" gate="G$1" x="303.276" y="256.032" rot="R180"/>
 <instance part="AVSS1" gate="1" x="49.276" y="233.68" smashed="yes">
 <attribute name="VALUE" x="46.736" y="231.14" size="1.778" layer="96"/>
 </instance>
@@ -6176,7 +6175,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="295.402" y1="239.522" x2="294.64" y2="239.522" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="250.698" x2="294.64" y2="259.842" width="0.1524" layer="91"/>
-<label x="291.338" y="260.35" size="1.778" layer="95"/>
+<label x="290.576" y="263.652" size="1.778" layer="95"/>
 <pinref part="C23" gate="G$1" pin="1"/>
 <junction x="294.64" y="239.522"/>
 <junction x="294.64" y="250.698"/>
@@ -6352,21 +6351,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="48.26" y="196.596"/>
 <wire x1="48.26" y1="192.024" x2="48.26" y2="196.596" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<wire x1="301.498" y1="225.552" x2="301.498" y2="234.442" width="0.1524" layer="91"/>
-<wire x1="301.498" y1="234.442" x2="303.276" y2="234.442" width="0.1524" layer="91"/>
-<wire x1="303.276" y1="234.442" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
-<wire x1="303.276" y1="239.522" x2="303.276" y2="250.698" width="0.1524" layer="91"/>
-<wire x1="303.276" y1="250.698" x2="303.276" y2="253.492" width="0.1524" layer="91"/>
-<junction x="303.276" y="250.698"/>
-<pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="303.022" y1="239.522" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
-<junction x="303.276" y="239.522"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="303.276" y1="250.698" x2="302.768" y2="250.698" width="0.1524" layer="91"/>
-<pinref part="SUPPLY20" gate="G$1" pin="AGND"/>
-<pinref part="IC1" gate="G$1" pin="VREFN"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
@@ -6721,6 +6705,21 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="AVSS7" gate="1" pin="GND"/>
 <wire x1="312.928" y1="92.456" x2="312.928" y2="86.614" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="301.498" y1="225.552" x2="301.498" y2="234.442" width="0.1524" layer="91"/>
+<wire x1="301.498" y1="234.442" x2="303.276" y2="234.442" width="0.1524" layer="91"/>
+<wire x1="303.276" y1="234.442" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
+<wire x1="303.276" y1="239.522" x2="303.276" y2="250.698" width="0.1524" layer="91"/>
+<wire x1="303.276" y1="250.698" x2="303.276" y2="260.096" width="0.1524" layer="91"/>
+<junction x="303.276" y="250.698"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="303.022" y1="239.522" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
+<junction x="303.276" y="239.522"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="303.276" y1="250.698" x2="302.768" y2="250.698" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VREFN"/>
+<label x="300.736" y="260.604" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BIASINV" class="0">
 <segment>
@@ -6902,7 +6901,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <text x="293.116" y="179.324" size="2.54" layer="91">Bias</text>
 <text x="320.802" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
+<text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
 <text x="65.532" y="264.668" size="2.54" layer="91">Input Filtering</text>
 <text x="160.274" y="254.762" size="2.54" layer="91">(This side to ADS1299 inputs)</text>
 <text x="22.352" y="254.508" size="2.54" layer="91">(This side to electrode connector)</text>
@@ -7806,7 +7805,7 @@ positions for
 jumper storage)</text>
 <text x="326.136" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
+<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
 <text x="315.468" y="84.582" size="2.54" layer="91">Shield Connectors</text>
 <text x="356.616" y="254" size="1.524" layer="91">SCL1</text>
 <text x="356.616" y="251.46" size="1.524" layer="91">SDA1</text>
