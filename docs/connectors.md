@@ -23,7 +23,7 @@ Alternatively, any 24-pin female header with receptacles on 0.1" centers should 
 1. DVDD
 2. AVDD
 3. BIASINV
-4. AGND
+4. Reserved for Future Use
 5. AGND
 6. AGND
 7. IN1P
