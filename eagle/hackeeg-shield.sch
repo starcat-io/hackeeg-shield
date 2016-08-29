@@ -9,14 +9,14 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="2" name="Route2" color="3" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="15" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="14" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
@@ -5593,8 +5593,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C23" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C23" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="SUPPLY2" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="AGND" device=""/>
@@ -5604,7 +5604,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY8" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="AGND" device=""/>
-<part name="SUPPLY20" library="supply2" deviceset="AGND" device=""/>
 <part name="AVSS1" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
 <part name="AVSS2" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="3.3 uH"/>
@@ -5773,6 +5772,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP16" library="headers" deviceset="PINHD-2X12" device="" value="Electrodes"/>
 <part name="IC8" library="OPA376" deviceset="OPA376" device="DBV"/>
 <part name="IC7" library="OPA376" deviceset="OPA376" device="DBV"/>
+<part name="TP4" library="adafruit" deviceset="PINHD-1X1" device="" value="VREFP_TEST_POINT"/>
 </parts>
 <sheets>
 <sheet>
@@ -5781,8 +5781,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="246.634" y="215.392" size="1.778" layer="91">NC</text>
 <text x="329.184" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
-<text x="416.306" y="7.112" size="2.1844" layer="95">v1.3.1</text>
+<text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
+<text x="414.782" y="6.858" size="2.1844" layer="95">v1.4.0</text>
 <text x="246.634" y="212.344" size="1.778" layer="91">NC</text>
 <text x="327.406" y="161.798" size="1.27" layer="91">NC</text>
 <text x="78.232" y="176.022" size="2.54" layer="91">ADC Decoupling</text>
@@ -5840,11 +5840,11 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="C21" gate="G$1" x="312.928" y="94.996"/>
 <instance part="C22" gate="G$1" x="300.228" y="250.698" smashed="yes" rot="R90">
 <attribute name="NAME" x="301.371" y="255.016" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="301.371" y="248.412" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="302.641" y="248.158" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C23" gate="G$1" x="300.482" y="239.522" smashed="yes" rot="R90">
 <attribute name="NAME" x="301.879" y="243.586" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="301.879" y="237.236" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="302.895" y="236.982" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="139.7" y="21.844"/>
 <instance part="SUPPLY3" gate="G$1" x="115.824" y="23.114"/>
@@ -5855,7 +5855,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="SUPPLY8" gate="G$1" x="334.518" y="147.828"/>
 <instance part="SUPPLY10" gate="G$1" x="81.28" y="187.96"/>
 <instance part="SUPPLY15" gate="G$1" x="48.26" y="189.484"/>
-<instance part="SUPPLY20" gate="G$1" x="303.276" y="256.032" rot="R180"/>
 <instance part="AVSS1" gate="1" x="49.276" y="233.68" smashed="yes">
 <attribute name="VALUE" x="46.736" y="231.14" size="1.778" layer="96"/>
 </instance>
@@ -5954,19 +5953,23 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="AVSS7" gate="1" x="312.928" y="84.074" smashed="yes">
 <attribute name="VALUE" x="310.388" y="81.534" size="1.778" layer="96"/>
 </instance>
-<instance part="C66" gate="G$1" x="255.27" y="122.936" smashed="yes">
-<attribute name="NAME" x="248.158" y="126.365" size="1.778" layer="95"/>
-<attribute name="VALUE" x="246.126" y="120.269" size="1.778" layer="96"/>
+<instance part="C66" gate="G$1" x="255.27" y="121.158" smashed="yes">
+<attribute name="NAME" x="248.158" y="124.587" size="1.778" layer="95"/>
+<attribute name="VALUE" x="246.126" y="118.491" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="267.716" y="120.396" smashed="yes">
-<attribute name="NAME" x="268.986" y="122.1486" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="263.906" y="117.094" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="265.176" y="122.936" smashed="yes" rot="R90">
+<attribute name="NAME" x="263.4234" y="124.206" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="268.478" y="119.126" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="63.754" y="73.406"/>
 <instance part="C68" gate="G$1" x="63.754" y="80.772"/>
 <instance part="IC2" gate="G$1" x="89.408" y="39.624" smashed="yes">
 <attribute name="NAME" x="82.042" y="48.006" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.042" y="29.972" size="1.27" layer="96"/>
+</instance>
+<instance part="TP4" gate="G$1" x="294.64" y="263.906" smashed="yes" rot="MR90">
+<attribute name="NAME" x="293.497" y="254.762" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="297.688" y="266.446" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -6175,12 +6178,13 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="294.64" y1="250.698" x2="295.148" y2="250.698" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="295.402" y1="239.522" x2="294.64" y2="239.522" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="250.698" x2="294.64" y2="259.842" width="0.1524" layer="91"/>
-<label x="291.338" y="260.35" size="1.778" layer="95"/>
+<wire x1="294.64" y1="250.698" x2="294.64" y2="261.366" width="0.1524" layer="91"/>
+<label x="293.116" y="240.792" size="1.778" layer="95" rot="R90"/>
 <pinref part="C23" gate="G$1" pin="1"/>
 <junction x="294.64" y="239.522"/>
 <junction x="294.64" y="250.698"/>
 <pinref part="IC1" gate="G$1" pin="VREFP"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BOARD_ADDR_1" class="0">
@@ -6352,21 +6356,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="48.26" y="196.596"/>
 <wire x1="48.26" y1="192.024" x2="48.26" y2="196.596" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<wire x1="301.498" y1="225.552" x2="301.498" y2="234.442" width="0.1524" layer="91"/>
-<wire x1="301.498" y1="234.442" x2="303.276" y2="234.442" width="0.1524" layer="91"/>
-<wire x1="303.276" y1="234.442" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
-<wire x1="303.276" y1="239.522" x2="303.276" y2="250.698" width="0.1524" layer="91"/>
-<wire x1="303.276" y1="250.698" x2="303.276" y2="253.492" width="0.1524" layer="91"/>
-<junction x="303.276" y="250.698"/>
-<pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="303.022" y1="239.522" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
-<junction x="303.276" y="239.522"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="303.276" y1="250.698" x2="302.768" y2="250.698" width="0.1524" layer="91"/>
-<pinref part="SUPPLY20" gate="G$1" pin="AGND"/>
-<pinref part="IC1" gate="G$1" pin="VREFN"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
@@ -6721,31 +6710,47 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="AVSS7" gate="1" pin="GND"/>
 <wire x1="312.928" y1="92.456" x2="312.928" y2="86.614" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="301.498" y1="225.552" x2="301.498" y2="234.442" width="0.1524" layer="91"/>
+<wire x1="301.498" y1="234.442" x2="303.276" y2="234.442" width="0.1524" layer="91"/>
+<wire x1="303.276" y1="234.442" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
+<wire x1="303.276" y1="239.522" x2="303.276" y2="250.698" width="0.1524" layer="91"/>
+<wire x1="303.276" y1="250.698" x2="303.276" y2="260.096" width="0.1524" layer="91"/>
+<junction x="303.276" y="250.698"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="303.022" y1="239.522" x2="303.276" y2="239.522" width="0.1524" layer="91"/>
+<junction x="303.276" y="239.522"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="303.276" y1="250.698" x2="302.768" y2="250.698" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VREFN"/>
+<label x="300.736" y="260.604" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BIASINV" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="BIASINV"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="278.638" y1="144.272" x2="278.638" y2="120.396" width="0.1524" layer="91"/>
-<wire x1="278.638" y1="120.396" x2="272.796" y2="120.396" width="0.1524" layer="91"/>
-<wire x1="278.638" y1="120.396" x2="278.638" y2="118.11" width="0.1524" layer="91"/>
-<junction x="278.638" y="120.396"/>
-<label x="275.844" y="115.316" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="262.636" y1="120.396" x2="255.27" y2="120.396" width="0.1524" layer="91"/>
+<wire x1="278.638" y1="144.272" x2="278.638" y2="115.824" width="0.1524" layer="91"/>
 <pinref part="C66" gate="G$1" pin="2"/>
+<wire x1="255.27" y1="118.618" x2="255.27" y2="115.824" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="115.824" x2="265.176" y2="115.824" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="265.176" y1="115.824" x2="278.638" y2="115.824" width="0.1524" layer="91"/>
+<wire x1="265.176" y1="117.856" x2="265.176" y2="115.824" width="0.1524" layer="91"/>
+<junction x="265.176" y="115.824"/>
+<label x="281.178" y="128.778" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="BIASOUT" class="0">
 <segment>
 <pinref part="C66" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="BIASOUT"/>
-<wire x1="255.27" y1="128.016" x2="276.098" y2="128.016" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="126.238" x2="255.27" y2="128.016" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="128.016" x2="265.176" y2="128.016" width="0.1524" layer="91"/>
+<wire x1="265.176" y1="128.016" x2="276.098" y2="128.016" width="0.1524" layer="91"/>
 <wire x1="276.098" y1="128.016" x2="276.098" y2="144.272" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<junction x="265.176" y="128.016"/>
+<label x="275.336" y="129.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VCC_5V_FILTERED" class="0">
@@ -6902,7 +6907,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <text x="293.116" y="179.324" size="2.54" layer="91">Bias</text>
 <text x="320.802" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
+<text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
 <text x="65.532" y="264.668" size="2.54" layer="91">Input Filtering</text>
 <text x="160.274" y="254.762" size="2.54" layer="91">(This side to ADS1299 inputs)</text>
 <text x="22.352" y="254.508" size="2.54" layer="91">(This side to electrode connector)</text>
@@ -7806,7 +7811,7 @@ positions for
 jumper storage)</text>
 <text x="326.136" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
+<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
 <text x="315.468" y="84.582" size="2.54" layer="91">Shield Connectors</text>
 <text x="356.616" y="254" size="1.524" layer="91">SCL1</text>
 <text x="356.616" y="251.46" size="1.524" layer="91">SDA1</text>
