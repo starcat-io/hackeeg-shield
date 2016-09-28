@@ -5773,6 +5773,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="IC8" library="OPA376" deviceset="OPA376" device="DBV"/>
 <part name="IC7" library="OPA376" deviceset="OPA376" device="DBV"/>
 <part name="TP4" library="adafruit" deviceset="PINHD-1X1" device="" value="VREFP_TEST_POINT"/>
+<part name="JP9" library="headers" deviceset="PINHD-1X3" device="" value="BIASOUT_BIASIN_BIAS_ELEC"/>
 </parts>
 <sheets>
 <sheet>
@@ -5926,8 +5927,8 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="SUPPLY48" gate="G$1" x="283.972" y="36.83"/>
 <instance part="D1" gate="G$1" x="272.034" y="43.18" rot="R90"/>
 <instance part="TP1" gate="G$1" x="184.912" y="113.792"/>
-<instance part="TP3" gate="G$1" x="212.852" y="73.152"/>
-<instance part="SUPPLY55" gate="G$1" x="194.818" y="62.992"/>
+<instance part="TP3" gate="G$1" x="225.552" y="93.472"/>
+<instance part="SUPPLY55" gate="G$1" x="208.28" y="86.106"/>
 <instance part="TP2" gate="G$1" x="188.214" y="33.782"/>
 <instance part="C25" gate="G$1" x="112.522" y="222.504"/>
 <instance part="C63" gate="G$1" x="125.73" y="222.504"/>
@@ -5953,13 +5954,13 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="AVSS7" gate="1" x="312.928" y="84.074" smashed="yes">
 <attribute name="VALUE" x="310.388" y="81.534" size="1.778" layer="96"/>
 </instance>
-<instance part="C66" gate="G$1" x="255.27" y="121.158" smashed="yes">
-<attribute name="NAME" x="248.158" y="124.587" size="1.778" layer="95"/>
-<attribute name="VALUE" x="246.126" y="118.491" size="1.778" layer="96"/>
+<instance part="C66" gate="G$1" x="255.27" y="119.38" smashed="yes">
+<attribute name="NAME" x="250.19" y="122.301" size="1.778" layer="95"/>
+<attribute name="VALUE" x="249.936" y="117.475" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="265.176" y="122.936" smashed="yes" rot="R90">
 <attribute name="NAME" x="263.4234" y="124.206" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="268.478" y="119.126" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="274.32" y="124.46" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="63.754" y="73.406"/>
 <instance part="C68" gate="G$1" x="63.754" y="80.772"/>
@@ -5971,6 +5972,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <attribute name="NAME" x="293.497" y="254.762" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="297.688" y="266.446" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="JP9" gate="A" x="219.456" y="71.374" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6223,13 +6225,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="IC1" gate="G$1" pin="CLKSEL"/>
 </segment>
 </net>
-<net name="BIAS_ELEC" class="0">
-<segment>
-<wire x1="271.018" y1="144.272" x2="271.018" y2="136.398" width="0.1524" layer="91"/>
-<label x="270.51" y="129.032" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC1" gate="G$1" pin="BIASIN"/>
-</segment>
-</net>
 <net name="CLK" class="0">
 <segment>
 <wire x1="326.898" y1="190.5" x2="343.408" y2="190.5" width="0.1524" layer="91"/>
@@ -6428,8 +6423,8 @@ By-Attribution Share-Alike 4.0 license</text>
 </segment>
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="210.312" y1="73.152" x2="194.818" y2="73.152" width="0.1524" layer="91"/>
-<wire x1="194.818" y1="73.152" x2="194.818" y2="65.532" width="0.1524" layer="91"/>
+<wire x1="223.012" y1="93.472" x2="208.28" y2="93.472" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="93.472" x2="208.28" y2="88.646" width="0.1524" layer="91"/>
 <pinref part="SUPPLY55" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
@@ -6731,7 +6726,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="IC1" gate="G$1" pin="BIASINV"/>
 <wire x1="278.638" y1="144.272" x2="278.638" y2="115.824" width="0.1524" layer="91"/>
 <pinref part="C66" gate="G$1" pin="2"/>
-<wire x1="255.27" y1="118.618" x2="255.27" y2="115.824" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="116.84" x2="255.27" y2="115.824" width="0.1524" layer="91"/>
 <wire x1="255.27" y1="115.824" x2="265.176" y2="115.824" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="265.176" y1="115.824" x2="278.638" y2="115.824" width="0.1524" layer="91"/>
@@ -6744,13 +6739,19 @@ By-Attribution Share-Alike 4.0 license</text>
 <segment>
 <pinref part="C66" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="BIASOUT"/>
-<wire x1="255.27" y1="126.238" x2="255.27" y2="128.016" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="124.46" x2="255.27" y2="128.016" width="0.1524" layer="91"/>
 <wire x1="255.27" y1="128.016" x2="265.176" y2="128.016" width="0.1524" layer="91"/>
 <wire x1="265.176" y1="128.016" x2="276.098" y2="128.016" width="0.1524" layer="91"/>
 <wire x1="276.098" y1="128.016" x2="276.098" y2="144.272" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <junction x="265.176" y="128.016"/>
 <label x="275.336" y="129.54" size="1.778" layer="95" rot="R90"/>
+<wire x1="255.27" y1="128.016" x2="248.666" y2="128.016" width="0.1524" layer="91"/>
+<wire x1="248.666" y1="128.016" x2="248.412" y2="71.374" width="0.1524" layer="91"/>
+<wire x1="248.412" y1="71.374" x2="221.996" y2="71.374" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="2"/>
+<label x="227.584" y="71.882" size="1.778" layer="95"/>
+<junction x="255.27" y="128.016"/>
 </segment>
 </net>
 <net name="VCC_5V_FILTERED" class="0">
@@ -6896,6 +6897,24 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="IC1" gate="G$1" pin="IN8N"/>
 <wire x1="250.698" y1="170.18" x2="239.776" y2="170.18" width="0.1524" layer="91"/>
 <label x="239.776" y="170.434" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BIASIN" class="0">
+<segment>
+<wire x1="271.018" y1="144.272" x2="271.018" y2="136.398" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="BIASIN"/>
+<wire x1="271.018" y1="136.398" x2="245.11" y2="136.398" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="136.398" x2="245.11" y2="73.914" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="3"/>
+<wire x1="221.996" y1="73.914" x2="245.11" y2="73.914" width="0.1524" layer="91"/>
+<label x="227.33" y="74.676" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BIAS_ELEC" class="0">
+<segment>
+<pinref part="JP9" gate="A" pin="1"/>
+<wire x1="221.996" y1="68.834" x2="241.808" y2="68.834" width="0.1524" layer="91"/>
+<label x="227.584" y="69.088" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
