@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5757,7 +5758,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C63" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="SUPPLY56" library="supply2" deviceset="AGND" device=""/>
 <part name="C64" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C65" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1 uF"/>
+<part name="C65" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY57" library="supply2" deviceset="AGND" device=""/>
 <part name="AVSS4" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
 <part name="AVSS5" library="SparkFun-Aesthetics" deviceset="GND" device="" value="AVSS"/>
