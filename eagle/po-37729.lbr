@@ -74,7 +74,7 @@
 <library>
 <packages>
 <package name="SIMPLE-100">
-<pad name="SIGNAL" x="0" y="0" drill="0.508" diameter="1.016"/>
+<pad name="SIGNAL" x="0" y="0" drill="1.016" diameter="1.905"/>
 <circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
 <text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
@@ -84,13 +84,89 @@
 <circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
 <text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
-<circle x="0" y="12.7" radius="3.2" width="0.05" layer="21"/>
+<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
 <hole x="-3.175" y="0" drill="0.762" locked="yes"/>
 <hole x="-1.5875" y="-2.749625" drill="0.762" locked="yes"/>
 <hole x="1.5875" y="2.749625" drill="0.762" locked="yes"/>
 <hole x="3.175" y="0" drill="0.762" locked="yes"/>
 <hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
 <hole x="-1.5875" y="2.749625" drill="0.762" locked="yes"/>
+</package>
+<package name="SIMPLE-105">
+<pad name="SIGNAL" x="0" y="0" drill="1.0668" diameter="2.032"/>
+<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="SIMPLE-110">
+<pad name="SIGNAL" x="0" y="0" drill="1.1176" diameter="2.032"/>
+<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="SIMPLE-115">
+<pad name="SIGNAL" x="0" y="0" drill="1.1684" diameter="2.032"/>
+<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="SIMPLE-120">
+<pad name="SIGNAL" x="0" y="0" drill="1.2192" diameter="2.159"/>
+<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="HEX-105">
+<pad name="SIGNAL" x="0" y="0" drill="1.0668" diameter="2.032"/>
+<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+<circle x="0" y="12.7" radius="3.2" width="0.05" layer="21"/>
+<hole x="-3.175" y="0" drill="0.8001" locked="yes"/>
+<hole x="-1.5875" y="-2.749625" drill="0.8001" locked="yes"/>
+<hole x="1.5875" y="2.749625" drill="0.8001" locked="yes"/>
+<hole x="3.175" y="0" drill="0.8001" locked="yes"/>
+<hole x="1.5875" y="-2.749625" drill="0.8001" locked="yes"/>
+<hole x="-1.5875" y="2.749625" drill="0.8001" locked="yes"/>
+</package>
+<package name="HEX-110">
+<pad name="SIGNAL" x="0" y="0" drill="1.1176" diameter="2.032"/>
+<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
+<hole x="-3.175" y="0" drill="0.762" locked="yes"/>
+<hole x="-1.5875" y="-2.749625" drill="0.762" locked="yes"/>
+<hole x="1.5875" y="2.749625" drill="0.762" locked="yes"/>
+<hole x="3.175" y="0" drill="0.762" locked="yes"/>
+<hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
+<hole x="-1.5875" y="2.749625" drill="0.8382" locked="yes"/>
+</package>
+<package name="HEX-115">
+<pad name="SIGNAL" x="0" y="0" drill="1.1684" diameter="2.032"/>
+<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
+<hole x="-3.175" y="0" drill="0.8763" locked="yes"/>
+<hole x="-1.5875" y="-2.749625" drill="0.8763" locked="yes"/>
+<hole x="1.5875" y="2.749625" drill="0.8763" locked="yes"/>
+<hole x="3.175" y="0" drill="0.8763" locked="yes"/>
+<hole x="1.5875" y="-2.749625" drill="0.8763" locked="yes"/>
+<hole x="-1.5875" y="2.749625" drill="0.8763" locked="yes"/>
+</package>
+<package name="HEX-120">
+<pad name="SIGNAL" x="0" y="0" drill="1.2192" diameter="2.159"/>
+<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
+<text x="-3.21" y="4.67" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.32" y="-5.94" size="1.27" layer="21">&gt;VALUE</text>
+<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
+<hole x="-3.175" y="0" drill="0.9144" locked="yes"/>
+<hole x="-1.5875" y="-2.749625" drill="0.9144" locked="yes"/>
+<hole x="1.5875" y="2.749625" drill="0.9144" locked="yes"/>
+<hole x="3.175" y="0" drill="0.9144" locked="yes"/>
+<hole x="1.5875" y="-2.749625" drill="0.9144" locked="yes"/>
+<hole x="-1.5875" y="2.749625" drill="0.9144" locked="yes"/>
 </package>
 </packages>
 <symbols>
