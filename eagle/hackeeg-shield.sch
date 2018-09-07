@@ -5778,6 +5778,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </parts>
 <sheets>
 <sheet>
+<description>ADS1299 and power supplies</description>
 <plain>
 <text x="246.634" y="218.186" size="1.778" layer="91">NC</text>
 <text x="246.634" y="215.392" size="1.778" layer="91">NC</text>
@@ -6921,6 +6922,7 @@ By-Attribution Share-Alike 4.0 license</text>
 </nets>
 </sheet>
 <sheet>
+<description>Input filtering and electrode connector</description>
 <plain>
 <text x="34.036" y="121.666" size="2.54" layer="91">Electrode Connector</text>
 <text x="284.734" y="62.484" size="2.54" layer="91">Stimulus-Response Buffer (SRB)</text>
@@ -7821,7 +7823,7 @@ By-Attribution Share-Alike 4.0 license</text>
 </nets>
 </sheet>
 <sheet>
-<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
+<description>Board to board connectors, configuration, EEPROM, and level shifting</description>
 <plain>
 <text x="103.886" y="14.986" size="2.54" layer="91">Configuration jumpers</text>
 <text x="73.406" y="171.958" size="2.54" layer="91">ADS1299 Level Shifting</text>
