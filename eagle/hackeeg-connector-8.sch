@@ -387,6 +387,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
 &lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
+<package name="FIDUCIAL-1X2" urn="urn:adsk.eagle:footprint:36997/1" library_version="1">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-MICRO" urn="urn:adsk.eagle:footprint:36998/1" library_version="1">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CREATIVE_COMMONS" urn="urn:adsk.eagle:package:37121/1" type="box" library_version="1">
@@ -408,6 +422,24 @@ BADGERHACK_LOGO
 FRAME-LETTER</description>
 <packageinstances>
 <packageinstance name="DUMMY"/>
+</packageinstances>
+</package3d>
+<package3d name="FIDUCIAL-1X2" urn="urn:adsk.eagle:package:37108/1" type="box" library_version="1">
+<description>Fiducial - Circle, 1mm
+Point-of-reference for pick-and-place machines and other optical instruments.
+Devices using:
+FIDUCIAL</description>
+<packageinstances>
+<packageinstance name="FIDUCIAL-1X2"/>
+</packageinstances>
+</package3d>
+<package3d name="FIDUCIAL-MICRO" urn="urn:adsk.eagle:package:37111/1" type="box" library_version="1">
+<description>Fiducial - Circle, 0.25in
+Point-of-reference for pick-and-place machines and other optical instruments.
+Devices using:
+FIDUCIAL</description>
+<packageinstances>
+<packageinstance name="FIDUCIAL-MICRO"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -458,6 +490,15 @@ FRAME-LETTER</description>
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
+<symbol name="FIDUCIAL" urn="urn:adsk.eagle:symbol:36996/1" library_version="1">
+<description>&lt;h3&gt;Fiducial&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" urn="urn:adsk.eagle:component:37169/1" prefix="FRAME" library_version="1">
@@ -485,6 +526,31 @@ FRAME-LETTER</description>
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
 <attribute name="VERSION" value="v01" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" urn="urn:adsk.eagle:component:37173/1" prefix="FD" library_version="1">
+<description>&lt;h3&gt;Fiducial Alignment Points&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37108/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37111/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22998,11 +23064,19 @@ FRAME-LETTER</description>
 <part name="AGND" library="po-37729" deviceset="PO37729" device="HEX-100"/>
 <part name="IN8P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
 <part name="U$1" library="endless-knot" deviceset="ENDLESSKNOT" device="ENDLESSKNOT-MEDIUM"/>
+<part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 </parts>
 <sheets>
 <sheet>
-<description>HACKEEG Connector Test Board</description>
+<description>HACKEEG 8 Position Connector  Board</description>
 <plain>
+<text x="365.76" y="182.88" size="1.778" layer="91">Fiducials - Top</text>
+<text x="363.474" y="131.064" size="1.778" layer="91">Fiducials - Bottom</text>
 </plain>
 <instances>
 <instance part="IN1P" gate="G$1" x="238.506" y="181.102" rot="MR0"/>
@@ -23022,6 +23096,12 @@ FRAME-LETTER</description>
 <instance part="AGND" gate="G$1" x="238.506" y="191.262" rot="MR0"/>
 <instance part="IN8P" gate="G$1" x="238.506" y="109.982" rot="MR0"/>
 <instance part="U$1" gate="G$1" x="167.64" y="63.5"/>
+<instance part="FD1" gate="G$1" x="355.6" y="170.18"/>
+<instance part="FD2" gate="G$1" x="355.6" y="182.88"/>
+<instance part="FD3" gate="G$1" x="355.6" y="195.58"/>
+<instance part="FD4" gate="G$1" x="355.6" y="144.78"/>
+<instance part="FD5" gate="G$1" x="355.6" y="132.08"/>
+<instance part="FD6" gate="G$1" x="355.6" y="119.38"/>
 </instances>
 <busses>
 </busses>
