@@ -8662,29 +8662,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.272" y1="21.082" x2="11.43" y2="15.24" width="0.508" layer="16"/>
 <wire x1="11.43" y1="15.24" x2="11.43" y2="6.35" width="0.508" layer="16"/>
 </signal>
-<signal name="AGND">
-<polygon width="0.1524" layer="16">
-<vertex x="7.62" y="29.21"/>
-<vertex x="110.363" y="29.21" curve="-90"/>
-<vertex x="111.633" y="27.94"/>
-<vertex x="111.633" y="1.905" curve="-90"/>
-<vertex x="110.363" y="0.635"/>
-<vertex x="6.35" y="0.635" curve="-90"/>
-<vertex x="5.08" y="1.905"/>
-<vertex x="5.08" y="27.94" curve="-90"/>
-<vertex x="6.35" y="29.21"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="109.093" y="1.27"/>
-<vertex x="6.731" y="1.27" curve="-90"/>
-<vertex x="5.461" y="2.54"/>
-<vertex x="5.461" y="27.94" curve="-90"/>
-<vertex x="6.731" y="29.21"/>
-<vertex x="109.093" y="29.21" curve="-90"/>
-<vertex x="110.363" y="27.94"/>
-<vertex x="110.363" y="2.54" curve="-90"/>
-</polygon>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
