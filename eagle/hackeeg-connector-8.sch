@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -159,32 +159,6 @@
 <library name="po-37729">
 <description>Plastics One 37729 - DIN 42-802 female vertical jack</description>
 <packages>
-<package name="HEX-100">
-<pad name="SIGNAL" x="0" y="0" drill="1.016" diameter="1.905"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.762" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.762" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.762" locked="yes"/>
-<hole x="3.175" y="0" drill="0.762" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.762" locked="yes"/>
-</package>
-<package name="HEX-105">
-<pad name="SIGNAL" x="0" y="0" drill="1.0668" diameter="2.032"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.8001" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.8001" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.8001" locked="yes"/>
-<hole x="3.175" y="0" drill="0.8001" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.8001" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.8001" locked="yes"/>
-</package>
 <package name="HEX-110">
 <pad name="SIGNAL" x="0" y="0" drill="1.1176" diameter="2.032"/>
 <circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
@@ -197,62 +171,6 @@
 <hole x="3.175" y="0" drill="0.762" locked="yes"/>
 <hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
 <hole x="-1.5875" y="2.749625" drill="0.8382" locked="yes"/>
-</package>
-<package name="HEX-115">
-<pad name="SIGNAL" x="0" y="0" drill="1.1684" diameter="2.032"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.8763" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.8763" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.8763" locked="yes"/>
-<hole x="3.175" y="0" drill="0.8763" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.8763" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.8763" locked="yes"/>
-</package>
-<package name="HEX-120">
-<pad name="SIGNAL" x="0" y="0" drill="1.2192" diameter="2.159"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.9144" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.9144" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.9144" locked="yes"/>
-<hole x="3.175" y="0" drill="0.9144" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.9144" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.9144" locked="yes"/>
-</package>
-<package name="SIMPLE-100">
-<pad name="SIGNAL" x="0" y="0" drill="1.016" diameter="1.905"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-105">
-<pad name="SIGNAL" x="0" y="0" drill="1.0668" diameter="2.032"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-110">
-<pad name="SIGNAL" x="0" y="0" drill="1.1176" diameter="2.032"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-115">
-<pad name="SIGNAL" x="0" y="0" drill="1.1684" diameter="2.032"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-120">
-<pad name="SIGNAL" x="0" y="0" drill="1.2192" diameter="2.159"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -270,79 +188,7 @@
 <gate name="G$1" symbol="PO37729" x="-7.62" y="0"/>
 </gates>
 <devices>
-<device name="HEX-100" package="HEX-100">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HEX-105" package="HEX-105">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="HEX-110" package="HEX-110">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HEX-115" package="HEX-115">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HEX-120" package="HEX-120">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-100" package="SIMPLE-100">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-105" package="SIMPLE-105">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-110" package="SIMPLE-110">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-115" package="SIMPLE-115">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-120" package="SIMPLE-120">
 <connects>
 <connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
 </connects>
@@ -22642,7 +22488,7 @@ FIDUCIAL</description>
 <part name="IN6P" library="po-37729" deviceset="PO37729" device="HEX-110" value="PO37729HEX-110"/>
 <part name="IN7P" library="po-37729" deviceset="PO37729" device="HEX-110" value="PO37729HEX-110"/>
 <part name="AGND" library="po-37729" deviceset="PO37729" device="HEX-110" value="PO37729HEX-110"/>
-<part name="IN8P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN8P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="U$1" library="endless-knot" deviceset="ENDLESSKNOT" device="ENDLESSKNOT-MEDIUM"/>
 <part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>

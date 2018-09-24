@@ -188,19 +188,6 @@ Released under a CC BY-SA 4.0 License</text>
 <hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
 <hole x="-1.5875" y="2.749625" drill="0.8382" locked="yes"/>
 </package>
-<package name="HEX-100">
-<pad name="SIGNAL" x="0" y="0" drill="1.016" diameter="1.905"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.762" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.762" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.762" locked="yes"/>
-<hole x="3.175" y="0" drill="0.762" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.762" locked="yes"/>
-</package>
 </packages>
 </library>
 <library name="SBH11-NBPC-D12-SM-BK">
@@ -8586,7 +8573,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="IN7P" library="po-37729" package="HEX-110" value="PO37729HEX-110" x="22.86" y="6.35"/>
 <element name="U$1" library="endless-knot" package="ENDLESSKNOT-MEDIUM" value="ENDLESSKNOTENDLESSKNOT-MEDIUM" x="19.05" y="21.209" rot="MR0"/>
 <element name="U$13" library="creative-commons" package="CC-BY-SA" value="CC-BY-SA" x="105.156" y="22.352" rot="MR0"/>
-<element name="IN8P" library="po-37729" package="HEX-100" value="PO37729HEX-100" x="11.43" y="6.35"/>
+<element name="IN8P" library="po-37729" package="HEX-110" value="PO37729HEX-110" x="11.43" y="6.35"/>
 <element name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="5.207"/>
 <element name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="2.54" y="25.4"/>
 <element name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="114.3" y="5.207"/>
