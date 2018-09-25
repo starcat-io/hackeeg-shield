@@ -159,32 +159,6 @@
 <library name="po-37729">
 <description>Plastics One 37729 - DIN 42-802 female vertical jack</description>
 <packages>
-<package name="HEX-100">
-<pad name="SIGNAL" x="0" y="0" drill="1.016" diameter="1.905"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.762" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.762" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.762" locked="yes"/>
-<hole x="3.175" y="0" drill="0.762" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.762" locked="yes"/>
-</package>
-<package name="HEX-105">
-<pad name="SIGNAL" x="0" y="0" drill="1.0668" diameter="2.032"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.8001" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.8001" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.8001" locked="yes"/>
-<hole x="3.175" y="0" drill="0.8001" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.8001" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.8001" locked="yes"/>
-</package>
 <package name="HEX-110">
 <pad name="SIGNAL" x="0" y="0" drill="1.1176" diameter="2.032"/>
 <circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
@@ -198,66 +172,10 @@
 <hole x="1.5875" y="-2.749625" drill="0.762" locked="yes"/>
 <hole x="-1.5875" y="2.749625" drill="0.8382" locked="yes"/>
 </package>
-<package name="HEX-115">
-<pad name="SIGNAL" x="0" y="0" drill="1.1684" diameter="2.032"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.8763" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.8763" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.8763" locked="yes"/>
-<hole x="3.175" y="0" drill="0.8763" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.8763" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.8763" locked="yes"/>
-</package>
-<package name="HEX-120">
-<pad name="SIGNAL" x="0" y="0" drill="1.2192" diameter="2.159"/>
-<circle x="0" y="0" locked="yes" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" locked="yes" radius="3.2" width="0.05" layer="21"/>
-<hole x="-3.175" y="0" drill="0.9144" locked="yes"/>
-<hole x="-1.5875" y="-2.749625" drill="0.9144" locked="yes"/>
-<hole x="1.5875" y="2.749625" drill="0.9144" locked="yes"/>
-<hole x="3.175" y="0" drill="0.9144" locked="yes"/>
-<hole x="1.5875" y="-2.749625" drill="0.9144" locked="yes"/>
-<hole x="-1.5875" y="2.749625" drill="0.9144" locked="yes"/>
-</package>
-<package name="SIMPLE-100">
-<pad name="SIGNAL" x="0" y="0" drill="1.016" diameter="1.905"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-105">
-<pad name="SIGNAL" x="0" y="0" drill="1.0668" diameter="2.032"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-110">
-<pad name="SIGNAL" x="0" y="0" drill="1.1176" diameter="2.032"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-115">
-<pad name="SIGNAL" x="0" y="0" drill="1.1684" diameter="2.032"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="SIMPLE-120">
-<pad name="SIGNAL" x="0" y="0" drill="1.2192" diameter="2.159"/>
-<circle x="0" y="0" radius="4.2" width="0.127" layer="21"/>
-<text x="-3.21" y="4.67" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.32" y="-5.94" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="PO37729">
-<pin name="SIGNAL" x="0" y="0" length="middle"/>
+<pin name="SIGNAL" x="0" y="0" visible="off" length="middle"/>
 <circle x="7.62" y="0" radius="2.54" width="0.254" layer="94"/>
 <text x="4.572" y="3.556" size="1.27" layer="95">&gt;NAME</text>
 <text x="4.572" y="-4.318" size="1.27" layer="95">&gt;VALUE</text>
@@ -270,79 +188,7 @@
 <gate name="G$1" symbol="PO37729" x="-7.62" y="0"/>
 </gates>
 <devices>
-<device name="HEX-100" package="HEX-100">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HEX-105" package="HEX-105">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="HEX-110" package="HEX-110">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HEX-115" package="HEX-115">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HEX-120" package="HEX-120">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-100" package="SIMPLE-100">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-105" package="SIMPLE-105">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-110" package="SIMPLE-110">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-115" package="SIMPLE-115">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIMPLE-120" package="SIMPLE-120">
 <connects>
 <connect gate="G$1" pin="SIGNAL" pad="SIGNAL"/>
 </connects>
@@ -22631,57 +22477,57 @@ FIDUCIAL</description>
 </class>
 </classes>
 <parts>
-<part name="IN1P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN1P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
 <part name="ELECTRODE-CONNECTOR" library="SBH11-NBPC-D12-SM-BK" deviceset="SBH11-NBPC-D12-SM-BK" device=""/>
 <part name="U$13" library="creative-commons" deviceset="CC-BY-SA" device=""/>
-<part name="IN2P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN3P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN4P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN5P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN6P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN7P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="AGND" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN8P" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN2P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN3P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN4P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN5P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN6P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN7P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="AGND" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN8P" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="U$1" library="endless-knot" deviceset="ENDLESSKNOT" device="ENDLESSKNOT-MEDIUM"/>
-<part name="IN1P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN1P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
 <part name="ELECTRODE-CONNECTOR1" library="SBH11-NBPC-D12-SM-BK" deviceset="SBH11-NBPC-D12-SM-BK" device=""/>
 <part name="U$2" library="creative-commons" deviceset="CC-BY-SA" device=""/>
-<part name="IN2P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN3P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN4P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN5P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN6P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN7P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="AGND1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN8P1" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN2P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN3P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN4P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN5P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN6P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN7P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="AGND1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN8P1" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="U$3" library="endless-knot" deviceset="ENDLESSKNOT" device="ENDLESSKNOT-MEDIUM"/>
-<part name="IN1P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN1P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
 <part name="ELECTRODE-CONNECTOR2" library="SBH11-NBPC-D12-SM-BK" deviceset="SBH11-NBPC-D12-SM-BK" device=""/>
 <part name="U$4" library="creative-commons" deviceset="CC-BY-SA" device=""/>
-<part name="IN2P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN3P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN4P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN5P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN6P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN7P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="AGND2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN8P2" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN2P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN3P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN4P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN5P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN6P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN7P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="AGND2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN8P2" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="U$5" library="endless-knot" deviceset="ENDLESSKNOT" device="ENDLESSKNOT-MEDIUM"/>
-<part name="IN1P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN1P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="FRAME4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
 <part name="ELECTRODE-CONNECTOR3" library="SBH11-NBPC-D12-SM-BK" deviceset="SBH11-NBPC-D12-SM-BK" device=""/>
 <part name="U$6" library="creative-commons" deviceset="CC-BY-SA" device=""/>
-<part name="IN2P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN3P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN4P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN5P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN6P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN7P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="AGND3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
-<part name="IN8P3" library="po-37729" deviceset="PO37729" device="HEX-100"/>
+<part name="IN2P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN3P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN4P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN5P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN6P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN7P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="AGND3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
+<part name="IN8P3" library="po-37729" deviceset="PO37729" device="HEX-110"/>
 <part name="U$7" library="endless-knot" deviceset="ENDLESSKNOT" device="ENDLESSKNOT-MEDIUM"/>
 <part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
