@@ -22532,16 +22532,6 @@ FIDUCIAL</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="AGND" gate="G$1" pin="SIGNAL"/>
-<wire x1="238.506" y1="191.262" x2="271.78" y2="191.262" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="191.262" x2="271.78" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="5"/>
-<wire x1="271.78" y1="187.96" x2="271.78" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="IN1P" gate="G$1" pin="SIGNAL"/>
@@ -22619,6 +22609,57 @@ FIDUCIAL</description>
 <pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="21"/>
 <wire x1="274.32" y1="121.92" x2="274.32" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="142.24" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="4"/>
+<wire x1="304.8" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="165.1" x2="312.42" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="162.56" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="160.02" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="157.48" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="154.94" x2="312.42" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="152.4" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="149.86" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="147.32" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="144.78" x2="312.42" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="6"/>
+<wire x1="304.8" y1="162.56" x2="312.42" y2="162.56" width="0.1524" layer="91"/>
+<junction x="312.42" y="162.56"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="8"/>
+<wire x1="304.8" y1="160.02" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
+<junction x="312.42" y="160.02"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="10"/>
+<wire x1="304.8" y1="157.48" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
+<junction x="312.42" y="157.48"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="12"/>
+<wire x1="304.8" y1="154.94" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
+<junction x="312.42" y="154.94"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="14"/>
+<wire x1="304.8" y1="152.4" x2="312.42" y2="152.4" width="0.1524" layer="91"/>
+<junction x="312.42" y="152.4"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="16"/>
+<wire x1="304.8" y1="149.86" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
+<junction x="312.42" y="149.86"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="18"/>
+<wire x1="304.8" y1="147.32" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
+<junction x="312.42" y="147.32"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="20"/>
+<wire x1="304.8" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
+<junction x="312.42" y="144.78"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="22"/>
+<wire x1="304.8" y1="142.24" x2="312.42" y2="142.24" width="0.1524" layer="91"/>
+<label x="314.706" y="162.306" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AGND" gate="G$1" pin="SIGNAL"/>
+<wire x1="238.506" y1="191.262" x2="271.78" y2="191.262" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="191.262" x2="271.78" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="5"/>
+<wire x1="271.78" y1="187.96" x2="271.78" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
+<label x="273.558" y="190.754" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
