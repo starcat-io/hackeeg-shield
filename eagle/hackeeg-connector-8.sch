@@ -22734,7 +22734,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FD4" gate="G$1" x="355.6" y="144.78"/>
 <instance part="FD5" gate="G$1" x="355.6" y="132.08"/>
 <instance part="FD6" gate="G$1" x="355.6" y="119.38"/>
-<instance part="R1" gate="G$1" x="276.606" y="191.262"/>
+<instance part="R1" gate="G$1" x="276.352" y="191.262"/>
 <instance part="JP1" gate="G$1" x="286.512" y="191.262"/>
 </instances>
 <busses>
@@ -22868,22 +22868,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="AGND1" class="0">
 <segment>
 <pinref part="AGND" gate="G$1" pin="SIGNAL"/>
-<wire x1="238.506" y1="191.262" x2="271.526" y2="191.262" width="0.1524" layer="91"/>
-<wire x1="271.526" y1="191.262" x2="271.78" y2="191.262" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="191.262" x2="271.78" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="238.506" y1="191.262" x2="271.272" y2="191.262" width="0.1524" layer="91"/>
+<wire x1="271.272" y1="191.262" x2="271.272" y2="189.23" width="0.1524" layer="91"/>
+<wire x1="271.272" y1="189.23" x2="271.272" y2="185.928" width="0.1524" layer="91"/>
 <pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="5"/>
-<wire x1="271.78" y1="187.96" x2="271.78" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="271.272" y1="185.928" x2="271.272" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="271.272" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
 <label x="267.208" y="194.056" size="1.778" layer="95" rot="R180"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<junction x="271.526" y="191.262"/>
+<junction x="271.272" y="191.262"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="281.686" y1="191.262" x2="281.432" y2="191.262" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
