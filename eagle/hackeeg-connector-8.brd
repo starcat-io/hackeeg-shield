@@ -8751,19 +8751,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="ELECTRODE-CONNECTOR" pad="20"/>
 <contactref element="ELECTRODE-CONNECTOR" pad="22"/>
 <contactref element="JP1" pad="2"/>
-<polygon width="0.0762" layer="16">
-<vertex x="8.89" y="29.21"/>
-<vertex x="7.62" y="29.21" curve="90"/>
-<vertex x="6.35" y="27.94"/>
-<vertex x="6.35" y="5.715" curve="90"/>
-<vertex x="7.62" y="4.445"/>
-<vertex x="102.235" y="4.445"/>
+<polygon width="0.1524" layer="16">
+<vertex x="6.35" y="26.67"/>
+<vertex x="6.35" y="12.7"/>
+<vertex x="6.35" y="5.842" curve="90"/>
+<vertex x="7.747" y="4.445"/>
+<vertex x="9.652" y="4.445"/>
 <vertex x="106.68" y="4.445" curve="90"/>
 <vertex x="107.95" y="5.715"/>
-<vertex x="107.95" y="24.13"/>
+<vertex x="107.95" y="11.303"/>
 <vertex x="107.95" y="27.94" curve="90"/>
 <vertex x="106.68" y="29.21"/>
+<vertex x="104.775" y="29.21"/>
+<vertex x="7.62" y="29.21" curve="90"/>
+<vertex x="6.35" y="27.94"/>
 </polygon>
+<via x="22.86" y="20.32" extent="1-16" drill="0.35"/>
+<via x="10.16" y="26.67" extent="1-16" drill="0.35"/>
+<via x="17.145" y="14.097" extent="1-16" drill="0.35"/>
+<via x="77.47" y="19.05" extent="1-16" drill="0.35"/>
+<via x="97.282" y="15.494" extent="1-16" drill="0.35"/>
+<via x="104.14" y="26.67" extent="1-16" drill="0.35"/>
+<via x="28.321" y="26.543" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="AGND1">
 <contactref element="AGND" pad="SIGNAL"/>
@@ -8782,24 +8791,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="JP1" pad="1"/>
 <wire x1="9.779" y1="23.114" x2="9.818" y2="19.304" width="0.508" layer="1"/>
 </signal>
-<signal name="N$1">
-<via x="15.24" y="26.67" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$10">
-<via x="30.48" y="26.67" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$11">
-<via x="80.01" y="19.05" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$12">
-<via x="104.14" y="20.32" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$13">
-<via x="86.36" y="27.94" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$14">
-<via x="19.05" y="17.78" extent="1-16" drill="0.35"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -8813,6 +8804,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="19,1,4b1d7bc4e0f1a056"/>
 <approved hash="19,1,8308063ed46a2122"/>
 <approved hash="19,1,18421b9c119a1244"/>
+<approved hash="3,1,e81bed728dfd8894"/>
 </errors>
 </board>
 </drawing>
