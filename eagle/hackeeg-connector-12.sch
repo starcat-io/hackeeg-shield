@@ -22785,6 +22785,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="365.76" y="182.88" size="1.778" layer="91">Fiducials - Top</text>
 <text x="363.474" y="131.064" size="1.778" layer="91">Fiducials - Bottom</text>
+<text x="157.48" y="203.2" size="1.778" layer="91">BIAS_ELEC</text>
+<text x="313.182" y="139.954" size="1.778" layer="95">BIAS_ELEC</text>
+<text x="272.796" y="160.528" size="1.778" layer="95">IN1P</text>
+<text x="272.796" y="157.734" size="1.778" layer="95">IN2P</text>
+<text x="272.796" y="155.194" size="1.778" layer="95">IN3P</text>
+<text x="272.796" y="152.654" size="1.778" layer="95">IN4P</text>
+<text x="272.796" y="150.114" size="1.778" layer="95">IN5P</text>
+<text x="272.796" y="147.574" size="1.778" layer="95">IN5P</text>
+<text x="272.796" y="145.034" size="1.778" layer="95">IN7P</text>
+<text x="272.796" y="142.494" size="1.778" layer="95">IN8P</text>
+<text x="272.288" y="168.148" size="1.778" layer="95">AGND1</text>
+<text x="303.276" y="165.354" size="1.778" layer="95">AVDD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="149.86" y="45.72"/>
@@ -22803,41 +22815,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FD6" gate="G$1" x="355.6" y="119.38"/>
 <instance part="R1" gate="G$1" x="276.352" y="191.262"/>
 <instance part="JP1" gate="G$1" x="286.512" y="191.262"/>
-<instance part="WIRE-CONNECTOR" gate="G$1" x="218.44" y="154.94" rot="MR0"/>
+<instance part="WIRE-CONNECTOR" gate="G$1" x="203.2" y="154.94" rot="MR0"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="IN1P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="7"/>
-<wire x1="279.4" y1="160.02" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="160.02" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="5"/>
-<wire x1="238.76" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
-<label x="229.108" y="157.988" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IN2P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="9"/>
-<wire x1="279.4" y1="157.48" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="157.48" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="6"/>
-<wire x1="241.3" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-<label x="229.108" y="155.194" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IN3P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="11"/>
-<wire x1="279.4" y1="154.94" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="154.94" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="7"/>
-<wire x1="243.84" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
-<label x="229.108" y="152.654" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="AGND" class="0">
 <segment>
 <wire x1="312.42" y1="165.1" x2="312.42" y2="162.56" width="0.1524" layer="91"/>
@@ -22872,7 +22854,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="312.42" y="144.78"/>
 <pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="22"/>
 <wire x1="304.8" y1="142.24" x2="312.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="314.706" y="162.306" size="1.778" layer="95"/>
+<label x="303.53" y="160.274" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="291.592" y1="191.262" x2="312.42" y2="191.262" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="191.262" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
@@ -22880,7 +22862,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="AGND1" class="0">
 <segment>
-<label x="236.982" y="169.926" size="1.778" layer="95" rot="R180"/>
+<label x="214.884" y="139.954" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="271.272" y1="191.262" x2="271.272" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="271.272" y1="180.34" x2="309.88" y2="180.34" width="0.1524" layer="91"/>
@@ -22891,11 +22873,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="304.8" y1="162.56" x2="309.88" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="162.56" x2="309.88" y2="165.1" width="0.1524" layer="91"/>
 <junction x="309.88" y="165.1"/>
-<wire x1="271.272" y1="191.262" x2="233.68" y2="191.262" width="0.1524" layer="91"/>
+<wire x1="271.272" y1="191.262" x2="241.3" y2="191.262" width="0.1524" layer="91"/>
 <junction x="271.272" y="191.262"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="191.262" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="191.262" x2="241.3" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="12"/>
+<wire x1="241.3" y1="167.64" x2="241.3" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -22904,86 +22887,140 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IN4P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="13"/>
-<wire x1="279.4" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="152.4" x2="246.38" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="8"/>
-<wire x1="246.38" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
-<label x="229.108" y="150.114" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IN5P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="15"/>
-<wire x1="279.4" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="149.86" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="9"/>
-<wire x1="248.92" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
-<label x="229.108" y="147.574" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IN6P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="17"/>
-<wire x1="279.4" y1="147.32" x2="251.46" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="147.32" x2="251.46" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="10"/>
-<wire x1="251.46" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<label x="229.108" y="145.034" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IN7P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="19"/>
-<wire x1="279.4" y1="144.78" x2="254" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="254" y1="144.78" x2="254" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="11"/>
-<wire x1="254" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
-<label x="229.108" y="142.494" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IN8P" class="0">
-<segment>
-<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="21"/>
-<wire x1="279.4" y1="142.24" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="142.24" x2="256.54" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="12"/>
-<wire x1="256.54" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
-<label x="229.108" y="139.954" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="AVDD" class="0">
 <segment>
 <pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="167.64" x2="304.8" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="177.8" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="177.8" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
-<label x="229.362" y="165.354" size="1.778" layer="95"/>
+<wire x1="304.8" y1="177.8" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="177.8" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
+<label x="214.884" y="142.494" size="1.778" layer="95"/>
+<wire x1="243.84" y1="165.1" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="11"/>
+<wire x1="243.84" y1="144.78" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DVDD" class="0">
 <segment>
 <pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="167.64" x2="238.76" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="167.64" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="167.64" x2="246.38" y2="167.64" width="0.1524" layer="91"/>
+<label x="215.138" y="145.288" size="1.778" layer="95"/>
+<wire x1="246.38" y1="167.64" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="10"/>
+<wire x1="246.38" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN1P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="7"/>
+<wire x1="279.4" y1="160.02" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
+<label x="215.138" y="147.828" size="1.778" layer="95"/>
+<wire x1="271.78" y1="160.02" x2="248.92" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="160.02" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="9"/>
+<wire x1="248.92" y1="149.86" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN2P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="9"/>
+<wire x1="279.4" y1="157.48" x2="271.78" y2="157.48" width="0.1524" layer="91"/>
+<label x="215.138" y="150.114" size="1.778" layer="95"/>
+<wire x1="271.78" y1="157.48" x2="251.46" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="157.48" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="8"/>
+<wire x1="251.46" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN3P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="11"/>
+<wire x1="279.4" y1="154.94" x2="271.78" y2="154.94" width="0.1524" layer="91"/>
+<label x="215.138" y="152.654" size="1.778" layer="95"/>
+<wire x1="271.78" y1="154.94" x2="254" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="254" y1="154.94" x2="254" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="7"/>
+<wire x1="254" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN4P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="13"/>
+<wire x1="279.4" y1="152.4" x2="271.78" y2="152.4" width="0.1524" layer="91"/>
+<label x="215.138" y="155.194" size="1.778" layer="95"/>
+<wire x1="271.78" y1="152.4" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="152.4" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="129.54" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="132.08" x2="236.22" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="6"/>
+<wire x1="236.22" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN6P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="17"/>
+<wire x1="279.4" y1="147.32" x2="271.78" y2="147.32" width="0.1524" layer="91"/>
+<label x="215.138" y="160.274" size="1.778" layer="95"/>
+<wire x1="271.78" y1="147.32" x2="261.62" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="147.32" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="4"/>
+<wire x1="231.14" y1="124.46" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN7P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="19"/>
+<wire x1="279.4" y1="144.78" x2="271.78" y2="144.78" width="0.1524" layer="91"/>
+<label x="215.138" y="162.814" size="1.778" layer="95"/>
+<wire x1="271.78" y1="144.78" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="144.78" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="121.92" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="WIRE-CONNECTOR" gate="G$1" pin="3"/>
-<wire x1="238.76" y1="162.56" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
-<label x="229.362" y="162.814" size="1.778" layer="95"/>
+<wire x1="228.6" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN8P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="21"/>
+<wire x1="279.4" y1="142.24" x2="271.78" y2="142.24" width="0.1524" layer="91"/>
+<label x="215.138" y="165.354" size="1.778" layer="95"/>
+<wire x1="271.78" y1="142.24" x2="266.7" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="142.24" x2="266.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="119.38" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="121.92" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="165.1" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IN5P" class="0">
+<segment>
+<pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="15"/>
+<wire x1="279.4" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
+<label x="215.138" y="157.734" size="1.778" layer="95"/>
+<wire x1="271.78" y1="149.86" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="149.86" x2="259.08" y2="127" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="127" x2="233.68" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="5"/>
+<wire x1="233.68" y1="157.48" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BIAS_ELEC" class="0">
 <segment>
 <pinref part="ELECTRODE-CONNECTOR" gate="G$1" pin="24"/>
-<wire x1="304.8" y1="139.7" x2="304.8" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="129.54" x2="235.966" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="235.966" y1="129.54" x2="235.966" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="WIRE-CONNECTOR" gate="G$1" pin="4"/>
-<wire x1="235.966" y1="160.02" x2="228.6" y2="160.02" width="0.1524" layer="91"/>
-<label x="229.108" y="160.274" size="1.778" layer="95"/>
+<wire x1="304.8" y1="139.7" x2="312.674" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="312.674" y1="139.7" x2="312.674" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="312.674" y1="132.08" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="132.08" x2="238.76" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="WIRE-CONNECTOR" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="167.64" x2="213.36" y2="167.64" width="0.1524" layer="91"/>
+<label x="215.392" y="167.894" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
