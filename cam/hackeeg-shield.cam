@@ -123,7 +123,7 @@
                         "description": "DVDD Copper",
                         "file_function": "Other"
                     },
-                    "filename_format": "%N.dvdd-layer3.ger",
+                    "filename_format": "camfiles/%N.dvdd-layer3.ger",
                     "layers": [
                         15,
                         17,
@@ -279,7 +279,7 @@
             "version": "X2"
         }
     ],
-    "timestamp": "2019-04-18T17:49:33",
+    "timestamp": "2019-04-23T17:14:12",
     "type": "EAGLE CAM job",
     "units": "imperial",
     "version": "8.6.1"
