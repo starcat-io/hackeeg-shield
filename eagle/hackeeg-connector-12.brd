@@ -8451,9 +8451,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="OSTTA120161B">
+<library name="OSTTA120161">
 <packages>
-<package name="ONSHORE_OSTTA120161B">
+<package name="ONSHORE_OSTTA120161">
 <text x="-3.048" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-4" y="0" radius="0.1" width="0.2" layer="51"/>
@@ -8730,7 +8730,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="85.979" y="23.368" size="1.016" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="85.979" y="24.511" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="WIRE-CONNECTOR" library="OSTTA120161B" package="ONSHORE_OSTTA120161B" value="OSTTA120161B" x="83.82" y="8.89" smashed="yes" rot="MR0">
+<element name="WIRE-CONNECTOR" library="OSTTA120161" package="ONSHORE_OSTTA120161" value="OSTTA120161" x="83.82" y="8.89" smashed="yes" rot="MR0">
 <attribute name="AVAILABILITY" value="Unavailable" x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" value=" TERM BLK 12P SIDE ENTRY 5MM PCB " x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="On Shore Technology Inc." x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>

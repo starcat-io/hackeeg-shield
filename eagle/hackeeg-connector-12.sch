@@ -22627,9 +22627,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="OSTTA120161B">
+<library name="OSTTA120161">
 <packages>
-<package name="ONSHORE_OSTTA120161B">
+<package name="ONSHORE_OSTTA120161">
 <text x="-3.048" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-4" y="0" radius="0.1" width="0.2" layer="51"/>
@@ -22697,7 +22697,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="OSTTA120161B">
+<symbol name="OSTTA120161">
 <text x="-5.08" y="16.002" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
@@ -22719,13 +22719,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OSTTA120161B" prefix="J">
+<deviceset name="OSTTA120161" prefix="J">
 <description>TERM BLK 12P SIDE ENTRY 5MM PCB</description>
 <gates>
-<gate name="G$1" symbol="OSTTA120161B" x="0" y="0"/>
+<gate name="G$1" symbol="OSTTA120161" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ONSHORE_OSTTA120161B">
+<device name="" package="ONSHORE_OSTTA120161">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -22777,7 +22777,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
-<part name="WIRE-CONNECTOR" library="OSTTA120161B" deviceset="OSTTA120161B" device=""/>
+<part name="WIRE-CONNECTOR" library="OSTTA120161" deviceset="OSTTA120161" device=""/>
 </parts>
 <sheets>
 <sheet>
