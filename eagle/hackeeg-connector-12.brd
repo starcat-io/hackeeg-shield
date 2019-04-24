@@ -8707,7 +8707,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESCRIPTION" value=" Conn Headr 2.54mm 24pos Gold Smd " x="57.15" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Sullins Connector" x="57.15" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="SBH11-NBPC-D12-SM-BK" x="57.15" y="22.479" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.495" y="28.70835" size="1.016" layer="25"/>
+<attribute name="NAME" x="49.511" y="14.61135" size="1.016" layer="25"/>
 <attribute name="PACKAGE" value="None" x="57.15" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="1.05 USD" x="57.15" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38.0449" y="14.83696875" size="1.78313125" layer="27"/>
@@ -8735,7 +8735,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESCRIPTION" value=" TERM BLK 12P SIDE ENTRY 5MM PCB " x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="On Shore Technology Inc." x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="OSTTA120161B" x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="87.757" y="4.953" size="1.016" layer="26" rot="MR90"/>
+<attribute name="NAME" x="51.308" y="15.748" size="1.016" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="None" x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="83.82" y="8.89" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="86.995" y="3.175" size="1.27" layer="28" rot="MR0"/>
