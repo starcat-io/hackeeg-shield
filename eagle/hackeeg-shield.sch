@@ -5778,12 +5778,13 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </parts>
 <sheets>
 <sheet>
+<description>ADS1299 and power supplies</description>
 <plain>
 <text x="246.634" y="218.186" size="1.778" layer="91">NC</text>
 <text x="246.634" y="215.392" size="1.778" layer="91">NC</text>
 <text x="329.184" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
+<text x="328.676" y="37.592" size="2.54" layer="95">Copyright 2014-2018 Adam Feuer</text>
 <text x="414.782" y="6.858" size="2.1844" layer="95">v1.4.0</text>
 <text x="246.634" y="212.344" size="1.778" layer="91">NC</text>
 <text x="327.406" y="161.798" size="1.27" layer="91">NC</text>
@@ -6921,13 +6922,14 @@ By-Attribution Share-Alike 4.0 license</text>
 </nets>
 </sheet>
 <sheet>
+<description>Input filtering and electrode connector</description>
 <plain>
 <text x="34.036" y="121.666" size="2.54" layer="91">Electrode Connector</text>
 <text x="284.734" y="62.484" size="2.54" layer="91">Stimulus-Response Buffer (SRB)</text>
 <text x="293.116" y="179.324" size="2.54" layer="91">Bias</text>
 <text x="320.802" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
+<text x="320.294" y="37.592" size="2.54" layer="95">Copyright 2014-2018 Adam Feuer</text>
 <text x="65.532" y="264.668" size="2.54" layer="91">Input Filtering</text>
 <text x="160.274" y="254.762" size="2.54" layer="91">(This side to ADS1299 inputs)</text>
 <text x="22.352" y="254.508" size="2.54" layer="91">(This side to electrode connector)</text>
@@ -7821,7 +7823,7 @@ By-Attribution Share-Alike 4.0 license</text>
 </nets>
 </sheet>
 <sheet>
-<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
+<description>Board to board connectors, configuration, EEPROM, and level shifting</description>
 <plain>
 <text x="103.886" y="14.986" size="2.54" layer="91">Configuration jumpers</text>
 <text x="73.406" y="171.958" size="2.54" layer="91">ADS1299 Level Shifting</text>
@@ -7831,7 +7833,7 @@ positions for
 jumper storage)</text>
 <text x="326.136" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014-2016 Adam Feuer</text>
+<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014-2018 Adam Feuer</text>
 <text x="315.468" y="84.582" size="2.54" layer="91">Shield Connectors</text>
 <text x="356.616" y="254" size="1.524" layer="91">SCL1</text>
 <text x="356.616" y="251.46" size="1.524" layer="91">SDA1</text>
