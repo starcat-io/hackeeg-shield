@@ -10451,9 +10451,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="68.4276" y="38.7858" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="68.3768" y="38.6588" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$5" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.524" y="52.07" smashed="yes"/>
-<element name="U$6" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="99.4156" y="5.1816" smashed="yes"/>
-<element name="U$2" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="1.524" y="5.1816" smashed="yes"/>
+<element name="U$5" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="12.0396" y="52.1716" smashed="yes"/>
+<element name="U$6" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="94.3356" y="1.2954" smashed="yes"/>
+<element name="U$2" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="12.0396" y="1.2954" smashed="yes"/>
 <element name="R37" library="SparkFun-Passives" package="0603-RES" value="4.99k" x="12.1666" y="13.2334" smashed="yes">
 <attribute name="NAME" x="11.1506" y="11.811" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="11.1506" y="12.0904" size="0.4064" layer="27" font="vector"/>
