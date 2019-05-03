@@ -5709,7 +5709,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="3.3 uH"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10 uF"/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uf"/>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -5739,14 +5739,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="3.3 uH"/>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10 uF"/>
-<part name="C24" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uf"/>
+<part name="C24" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="SUPPLY1" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="AGND" device=""/>
 <part name="IC6" library="TPS604xx" deviceset="TPS604XX" device="DBV" value="TPS60403DBVT"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="L4" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="3.3 uH"/>
-<part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uf"/>
+<part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="SUPPLY12" library="supply2" deviceset="AGND" device=""/>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 <part name="SUPPLY14" library="supply2" deviceset="AGND" device=""/>

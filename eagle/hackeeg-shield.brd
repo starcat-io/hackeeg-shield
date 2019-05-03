@@ -233,10 +233,10 @@ MISO</text>
 <circle x="63.0174" y="32.4866" radius="0.366321875" width="0.2032" layer="21"/>
 <wire x1="72.7456" y1="7.62" x2="72.7456" y2="6.5278" width="0.2032" layer="21"/>
 <wire x1="72.7456" y1="6.5278" x2="74.1172" y2="6.5278" width="0.2032" layer="21"/>
-<text x="9.6266" y="5.3848" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">1</text>
-<text x="9.8552" y="32.9184" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">23</text>
-<text x="2.0066" y="32.9438" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">24</text>
-<text x="2.9718" y="3.6068" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">2</text>
+<text x="9.017" y="5.969" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">1</text>
+<text x="9.1694" y="33.909" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">23</text>
+<text x="3.175" y="34.036" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">24</text>
+<text x="2.794" y="6.5786" size="0.8128" layer="21" font="vector" ratio="14" rot="R90">2</text>
 <text x="39.9034" y="37.9476" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">1</text>
 <text x="39.9034" y="40.5638" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">2</text>
 <text x="39.8018" y="43.1038" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">3</text>
@@ -372,7 +372,7 @@ TX</text>
 <text x="62.0776" y="26.9494" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">SCK</text>
 <text x="62.0522" y="23.9776" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">RST</text>
 <text x="9.144" y="48.1076" size="0.762" layer="21" font="vector" ratio="12">SCLK</text>
-<text x="15.474190625" y="45.46244375" size="1.016" layer="21" font="vector" ratio="12" rot="R90">Ext.
+<text x="16.591790625" y="45.31004375" size="1.016" layer="21" font="vector" ratio="12" rot="R90">Ext.
 Sync</text>
 <text x="9.0424" y="50.1142" size="0.762" layer="21" font="vector" ratio="12">GND</text>
 <text x="9.0678" y="46.0756" size="0.762" layer="21" font="vector" ratio="12">START</text>
@@ -10037,7 +10037,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="67.7164" y="45.1866" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="67.3862" y="45.5168" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="C6" library="SparkFun-Passives" package="0603-CAP" value="10uf" x="68.7324" y="40.1066" smashed="yes">
+<element name="C6" library="SparkFun-Passives" package="0603-CAP" value="10uF" x="68.7324" y="40.1066" smashed="yes">
 <attribute name="NAME" x="68.326" y="40.894" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="67.7164" y="38.9636" size="0.4064" layer="27" font="vector"/>
 </element>
@@ -10113,7 +10113,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="58.1914" y="45.2882" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="58.0136" y="45.0342" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C24" library="SparkFun-Passives" package="0603-CAP" value="10uf" x="56.9976" y="41.8338" smashed="yes" rot="R180">
+<element name="C24" library="SparkFun-Passives" package="0603-CAP" value="10uF" x="56.9976" y="41.8338" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.1152" y="41.1226" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="58.0136" y="42.9768" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -10129,7 +10129,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="73.9648" y="39.5986" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="74.2696" y="39.0144" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C27" library="SparkFun-Passives" package="0603-CAP" value="10uf" x="73.406" y="35.6108" smashed="yes" rot="R180">
+<element name="C27" library="SparkFun-Passives" package="0603-CAP" value="10uF" x="73.406" y="35.6108" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.5744" y="34.798" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="74.422" y="36.7538" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -10359,7 +10359,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="VALUE" x="27.5082" y="45.1358" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="JP7" library="adafruit" package="1X03" value="SRB2-REF_ELEC" x="22.717253125" y="44.23105625" smashed="yes">
-<attribute name="NAME" x="18.5600375" y="43.464996875" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="18.6108375" y="43.109396875" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.907253125" y="41.05605625" size="1.27" layer="27"/>
 </element>
 <element name="JP4" library="headers" package="1X03" value="5V-2.5V" x="61.1124" y="41.4274" smashed="yes" rot="R90">
@@ -10371,7 +10371,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="VALUE" x="92.6592" y="38.5572" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP8" library="adafruit" package="1X03" value="SRB1-REF_ELEC" x="22.7878625" y="40.42715" smashed="yes">
-<attribute name="NAME" x="18.691353125" y="39.14495625" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="18.665953125" y="39.17035625" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.9778625" y="37.25215" size="1.27" layer="27"/>
 </element>
 <element name="C60" library="SparkFun-Passives" package="0603-CAP" value="1uF" x="45.8216" y="39.8526" smashed="yes" rot="R180">
@@ -10550,19 +10550,19 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="VALUE" x="82.9945" y="43.2181" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="JP15" library="SparkFun-Connectors" package="JST-4-PTH" value="External Sync" x="2.286" y="46.863" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.223" y="39.5638" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="12.7602" y="48.8602" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="SKU" value="PRT-09916" x="2.286" y="46.863" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="3.286" y="44.593" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="JP16" library="OS302-R241" package="OST_302-R241" value="Electrodes" x="5.7404" y="20.701" smashed="yes" rot="R270">
+<element name="JP16" library="OS302-R241" package="OST_302-R241" value="Electrodes" x="5.7404" y="20.701" locked="yes" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Unavailable" x="5.7404" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn Socket Strip SKT 24 POS 2.54mm Solder RA Thru-Hole " x="5.7404" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="On Shore" x="5.7404" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="302-R241" x="5.7404" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="3.81" y="31.4706" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="NAME" x="8.424671875" y="12.731240625" size="1.27" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="5.7404" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="5.7404" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.8354" y="34.671" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="-8.2296" y="39.751" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IC8" library="OPA376" package="SOT23-5" value="OPA376DBV" x="30.9118" y="43.307" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.6672" y="40.7924" size="0.8128" layer="25"/>
