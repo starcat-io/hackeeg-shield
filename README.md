@@ -5,7 +5,7 @@ This is an Arduino Due shield for the
 [TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299).
 If you're reading this, you probably know what that is.
 
-[Picture of the HackEEG board](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/hackeeg-shield.jpg)
+![Picture of the HackEEG board](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/hackeeg-shield.jpg)
 
 This board has been tested and works. Design files for two connector boards
 are included:
