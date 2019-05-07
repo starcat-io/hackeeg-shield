@@ -37,8 +37,8 @@ Features
 Warning
 =======
 
-This board is meant to be used *only* in battery powered systems. It has no patient isolation circuitry.
-Don't connect it, or any system it is connected to, to mains (wall or AC) power. *Use at your own risk.*
+This board is meant to be used **only** in battery powered systems. It has no patient isolation circuitry.
+Don't connect it, or any system it is connected to, to mains (wall or AC) power. **Use at your own risk.**
 
 
 Testing
