@@ -2,16 +2,19 @@ HackEEG - ADS1299 Shield
 ========================
 
 This is an Arduino Due shield for the 
-[TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299).
-If you're reading this, you probably know what that is.
+[TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299). This 
+system-on-a-chip that includes all commonly-required features for extracranial 
+electroencephalogram (EEG) and electrocardiography (ECG) applications.
 
 ![Picture of the HackEEG board](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/hackeeg-shield.jpg)
 
 This board has been tested and works. Design files for two connector boards
 are included:
 
-  * connector-8: this has 9 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) medical electrode connectors (8 inputs, one ground)
-  * connector-12: this has a 12-position screw-terminal connector
+  * connector-8: this has 9 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) 
+    medical electrode connectors (8 unipolar inputs, one ground)
+  * connector-12: this has a 12-position screw-terminal connector with 8 unipolar inputs, ground, 
+    analog power, digital power, and bias electrode.
 
 I intend to eventually design a case and will post the files here when I do.
 
@@ -60,6 +63,7 @@ If you have questions, comments, or improvements, I would love to know them!
 
 cheers <br>
 adam <br>
+<br>
 Adam Feuer <br>
 adam@starcat.io<br>
 [Starcat LLC](https://starcat.io)<br>
