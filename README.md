@@ -10,7 +10,7 @@ If you're reading this, you probably know what that is.
 This board has been tested and works. Design files for two connector boards
 are included:
 
-  * connector-8: this has 8 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) medical electrode connectors
+  * connector-8: this has 9 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) medical electrode connectors (8 inputs, one ground)
   * connector-12: this has a 12-position screw-terminal connector
 
 I intend to eventually design a case and will post the files here when I do.
