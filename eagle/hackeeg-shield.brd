@@ -9,8 +9,8 @@
 </settings>
 <grid distance="0.01" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="AGND" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="AGND" color="3" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -23,8 +23,8 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="DVDD" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="DVDD" color="15" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="yes"/>
@@ -146,7 +146,7 @@
 Adam Feuer
 StarCat LLC</text>
 <circle x="23.04059375" y="16.846040625" radius="0.889" width="0.2032" layer="16"/>
-<text x="100.86314375" y="23.728171875" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">v1.4.0 GA [] NM []</text>
+<text x="100.86314375" y="23.728171875" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">v1.4.2 GA</text>
 <wire x1="97.663" y1="53.467" x2="99.187" y2="51.943" width="0.254" layer="20"/>
 <wire x1="99.187" y1="40.513" x2="101.727" y2="37.973" width="0.254" layer="20"/>
 <wire x1="101.727" y1="37.973" x2="101.727" y2="5.207" width="0.254" layer="20"/>
@@ -10317,7 +10317,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="20.6756" y="9.3472" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="21.717" y="8.8138" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="D2" library="SparkFun-LED" package="LED-1206" value="WHITE" x="19.812" y="3.5306" smashed="yes" rot="R270">
+<element name="D2" library="SparkFun-LED" package="LED-1206" value="BLUE" x="19.812" y="3.5306" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.1836" y="5.8928" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="PROD_ID" value="DIO-09955" x="19.812" y="3.5306" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="WHITE" x="18.034" y="4.5466" size="0.4064" layer="27" rot="R270"/>

@@ -5818,7 +5818,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FRAME4" library="frames" deviceset="FRAME_B_L" device="" value="1.0"/>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="270"/>
 <part name="SUPPLY40" library="supply2" deviceset="AGND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-WHITE" device="" value="WHITE"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-WHITE" device="" value="BLUE"/>
 <part name="IC5" library="microchip" deviceset="24*" device="SN" technology="LC256" value="24AA256UID"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
