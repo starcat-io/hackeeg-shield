@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22797,25 +22797,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="272.796" y="142.494" size="1.778" layer="95">IN8P</text>
 <text x="272.288" y="168.148" size="1.778" layer="95">AGND1</text>
 <text x="303.276" y="165.354" size="1.778" layer="95">AVDD</text>
+<text x="388.62" y="53.34" size="1.778" layer="95">v 1.0</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="149.86" y="45.72"/>
-<instance part="FRAME1" gate="V" x="297.18" y="45.72"/>
+<instance part="FRAME1" gate="G$1" x="149.86" y="45.72" smashed="yes"/>
+<instance part="FRAME1" gate="V" x="297.18" y="45.72" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="309.88" y="46.99" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="383.54" y="46.99" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="312.674" y="63.5" size="2.7432" layer="94" font="vector"/>
+</instance>
 <instance part="ELECTRODE-CONNECTOR" gate="G$1" x="292.1" y="152.4" smashed="yes">
 <attribute name="NAME" x="263.144" y="171.71691875" size="2.54646875" layer="95"/>
 <attribute name="VALUE" x="283.718" y="133.5629" size="2.28846875" layer="96"/>
 </instance>
-<instance part="U$13" gate="G$1" x="193.04" y="53.34"/>
-<instance part="U$1" gate="G$1" x="167.64" y="63.5"/>
-<instance part="FD1" gate="G$1" x="355.6" y="170.18"/>
-<instance part="FD2" gate="G$1" x="355.6" y="182.88"/>
-<instance part="FD3" gate="G$1" x="355.6" y="195.58"/>
-<instance part="FD4" gate="G$1" x="355.6" y="144.78"/>
-<instance part="FD5" gate="G$1" x="355.6" y="132.08"/>
-<instance part="FD6" gate="G$1" x="355.6" y="119.38"/>
-<instance part="R1" gate="G$1" x="276.352" y="191.262"/>
-<instance part="JP1" gate="G$1" x="286.512" y="191.262"/>
-<instance part="WIRE-CONNECTOR" gate="G$1" x="203.2" y="154.94" rot="MR0"/>
+<instance part="U$13" gate="G$1" x="193.04" y="53.34" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="167.64" y="63.5" smashed="yes"/>
+<instance part="FD1" gate="G$1" x="355.6" y="170.18" smashed="yes"/>
+<instance part="FD2" gate="G$1" x="355.6" y="182.88" smashed="yes"/>
+<instance part="FD3" gate="G$1" x="355.6" y="195.58" smashed="yes"/>
+<instance part="FD4" gate="G$1" x="355.6" y="144.78" smashed="yes"/>
+<instance part="FD5" gate="G$1" x="355.6" y="132.08" smashed="yes"/>
+<instance part="FD6" gate="G$1" x="355.6" y="119.38" smashed="yes"/>
+<instance part="R1" gate="G$1" x="276.352" y="191.262" smashed="yes">
+<attribute name="NAME" x="276.352" y="192.786" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="276.352" y="189.738" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="JP1" gate="G$1" x="286.512" y="191.262" smashed="yes">
+<attribute name="NAME" x="283.972" y="193.802" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="283.972" y="188.722" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="WIRE-CONNECTOR" gate="G$1" x="203.2" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="208.28" y="170.942" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="208.28" y="134.62" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
