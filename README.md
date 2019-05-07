@@ -7,31 +7,38 @@ If you're reading this, you probably know what that is.
 
 [Picture of the HackEEG board](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/hackeeg-shield.jpg)
 
-This board has been tested and works, but lacks case design and EEG connector plugs. 
-You'll have to design your own for now. I intend to eventually design a case
-and connectors, and will post them here when I do.
+This board has been tested and works. Design files for two connector boards
+are included:
+
+  * connector-8: this has 8 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) medical electrode connectors
+  * connector-12: this has a 12-position screw-terminal connector
+
+I intend to eventually design a case and will post the files here when I do.
 
 Although the board has been tested and works, I can't provide support for it.
 If you want to make one, you're on your own. Good luck!
 
-If there's enough interest, I may decide to manufacture this board; if you'd like to 
-to be notified if that happens, [you can sign up here](http://starcat.io/hackeeg-shield).
+There will be a CrowdSupply crowdfunding campaign in mid-2019; if enough people 
+commit, I will do a manufacturing run of boards. If you'd like to to be notified 
+when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
 
 Features
 ========
 
 * Up to 4 shields can be stacked on one Arduino Due, for a total of 32 EEG channels
-* DMA drivers can read data at up to 8k samples per second at 24 bit resolution
+* DMA drivers can read data at up to 8k samples per second at 24 bit resolution (Arduino Due only)
 * SPI EEPROM for storing configuration data
 * Jumpers for configuring most of the data and control lines to the Arduino
-* 2 board-stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels
+* 2 board-stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels (this is experimental)
 * Data samples can be streamed over wifi using the [StarCat wifi shield](http://starcat.io/wifi-shield)
+* Level shifters mean the board is compatible with both the [Arduindo Due](ihttps://store.arduino.cc/usa/due) and 
+[Arduino Mega2560](https://store.arduino.cc/usa/mega-2560-r3).
 
 Warning
 =======
 
-This board is meant to be used *only* in battery powered systems. It has no isolation circuitry.
-Don't connect it to mains (wall or AC) power. *Use at your own risk.*
+This board is meant to be used *only* in battery powered systems. It has no patient isolation circuitry.
+Don't connect it, or any system it is connected to, to mains (wall or AC) power. *Use at your own risk.*
 
 
 Testing
@@ -55,7 +62,7 @@ cheers <br>
 adam <br>
 Adam Feuer <br>
 adam@starcat.io<br>
-[StarCat Biosignals](https://starcat.io)<br>
+[Starcat LLC](https://starcat.io)<br>
 Seattle, WA, USA <br>
 
 
