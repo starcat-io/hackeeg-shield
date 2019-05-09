@@ -8,9 +8,10 @@ For Arduino Due pin definitions, refer to the [Arduino Due pinout diagram](https
 
 If you change these jumpers, you must also change the pin definitions in your driver files. For the ads129x_tools driver, this is in the file [adsCommand.h](https://github.com/adamfeuer/ADS129x-tools/blob/master/ads129x_driver/adsCommand.h)
 
-## Jumpers
+## Digital Configuration Jumpers
 * JP0 - Board Address
-  * EEPROM address 0-1 - no Arduino Due pins
+  * These pins set the 24AA256 I2S EEPROM address 0-7 in binary - they are not connected to Arduino Due pins. The pins can also be read using the ADS1299 GPIO, and so can also used as the board address. 
+    If not using them as jumpers, external devices can be connected to the header to provide access to the ADS1299 GPIO pins.
     * 0 - ADS1299 GPIO0
     * 1 - ADS1299 GPIO1
     * 2 - ADS1299 GPIO3
