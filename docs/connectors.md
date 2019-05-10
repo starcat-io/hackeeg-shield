@@ -8,30 +8,30 @@
 
 |Pin #	|Function						|
 |-----	|-------------------------	|
-|1   	|`DVDD`						|
-|2		|`AVDD`						|
-|3		|`BIASINV`					|
-|4		| Reserved for Future Use	|
-|5		|`AGND`						|
-|6		|`AGND`						|
-|7		|`IN1P`						|
-|8		|`IN1N`						|
-|9		|`IN2P`						|
-|10		|`IN2N`						|
-|11		|`IN3P`						|
-|12		|`IN3N`						|
-|13		|`IN4P`						|
-|14		|`IN4N`						|
-|15		|`IN5P`						|
-|16		|`IN5N`						|
-|17		|`IN6P`						|
-|18		|`IN6N`						|
-|19		|`IN7P`						|
-|20		|`IN7N`						|
-|21		|`IN8P`						|
-|22		|`IN8N`						|
-|23		|`REF_ELEC_CONN`				|
-|24		|`BIAS_ELEC_CONN`			|
+|  1	|`DVDD`						|
+|  2	|`AVDD`						|
+|  3	|`BIASINV`					|
+|  4	| Reserved for Future Use	|
+|  5	|`AGND`						|
+|  6	|`AGND`						|
+|  7	|`IN1P`						|
+|  8	|`IN1N`						|
+|  9	|`IN2P`						|
+| 10	|`IN2N`						|
+| 11	|`IN3P`						|
+| 12	|`IN3N`						|
+| 13	|`IN4P`						|
+| 14	|`IN4N`						|
+| 15	|`IN5P`						|
+| 16	|`IN5N`						|
+| 17	|`IN6P`						|
+| 18	|`IN6N`						|
+| 19	|`IN7P`						|
+| 20	|`IN7N`						|
+| 21	|`IN8P`						|
+| 22	|`IN8N`						|
+| 23	|`REF_ELEC_CONN`				|
+| 24	|`BIAS_ELEC_CONN`			|
 
 
 ## External Sync connector
@@ -43,15 +43,15 @@ This connector is experimental, and not supported at this time. You can enable i
 
 |Pin #	|Function			|
 |-----	|---------------	|
-|1   	|`BIASINV`		|
-|2   	|`ADS_START`   	|
-|3  	|`ADS_SPI_CLK`	|
-|4  	|`AGND`   		|
+| 1   	|`BIASINV`		|
+| 2   	|`ADS_START`   	|
+| 3  	|`ADS_SPI_CLK`	|
+| 4  	|`AGND`   		|
 
 
 ## Checking the connector pinouts against the schematic
 
-If you want to check the pinout, you can see this on the schematic on sheet 2:
+If you want to check the pinout, you can see the connectors on the schematic on sheet 2:
 
 [HackEEG Shield schematic](https://github.com/adamfeuer/hackeeg-shield/blob/master/hackeeg-shield.pdf)
 
