@@ -105,7 +105,28 @@ These jumpers configure the instrumentation power supplies that supply the refer
 
 ### Stimulus-Response Buffer (SRB)
 
+
 #### JP6 – SRB1 - BIAS
 
+| Pins			| Function			|
+|------------	|------------------	|
+| 1-2			| Routes SRB1 to BIAS_ELEC on the electrode connector via a 5K resistor |
+| 2-3			| Routes a noise source to SRB1                                         |
+
+Setting pins 2-3 can be used to test channel noise performance. See section 8.3 of the [TI EEG Front-End Demonstration Kit manual](http://www.ti.com/lit/ug/slau443b/slau443b.pdf). BIAS_ELEC and REF_ELEC on the electrode connector need to be connected with a cable, since there is no jumper to do so on the HackEEG board.
+
+
 #### JP7 SRB2 - REF ELEC 
+
+| Pins			| Function				                                                |
+|------------	|--------------------------------------------------------------------- |
+| 1-2			| Routes SRB1 to REF_ELEC on the electrode connector via a 5K resistor |
+| 2-3			| Routes SRB2 to SRB1 via an opamp                                     |
+
+#### JP9 SRB2 - REF ELEC 
+
+| Pins			| Function				                                                           |
+|------------	|-------------------------------------------------------------------------------- |
+| 1-2			| Routes REF_ELEC on the electrode connector to the opamp input via a 5K resistor |
+| 2-3			| Routes SB2 to the opamp input                                                   |
 
