@@ -1,4 +1,4 @@
-# HackEEG Jumper settings
+# HackEEG Jumper Settings
 
 These jumpers configure Arduino Due pins used on the HackEEG shield.
 

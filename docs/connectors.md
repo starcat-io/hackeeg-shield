@@ -1,4 +1,4 @@
-# HackEEG connector pinouts
+# HackEEG Connector Pinouts
 
 ## Electrode Connector
 

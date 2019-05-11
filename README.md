@@ -1,5 +1,4 @@
-HackEEG - ADS1299 Shield
-========================
+# HackEEG - ADS1299 Shield
 
 This is an Arduino Due shield for the 
 [TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299). This 
@@ -12,7 +11,7 @@ This board has been tested and works. Design files for two connector boards
 are included:
 
   * connector-8: this has 9 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) 
-    medical electrode connectors (8 unipolar inputs, one ground)
+    medical electrode connectors (8 inputs, one ground)
   * connector-12: this has a 12-position screw-terminal connector with 8 unipolar inputs, ground, 
     analog power, digital power, and bias electrode.
 
@@ -25,8 +24,7 @@ There will be a CrowdSupply crowdfunding campaign in mid-2019; if enough people
 commit, I will do a manufacturing run of boards. If you'd like to to be notified 
 when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
 
-Features
-========
+## Features
 
 * Up to 4 shields can be stacked on one Arduino Due, for a total of 32 EEG channels
 * DMA drivers can read data at up to 8k samples per second at 24 bit resolution (Arduino Due only)
@@ -36,28 +34,30 @@ Features
 * Data samples can be streamed over wifi using the [StarCat wifi shield](http://starcat.io/wifi-shield)
 * Level shifters mean the board is compatible with both the [Arduindo Due](ihttps://store.arduino.cc/usa/due) and 
 [Arduino Mega2560](https://store.arduino.cc/usa/mega-2560-r3).
+* Differential inputs are available on the electrode connector.
 
-Warning
-=======
+## Warning
 
 This board is meant to be used **only** in battery powered systems. It has no patient isolation circuitry.
 Don't connect it, or any system it is connected to, to mains (wall or AC) power. **Use at your own risk.**
 
+## Documentation
 
-Testing
-=======
-
-The Arduino Due driver software for this board can be found in the [ADS129x-tools repository](https://github.com/adamfeuer/ADS129x-tools).
+* [Connector Pinouts](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/docs/connectors.md)
+* [Configuration](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/docs/connectors.md)
 
 
-License
-=======
+## Driver Software
+
+The Arduino Due and Mega2560 driver software for this board can be found in the [ADS129x-tools repository](https://github.com/adamfeuer/ADS129x-tools).
+
+
+## License
 
 [Creative Commons By-Attribution ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
-Comments
-========
+## Comments
 
 If you have questions, comments, or improvements, I would love to know them!
 
