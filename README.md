@@ -43,8 +43,8 @@ Don't connect it, or any system it is connected to, to mains (wall or AC) power.
 
 ## Documentation
 
-* [Connector Pinouts](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/docs/connectors.md)
-* [Configuration](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/docs/connectors.md)
+* [Connector Pinouts](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/connectors.md)
+* [Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/connectors.md)
 
 
 ## Driver Software
