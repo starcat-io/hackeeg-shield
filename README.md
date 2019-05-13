@@ -11,8 +11,8 @@ This board has been tested and works. Design files for two connector boards
 are included:
 
   * connector-8: this has 9 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) 
-    medical electrode connectors (8 inputs, one ground)
-  * connector-12: this has a 12-position screw-terminal connector with 8 unipolar inputs, ground, 
+    medical electrode connectors (8 single-ended inputs, one ground)
+  * connector-12: this has a 12-position screw-terminal connector with 8 single-ended inputs, ground, 
     analog power, digital power, and bias electrode.
 
 I intend to eventually design a case and will post the files here when I do.
@@ -33,7 +33,7 @@ when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
 * 2 board-stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels (this is experimental)
 * Level shifters mean the board is compatible with both the [Arduindo Due](ihttps://store.arduino.cc/usa/due) and 
 [Arduino Mega2560](https://store.arduino.cc/usa/mega-2560-r3).
-* Differential inputs are available on the electrode connector.
+* Single-ended and differential inputs are available on the electrode connector.
 
 ## Warning
 
