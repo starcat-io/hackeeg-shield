@@ -31,7 +31,6 @@ when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
 * SPI EEPROM for storing configuration data
 * Jumpers for configuring most of the data and control lines to the Arduino
 * 2 board-stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels (this is experimental)
-* Data samples can be streamed over wifi using the [StarCat wifi shield](http://starcat.io/wifi-shield)
 * Level shifters mean the board is compatible with both the [Arduindo Due](ihttps://store.arduino.cc/usa/due) and 
 [Arduino Mega2560](https://store.arduino.cc/usa/mega-2560-r3).
 * Differential inputs are available on the electrode connector.
