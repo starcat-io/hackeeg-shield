@@ -8,6 +8,14 @@ For Arduino Due pin definitions, refer to the [Arduino Due pinout diagram](https
 
 If you change these jumpers, you must also change the pin definitions in your driver files. For the ads129x_tools driver, this is in the file [adsCommand.h](https://github.com/adamfeuer/ADS129x-tools/blob/master/ads129x_driver/adsCommand.h)
 
+
+## Jumper Diagram
+
+This diagram shows the locations of all the configuration jumpers:
+
+![Annotated picture of the HackEEG board showing jumper locations](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/docs/hackeeg-shield-top-annotated.jpg)
+
+
 ## Digital Configuration Jumpers
 
 
@@ -33,16 +41,16 @@ For each named signal, you must set exactly one jumper.
 
 | Signal		|Port				|Jumper #	|Arduino pin |
 |------------	|---------------	|--------	|----------- |
-| SPI MOSI	|Native			| 1			| SPI4       |
-| SPI MOSI	|USART1			| 2			| D16        |
-| SPI CS		|					| 3			| D4         |
-| SPI CS		|					| 4			| D10        |
-| SPI CS		|					| 5			| D42        |
-| SPI CS		|					| 6			| D23        |
-| SPI SCL 	|Native			| 7			| SPI3       |
-| SPI SCL 	|USART1			| 8			| A0         |
-| SPI MISO 	|Native			| 9			| SPI1       |
-| SPI MISO 	|USART1			| 10		| D17        |
+| SPI MOSI	| Native			| 1			| SPI4       |
+| SPI MOSI	| USART1			| 2			| D16        |
+| SPI CS		| Chip Select		| 3			| D4         |
+| SPI CS		| Chip Select		| 4			| D10        |
+| SPI CS		| Chip Select		| 5			| D42        |
+| SPI CS		| Chip Select		| 6			| D23        |
+| SPI SCL 	| Native			| 7			| SPI3       |
+| SPI SCL 	| USART1			| 8			| A0         |
+| SPI MISO 	| Native			| 9			| SPI1       |
+| SPI MISO 	| USART1			| 10		| D17        |
 
       
 ### JP2 - Config1 – ADS1299 Control Configuration
