@@ -137,5 +137,6 @@ Setting pins 2-3 can be used to test channel noise performance. See section 8.3 
 | Pins			| Function                                                                          |
 |------------	|---------------------------------------------------------------------------------- |
 | 1-2			| Routes `REF_ELEC` on the electrode connector to the opamp input via a 5K resistor |
-| 2-3			| Routes `SB2` to the opamp input                                                   |
+| 2-3			| Routes `SRB2` to the opamp input                                                   |
+
 
