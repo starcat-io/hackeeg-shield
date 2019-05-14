@@ -25,7 +25,7 @@ These pins select which ADS1299 pins are connected to which Arduino Due pins. Br
 
 For each named signal, you must set exactly one jumper.
     
-#### JP1 - Config0 – SPI Configuration
+#### JP1 – Config0 – SPI Configuration
 
 
 | Signal		|Port				|Jumper #	| Arduino pin |
@@ -42,7 +42,7 @@ For each named signal, you must set exactly one jumper.
 | `SPI MISO` 	| USART1			| 10		| D17        |
 
       
-#### JP2 - Config1 – ADS1299 Control Configuration
+#### JP2 – Config1 – ADS1299 Control Configuration
 
 
 | Signal		| Jumper #	| Arduino pin	|
@@ -125,14 +125,14 @@ These jumpers configure the instrumentation power supplies that supply the refer
 Setting pins 2-3 can be used to test channel noise performance. See section 8.3 of the [TI EEG Front-End Demonstration Kit manual](http://www.ti.com/lit/ug/slau443b/slau443b.pdf). In this mode, `BIAS_ELEC` and `REF_ELEC` on the electrode connector need to be connected with a cable, since there is no jumper to do so on the HackEEG board.
 
 
-#### JP7 SRB1 - REF ELEC 
+#### JP7 – SRB1–REF_ELEC 
 
 | Pins			| Function                                                             |
 |------------	|--------------------------------------------------------------------- |
 | 1-2			| Routes `SRB1` to `REF_ELEC` on the electrode connector via a 5K resistor |
 | 2-3			| Routes `SRB2` to `SRB1` via an opamp                                     |
 
-#### JP9 SRB2 - REF ELEC 
+#### JP9 – SRB2–REF_ELEC 
 
 | Pins			| Function                                                                          |
 |------------	|---------------------------------------------------------------------------------- |
