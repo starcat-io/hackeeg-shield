@@ -1,7 +1,7 @@
 # HackEEG - ADS1299 Shield
 
 This is an Arduino Due shield for the 
-[TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299). This 
+[TI ADS1299 EEG system-on-a-chip](http://www.ti.com/product/ads1299). This is a
 system-on-a-chip that includes all commonly-required features for extracranial 
 electroencephalogram (EEG) and electrocardiography (ECG) applications.
 
