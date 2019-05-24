@@ -1,6 +1,6 @@
-# HackEEG Jumper Settings
+# HackEEG Configuration
 
-These jumpers configure Arduino Due pins used on the HackEEG shield.
+These jumpers configure Arduino Due pins used on the HackEEG shield. For commonly-used settings, see [Typical Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/typical-configuration.md).
 
 For ADS1299 pin definitions, refer to [ADS1299 datasheet](http://www.ti.com/lit/ds/symlink/ads1299.pdf).
 
@@ -73,13 +73,12 @@ These pins are hard-wired and cannot be configured.
 
 ### JP3 – Board Address 
 
-These pins set the 24AA256 I2S EEPROM address 0-7 in binary – they are not connected to Arduino Due pins. The pins are shared with the ADS1299 GPIO, and so can also used as the board address and read via the ADS1299. If not using them as jumpers, external devices can be connected to the header to provide access to the ADS1299 GPIO pins; this usage generally will conflict with using the I2S EEPROM.
+These pins set the 24AA256 I2S EEPROM address 0-3 in binary – they are not connected to Arduino Due pins. The pins are shared with the ADS1299 GPIO, and so can also used as the board address and read via the ADS1299. If not using them as jumpers, external devices can be connected to the header to provide access to the ADS1299 GPIO pins; this usage generally will conflict with using the I2S EEPROM.
 
 | Jumper #	|Function				|
 |------------	|------------------	|
 | 0  	 		| ADS1299 `GPIO0`	|
 | 1   			| ADS1299 `GPIO1`	|
-| 2   			| ADS1299 `GPIO2`	|
 
 
 ## Analog Configuration Jumpers
@@ -132,11 +131,17 @@ Setting pins 2-3 can be used to test channel noise performance. See section 8.3 
 | 1-2			| Routes `SRB1` to `REF_ELEC` on the electrode connector via a 5K resistor |
 | 2-3			| Routes `SRB2` to `SRB1` via an opamp                                     |
 
-#### JP9 – SRB2–REF_ELEC 
+#### JP8 – SRB2–REF_ELEC 
 
 | Pins			| Function                                                                          |
 |------------	|---------------------------------------------------------------------------------- |
 | 1-2			| Routes `REF_ELEC` on the electrode connector to the opamp input via a 5K resistor |
-| 2-3			| Routes `SRB2` to the opamp input                                                   |
+| 2-3			| Routes `SRB2` to the opamp input                                                  |
 
+#### JP9 – BIASIN-BIASOUT-BIAS_ELEC 
 
+| Pins			| Function                                                                       |
+|------------	|------------------------------------------------------------------------------- |
+| 1-2			| Routes `BIASOUT` to `BIAS_ELEC` on the electrode connector via a 5K resistor   |
+| 2-3			| Routes `BIASOUT` to `BIASIN`                                                   |
+| Unconnected	| Leaves `BIASOUT`, `BIASIN`, and `BIAS_ELEC` unconnected                        |	

@@ -44,6 +44,7 @@ Don't connect it, or any system it is connected to, to mains (wall or AC) power.
 
 * [Connector Pinouts](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/connectors.md)
 * [Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/configuration.md)
+* [Typical Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/typical-configuration.md)
 
 
 ## Driver Software
