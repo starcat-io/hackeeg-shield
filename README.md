@@ -37,13 +37,13 @@ when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
 
 ## Warning
 
-This board is meant to be used **only** in battery powered systems. It has no patient isolation circuitry.
+When used with humans, mammals, or other higher animals, this board is meant to be used **only** in battery powered systems. It has no patient isolation circuitry.
 Don't connect it, or any system it is connected to, to mains (wall or AC) power. **Use at your own risk.**
 
 ## Documentation
 
 * [Connector Pinouts](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/connectors.md)
-* [Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/configuration.md)
+* [Configuration Reference](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/configuration.md)
 * [Typical Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/typical-configuration.md)
 
 
