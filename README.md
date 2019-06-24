@@ -54,7 +54,7 @@ The Arduino Due and Mega2560 driver software for this board can be found in the 
 
 ## License
 
-[Creative Commons By-Attribution ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+[CERN Open Hardware License v.1.2](http://ohwr.org/cernohl)
 
 
 ## Comments
