@@ -27,7 +27,7 @@ when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
 ## Features
 
 * Up to 4 shields can be stacked on one Arduino Due, for a total of 32 EEG channels
-* DMA drivers can read data at up to 8k samples per second at 24 bit resolution (Arduino Due only)
+* DMA drivers can read and transfer 8 channels of 24-bit resolution data at 16,000 samples per second (Arduino Due only)
 * SPI EEPROM for storing configuration data
 * Jumpers for configuring most of the data and control lines to the Arduino
 * 2 board-stacks can be daisy-chained and clock-synchronized to capture 64 EEG channels (this is experimental)
