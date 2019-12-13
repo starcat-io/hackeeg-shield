@@ -5,9 +5,12 @@ This is an Arduino Due shield for the
 system-on-a-chip that includes all commonly-required features for extracranial 
 electroencephalogram (EEG) and electrocardiography (ECG) applications.
 
+This board is currently available in the [HackEEG CrowdSupply crowdfunding campaign](https://www.crowdsupply.com/starcat/hackeeg/).
+You can buy one or more of the boards by backing the campaign. Here's more about the [HackEEG product](http://starcat.io/hackeeg-shield).
+
 ![Picture of the HackEEG board](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/hackeeg-shield.jpg)
 
-This board has been tested and works. Design files for two connector boards
+This board has been tested, works, and is in use in major research labs in the US and Europe. Design files for two connector boards
 are included:
 
   * connector-8: this has 9 [DIN 42-802](https://en.wikipedia.org/wiki/EEG_DIN_connector) 
@@ -17,12 +20,8 @@ are included:
 
 I intend to eventually design a case and will post the files here when I do.
 
-Although the board has been tested and works, I can't provide support for it.
-If you want to make one, you're on your own. Good luck!
-
-There will be a CrowdSupply crowdfunding campaign in mid-2019; if enough people 
-commit, I will do a manufacturing run of boards. If you'd like to to be notified 
-when it happens, [you can sign up here](http://starcat.io/hackeeg-shield).
+Although the board has been tested and works, I can't provide support for it unless you buy one. Support contracts are available
+for commericial users.
 
 ## Features
 
