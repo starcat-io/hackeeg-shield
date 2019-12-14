@@ -20,8 +20,7 @@ are included:
 
 I intend to eventually design a case and will post the files here when I do.
 
-Although the board has been tested and works, I can't provide support for it unless you buy one. Support contracts are available
-for commericial users.
+I can provide limited support for for individuals. Commercial support is available for corporations.
 
 ## Features
 
