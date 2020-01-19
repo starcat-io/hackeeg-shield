@@ -32,10 +32,10 @@ For each named signal, you must set exactly one jumper.
 |------------	|---------------	|--------	|----------- |
 | `SPI MOSI`	| Native			| 1			| SPI4       |
 | `SPI MOSI`	| USART1			| 2			| D16        |
-| `SPI CS`	| Chip Select		| 3			| D4         |
-| `SPI CS`	| Chip Select		| 4			| D10        |
-| `SPI CS`	| Chip Select		| 5			| D42        |
-| `SPI CS`	| Chip Select		| 6			| D23        |
+| `SPI CS`	| Chip Select		| 3			| D23        |
+| `SPI CS`	| Chip Select		| 4			| D52        |
+| `SPI CS`	| Chip Select		| 5			| D10        |
+| `SPI CS`	| Chip Select		| 6			| D4         |
 | `SPI SCL` 	| Native			| 7			| SPI3       |
 | `SPI SCL` 	| USART1			| 8			| A0         |
 | `SPI MISO` 	| Native			| 9			| SPI1       |
