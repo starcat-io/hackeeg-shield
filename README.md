@@ -8,7 +8,7 @@ electroencephalogram (EEG) and electrocardiography (ECG) applications.
 This board is currently available in the [HackEEG CrowdSupply crowdfunding campaign](https://www.crowdsupply.com/starcat/hackeeg/).
 You can buy one or more of the boards by backing the campaign. Here's more about the [HackEEG product](http://starcat.io/hackeeg-shield).
 
-![Picture of the HackEEG board](https://raw.githubusercontent.com/adamfeuer/hackeeg-shield/master/hackeeg-shield.jpg)
+![Picture of the HackEEG board](https://raw.githubusercontent.com/starcat-io/hackeeg-shield/master/hackeeg-shield.jpg)
 
 This board has been tested, works, and is in use in major research labs in the US and Europe. Design files for two connector boards
 are included:
@@ -40,14 +40,14 @@ Don't connect it, or any system it is connected to, to mains (wall or AC) power.
 
 ## Documentation
 
-* [Connector Pinouts](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/connectors.md)
-* [Configuration Reference](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/configuration.md)
-* [Typical Configuration](https://github.com/adamfeuer/hackeeg-shield/blob/master/docs/typical-configuration.md)
+* [Connector Pinouts](https://github.com/starcat-io/hackeeg-shield/blob/master/docs/connectors.md)
+* [Configuration Reference](https://github.com/starcat-io/hackeeg-shield/blob/master/docs/configuration.md)
+* [Typical Configuration](https://github.com/starcat-io/hackeeg-shield/blob/master/docs/typical-configuration.md)
 
 
 ## Driver Software
 
-The Arduino Due and Mega2560 driver software for this board can be found in the [ADS129x-tools repository](https://github.com/adamfeuer/ADS129x-tools).
+The Arduino Due and Mega2560 driver software for this board can be found in the [hackeeg-driver-arduino](https://github.com/starcat-io/hackeeg-driver-arduino).
 
 
 ## License
