@@ -47,7 +47,7 @@ Don't connect it, or any system it is connected to, to mains (wall or AC) power.
 
 ## Driver Software
 
-The Arduino Due and Mega2560 driver software for this board can be found in the [hackeeg-driver-arduino](https://github.com/starcat-io/hackeeg-driver-arduino).
+The Arduino Due and Mega2560 driver software for this board can be found in the [hackeeg-driver-arduino](https://github.com/starcat-io/hackeeg-driver-arduino) repository.
 
 
 ## License
