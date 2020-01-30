@@ -33,6 +33,10 @@
 | 23	|`REF_ELEC_CONN`				|
 | 24	|`BIAS_ELEC_CONN`			|
 
+Looking at the pins edge on (not from above), this is the pinout diagram:
+
+![HackEEG Electrode Connector pinout diagram](hackeeg-electrode-connector-pinout.png)
+
 
 ## External Sync connector
 
@@ -75,7 +79,7 @@ You'll need a tool to crimp them, I used this one from Amazon:
 
 [IDC crimp tool](https://www.amazon.com/gp/product/B007R2JEM4)
 
-Alternatively, any 24-pin female header with receptacles on 0.1" centers should work if you want to use one and older some wires to it.
+Alternatively, any 24-pin female header with receptacles on 0.1" centers should work if you want to use one and solder some wires to it.
 
 ### External Sync Connector cables
 
