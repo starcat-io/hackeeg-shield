@@ -92,3 +92,4 @@ Here is the [Mating JST connector](http://www.digikey.com/product-detail/en/PHR-
 [HT-225D Full Cycle Ratchet Crimping Tool with interchangeable die set HT-225D](http://www.amazon.com/dp/B007JLN93S)
 
 
+	
