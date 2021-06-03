@@ -25,60 +25,60 @@ These pins select which ADS1299 pins are connected to which Arduino Due pins. Br
 
 For each named signal, you must set exactly one jumper.
     
-#### JP1 – Config0 – SPI Configuration
+#### JP1 – Config0 – ADS1299 Control Configuration
 
 
-| Signal		|Port				|Jumper #	| Arduino pin |
-|------------	|---------------	|--------	|----------- |
-| `SPI MOSI`	| Native			| 1			| SPI4       |
-| `SPI MOSI`	| USART1			| 2			| D16        |
-| `SPI CS`	| Chip Select		| 3			| D23        |
-| `SPI CS`	| Chip Select		| 4			| D52        |
-| `SPI CS`	| Chip Select		| 5			| D10        |
-| `SPI CS`	| Chip Select		| 6			| D4         |
-| `SPI SCL` 	| Native			| 7			| SPI3       |
-| `SPI SCL` 	| USART1			| 8			| A0         |
-| `SPI MISO` 	| Native			| 9			| SPI1       |
-| `SPI MISO` 	| USART1			| 10		| D17        |
+| Signal      | Jumper #    | Arduino pin  |
+|------------ |------------ | ------------ |
+| `DRDY`      | 1           | D24          |
+| `DRDY`      | 2           | D25          |
+| `DRDY`      | 3           | D26          |
+| `DRDY`      | 4           | D27          |
+| `CLK`       | 5           | D30          |
+| `CLK`       | 6           | D31          |
+| `START`     | 7           | D61          |
+| `START`     | 8           | D59          |
+| `RESET`     | 9           | D46          |
+| `RESET`     | 10          | D47          |
+| `PWDN`      | 11          | D32          |
+| `PWDN`      | 12          | D33          |
+
+#### JP2 – Config1 – SPI Configuration
+
+
+| Signal       | Port           | Jumper # | Arduino pin |
+|------------  | -------------- | -------- |------------ |
+| `SPI MOSI`   | Native         | 1        | SPI4        |
+| `SPI MOSI`   | USART1         | 2        | D16         |
+| `SPI CS`     | Chip Select    | 3        | D23         |
+| `SPI CS`     | Chip Select    | 4        | D52         |
+| `SPI CS`     | Chip Select    | 5        | D10         |
+| `SPI CS`     | Chip Select    | 6        | D4          |
+| `SPI SCL`    | Native         | 7        | SPI3        |
+| `SPI SCL`    | USART1         | 8        | A0          |
+| `SPI MISO`   | Native         | 9        | SPI1        |
+| `SPI MISO`   | USART1         | 10       | D17         |
 
       
-#### JP2 – Config1 – ADS1299 Control Configuration
-
-
-| Signal		| Jumper #	| Arduino pin	|
-|------------	|------------	|------------	|
-| `DRDY`		| 1				| D24      	|
-| `DRDY`		| 2				| D25      	|
-| `DRDY`		| 3				| D26      	|
-| `DRDY`		| 4				| D27      	|
-| `CLK`		| 5				| D30      	|
-| `CLK`		| 6				| D31      	|
-| `START`		| 7				| D61      	|
-| `START`		| 8				| D59      	|
-| `RESET`		| 9				| D46      	|
-| `RESET`		| 10			| D47      	|
-| `PWDN`		| 11			| D32      	|
-| `PWDN`		| 12			| D33      	|
-
 
 ### Not configurable
 
 These pins are hard-wired and cannot be configured.
 
-| Signal		|Arduino pin			|
-|------------	|------------------	|
-| `CLKSEL`	| D48					|
-| BOARD LED	| ADS1299 `GPIO4`	|
+| Signal      |Arduino pin        |
+|------------ |------------------ |
+| `CLKSEL`    | D48               |
+| BOARD LED   | ADS1299 `GPIO4`   |
 
 
 ### JP3 – Board Address 
 
 These pins set the 24AA256 I2S EEPROM address 0-3 in binary – they are not connected to Arduino Due pins. The pins are shared with the ADS1299 GPIO, and so can also used as the board address and read via the ADS1299. If not using them as jumpers, external devices can be connected to the header to provide access to the ADS1299 GPIO pins; this usage generally will conflict with using the I2S EEPROM.
 
-| Jumper #	|Function				|
-|------------	|------------------	|
-| 0  	 		| ADS1299 `GPIO0`	|
-| 1   			| ADS1299 `GPIO1`	|
+| Jumper #   | Function          |
+|----------- |------------------ |
+| 0          | ADS1299 `GPIO0`   |
+| 1          | ADS1299 `GPIO1`   |
 
 
 ## Analog Configuration Jumpers
@@ -89,25 +89,25 @@ These jumpers configure the instrumentation power supplies that supply the refer
 
 #### JP 4
 
-| Pins			| Function				|
-|------------	|----------------------	|
-| 1-2			| Sets `AVDD` to 5V		|
-| 2-3			| Sets `AVDD` to 2.5V	|
+| Pins        | Function              |
+|------------ |---------------------- |
+| 1-2         | Sets `AVDD` to 5V     |
+| 2-3         | Sets `AVDD` to 2.5V   |
  
 #### JP 5
 
-| Pins			| Function					|
-|------------	|-------------------------	|
-| 1-2			| Sets `AVSS` to -2.5V		|
-| 2-3			| Sets `AVDD` to `GROUND`	|
+| Pins        | Function                  |
+|------------ |-------------------------  |
+| 1-2         | Sets `AVSS` to -2.5V      |
+| 2-3         | Sets `AVDD` to `GROUND`   |
 
 
 #### Common Settings
 
-| Mode Name	| ADS1299 Voltage Range		| JP4 Pins| JP5 Pins |
-|------------	|-------------------------	|---------|--------- |
-| Unipolar	| 0–5V							| 1-2     | 2-3      |
-| Bipolar		| -2.5V – +2.5V				| 2-3     | 1-2      |
+| Mode Name | ADS1299 Voltage Range    | JP4 Pins| JP5 Pins |
+|---------- |------------------------- |---------|--------- |
+| Unipolar  | 0–5V                     | 1-2     | 2-3      |
+| Bipolar   | -2.5V – +2.5V            | 2-3     | 1-2      |
 
 
 ### Stimulus-Response Buffer (SRB)
@@ -115,33 +115,33 @@ These jumpers configure the instrumentation power supplies that supply the refer
 
 #### JP6 – SRB1 - BIAS
 
-| Pins				| Function                                                                              |
-|---------------	|-------------------------------------------------------------------------------------- |
-| 1-2				| Routes `SRB1` to `BIAS_ELEC` on the electrode connector via a 5K resistor             |
-| 2-3				| Routes a noise source to `SRB1`                                                       |
-| Unconnected 	| Disconnects `BIAS` from `SRB1` – use in conjunction with JP7/JP8 `REF_ELEC` functions |
+| Pins              | Function                                                                              |
+|---------------    |-------------------------------------------------------------------------------------- |
+| 1-2               | Routes `SRB1` to `BIAS_ELEC` on the electrode connector via a 5K resistor             |
+| 2-3               | Routes a noise source to `SRB1`                                                       |
+| Unconnected       | Disconnects `BIAS` from `SRB1` – use in conjunction with JP7/JP8 `REF_ELEC` functions |
 
 Setting pins 2-3 can be used to test channel noise performance. See section 8.3 of the [TI EEG Front-End Demonstration Kit manual](http://www.ti.com/lit/ug/slau443b/slau443b.pdf). In this mode, `BIAS_ELEC` and `REF_ELEC` on the electrode connector need to be connected with a cable, since there is no jumper to do so on the HackEEG board.
 
 
 #### JP7 – SRB1–REF_ELEC 
 
-| Pins			| Function                                                             |
-|------------	|--------------------------------------------------------------------- |
-| 1-2			| Routes `SRB1` to `REF_ELEC` on the electrode connector via a 5K resistor |
-| 2-3			| Routes `SRB2` to `SRB1` via an opamp                                     |
+| Pins          | Function                                                                 |
+|------------   |------------------------------------------------------------------------- |
+| 1-2           | Routes `SRB1` to `REF_ELEC` on the electrode connector via a 5K resistor |
+| 2-3           | Routes `SRB2` to `SRB1` via an opamp                                     |
 
 #### JP8 – SRB2–REF_ELEC 
 
-| Pins			| Function                                                                          |
-|------------	|---------------------------------------------------------------------------------- |
-| 1-2			| Routes `REF_ELEC` on the electrode connector to the opamp input via a 5K resistor |
-| 2-3			| Routes `SRB2` to the opamp input                                                  |
+| Pins          | Function                                                                          |
+|------------   |---------------------------------------------------------------------------------- |
+| 1-2           | Routes `REF_ELEC` on the electrode connector to the opamp input via a 5K resistor |
+| 2-3           | Routes `SRB2` to the opamp input                                                  |
 
 #### JP9 – BIASIN-BIASOUT-BIAS_ELEC 
 
-| Pins			| Function                                                                       |
-|------------	|------------------------------------------------------------------------------- |
-| 1-2			| Routes `BIASOUT` to `BIAS_ELEC` on the electrode connector via a 5K resistor   |
-| 2-3			| Routes `BIASOUT` to `BIASIN`                                                   |
-| Unconnected	| Leaves `BIASOUT`, `BIASIN`, and `BIAS_ELEC` unconnected                        |	
+| Pins          | Function                                                                       |
+|------------   |------------------------------------------------------------------------------- |
+| 1-2           | Routes `BIASOUT` to `BIAS_ELEC` on the electrode connector via a 5K resistor   |
+| 2-3           | Routes `BIASOUT` to `BIASIN`                                                   |
+| Unconnected   | Leaves `BIASOUT`, `BIASIN`, and `BIAS_ELEC` unconnected                        |  
